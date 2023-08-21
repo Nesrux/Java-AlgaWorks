@@ -9,9 +9,13 @@ public class Principal {
        //Acessando os elementos de um array
         System.out.println(notas[1]);
 
+        //Mudando o valor de um elemento do array notas
         notas[2] = 7;
+
+        //Posição que eu do array que eu quero acessar
        int posicao = 2;
 
+       //print da possição do array
         System.out.println(notas[posicao]);
     }
 }

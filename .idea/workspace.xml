@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="acessando o valor dos arrays">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Adicionando comentários de explicação">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/src/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
     "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.principal2">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Principal" />
       <module name="Arrays" />
@@ -51,8 +50,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="principal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="principal2" />
+      <module name="Arrays" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.principal2" />
         <item itemvalue="Application.Principal" />
       </list>
     </recent_temporary>
@@ -73,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692646758727</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adicionando comentários de explicação">
+      <created>1692646877831</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692646877831</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="acessando o valor dos arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="acessando o valor dos arrays" />
+    <MESSAGE value="Adicionando comentários de explicação" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando comentários de explicação" />
   </component>
 </project>

@@ -1,3 +1,5 @@
+package aula01;
+
 public class Principal {
     public static void main(String[] args) {
         //int o tipo [] declaração de array

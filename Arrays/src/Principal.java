@@ -6,6 +6,12 @@ public class Principal {
        //int[] notas = new int[10];
 
        int [] notas = {8,7,94,5,6,5};
+       //Acessando os elementos de um array
+        System.out.println(notas[1]);
 
+        notas[2] = 7;
+       int posicao = 2;
+
+        System.out.println(notas[posicao]);
     }
 }

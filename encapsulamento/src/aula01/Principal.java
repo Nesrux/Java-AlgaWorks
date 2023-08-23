@@ -5,18 +5,20 @@ import aula01.service.ServicoPagamentoOnline;
 
 public class Principal {
     public static void main(String[] args) {
-        var supermercado = new Estabelecimento("Supermercado twoPaypal");
-        var cartao = new Cartao("João da silva");
+        var supermercado = new Estabelecimento("Supermercado do Zé");
+        var cartao = new Cartao("João Souza Silva");
 
         var servicoDeDeposito = new ServicoDepositoPix();
-        Recibo recibo = servicoDeDeposito.efetuarDeposito(cartao, 500);
-        recibo.imprimir();
+        Recibo reciboDeposito = servicoDeDeposito.efetuarDeposito(cartao, 500);
+        reciboDeposito.imprimir();
 
-        var servicoPagamento = new ServicoPagamentoOnline();
-        Recibo recibo1 = servicoPagamento.efetuarPagamento(supermercado, cartao,180);
-        recibo1.imprimir();
+        var servicoDePagamento = new ServicoPagamentoOnline();
+        Recibo reciboPagamento = servicoDePagamento.efetuarPagamento(supermercado, cartao, 100);
+        reciboPagamento.imprimir();
 
-        System.out.printf("TITULAR: %s %n", cartao.titular);
-        System.out.printf("TITULAR: %2f %n", cartao.saldo);
+        System.out.printf("Titular: %s%n", cartao.obterTitular());
+        System.out.printf("Saldo: R$%.2f%n", cartao.obterSaldo());
     }
+
 }
+

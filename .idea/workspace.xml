@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="aula 11">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="aula 01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula01/Cartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula01/Cartao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula01/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula01/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula01/Recibo.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula01/Recibo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula01/service/ServicoDepositoPix.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula01/service/ServicoDepositoPix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula01/service/ServicoPagamentoOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula01/service/ServicoPagamentoOnline.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692731820865</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="aula 01">
+      <created>1692827053732</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1692827053732</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,7 +325,8 @@
     <MESSAGE value="aula 09" />
     <MESSAGE value="aula 10" />
     <MESSAGE value="aula 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="aula 11" />
+    <MESSAGE value="aula 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula 01" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

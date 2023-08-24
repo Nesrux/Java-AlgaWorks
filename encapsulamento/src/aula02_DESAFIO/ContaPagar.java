@@ -11,16 +11,15 @@ public class ContaPagar implements Serializable {
 
     private boolean pago;
 
-    public Fornecedor getFornecedor() {
-        return fornecedor;
-    }
-
-
     public void pagar() {
 
     }
 
     public void cancelarPagamento() {
+    }
+
+    public Fornecedor getFornecedor() {
+        return fornecedor;
     }
 
     public void setFornecedor(Fornecedor fornecedor) {

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="aula 06">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="aula 07">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula03/Horario.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula03/Horario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.aula03.Principal">
+  <component name="RunManager" selected="Application.aula05.Principal">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aula01.Principal" />
       <module name="encapsulamento" />
@@ -103,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aula09.principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula09.principal" />
-      <module name="Arrays" />
+    <configuration name="aula05.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula05.Principal" />
+      <module name="encapsulamento" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula09.*" />
+          <option name="PATTERN" value="aula05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.aula05.Principal" />
         <item itemvalue="Application.aula03.Principal" />
         <item itemvalue="Application.aula02_DESAFIO.Principal" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.principal" />
-        <item itemvalue="Application.aula09.principal" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692998691736</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="aula 07">
+      <option name="closed" value="true" />
+      <created>1693001637794</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1693001637794</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -399,7 +408,6 @@
     <MESSAGE value="aula 05" />
     <MESSAGE value="adicionando arquivos do git ignore" />
     <MESSAGE value="aula 08" />
-    <MESSAGE value="aula 07" />
     <MESSAGE value="aula 09" />
     <MESSAGE value="aula 10" />
     <MESSAGE value="aula 11" />
@@ -410,7 +418,8 @@
     <MESSAGE value="desafio (aula 05)" />
     <MESSAGE value="desafio (aula 05) completo" />
     <MESSAGE value="aula 06" />
-    <option name="LAST_COMMIT_MESSAGE" value="aula 06" />
+    <MESSAGE value="aula 07" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula 07" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

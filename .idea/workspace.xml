@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="desafio (aula 05)">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="desafio (aula 05) completo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula02_DESAFIO/ContaPagar.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula02_DESAFIO/ContaPagar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula02_DESAFIO/Fornecedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula02_DESAFIO/Fornecedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula02_DESAFIO/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula02_DESAFIO/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "azul-17",
     "last_opened_file_path": "C:/Users/jucaj/OneDrive/Área de Trabalho/Programacao/java_EJA",
-    "settings.editor.selected.configurable": "settings.sync"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -64,7 +62,7 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.aula02_DESAFIO.Principal">
+  <component name="RunManager" selected="Application.aula03.Principal">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aula01.Principal" />
       <module name="encapsulamento" />
@@ -91,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aula08.principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula08.principal" />
-      <module name="Arrays" />
+    <configuration name="aula03.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula03.Principal" />
+      <module name="encapsulamento" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula08.*" />
+          <option name="PATTERN" value="aula03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.aula03.Principal" />
         <item itemvalue="Application.aula02_DESAFIO.Principal" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.principal" />
         <item itemvalue="Application.aula09.principal" />
-        <item itemvalue="Application.aula08.principal" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692995236381</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="desafio (aula 05) completo">
+      <option name="closed" value="true" />
+      <created>1692996607151</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1692996607151</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -393,7 +399,8 @@
     <MESSAGE value="aula 03" />
     <MESSAGE value="aula 04 (transformando a classe em um javabean)" />
     <MESSAGE value="desafio (aula 05)" />
-    <option name="LAST_COMMIT_MESSAGE" value="desafio (aula 05)" />
+    <MESSAGE value="desafio (aula 05) completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="desafio (aula 05) completo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

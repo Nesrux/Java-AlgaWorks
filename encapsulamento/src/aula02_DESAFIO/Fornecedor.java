@@ -7,6 +7,7 @@ public class Fornecedor implements Serializable {
 
     Fornecedor() {
     }
+    
 
     Fornecedor(String nome) {
         this.nome = nome;

@@ -19,10 +19,19 @@ public class ContaPagar implements Serializable {
     }
 
     public void pagar() {
+        if(isPago()){
+            throw new IllegalArgumentException("A Conta ja foi paga");
+        }
+        setPago(true);
+
 
     }
 
     public void cancelarPagamento() {
+        if(!isPago()){
+            throw new IllegalArgumentException("A conta não foi paga para realizar o cancelamento dela");
+        }
+        setPago(false);
     }
 
     public Fornecedor getFornecedor() {
@@ -31,9 +40,6 @@ public class ContaPagar implements Serializable {
 
     public void setFornecedor(Fornecedor fornecedor) {
         this.fornecedor = fornecedor;
-    }
-
-    ContaPagar() {
     }
 
     public String getDescricao() {

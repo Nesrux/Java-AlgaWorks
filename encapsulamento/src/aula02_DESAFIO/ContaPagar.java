@@ -4,12 +4,19 @@ import java.io.Serializable;
 
 public class ContaPagar implements Serializable {
 
-    private String descicao;
+    private String descricao;
     private double valor;
     private String dataVencimento;
     private Fornecedor fornecedor;
-
     private boolean pago;
+
+    public boolean isPago() {
+        return pago;
+    }
+
+    public void setPago(boolean pago) {
+        this.pago = pago;
+    }
 
     public void pagar() {
 
@@ -29,12 +36,12 @@ public class ContaPagar implements Serializable {
     ContaPagar() {
     }
 
-    public String getDescicao() {
-        return descicao;
+    public String getDescricao() {
+        return descricao;
     }
 
-    public void setDescicao(String descicao) {
-        this.descicao = descicao;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 
     public double getValor() {

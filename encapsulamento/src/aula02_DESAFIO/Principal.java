@@ -1,28 +1,29 @@
 package aula02_DESAFIO;
 
 public class Principal {
-    Fornecedor imobiliaria = new Fornecedor("Zé Negócios Imobiliários");
+    public static void main(String[] args) {
+        Fornecedor imobiliaria = new Fornecedor("Zé Negócios Imobiliários");
 
-    ContaPagar contaAluguel = new ContaPagar();
+        ContaPagar contaAluguel = new ContaPagar();
         contaAluguel.setDescricao("Aluguel do apartamento");
-        contaAluguel.(4500);
+        contaAluguel.setValor(4500);
         contaAluguel.setDataVencimento("10/07/2022");
         contaAluguel.setFornecedor(imobiliaria);
 
-    imprimirConta(contaAluguel);
+        imprimirConta(contaAluguel);
 
         contaAluguel.pagar();
-    imprimirConta(contaAluguel);
+        imprimirConta(contaAluguel);
 
-    // Pagar a mesma conta novamente deve ser impedido
-    // contaAluguel.pagar();
+        // Pagar a mesma conta novamente deve ser impedido
+        // contaAluguel.pagar();
 
         contaAluguel.cancelarPagamento();
-    imprimirConta(contaAluguel);
+        imprimirConta(contaAluguel);
 
-    // Cancelar o pagamento de uma conta pendente deve ser impedido
-    // contaAluguel.cancelarPagamento();
-}
+        // Cancelar o pagamento de uma conta pendente deve ser impedido
+        // contaAluguel.cancelarPagamento();
+    }
 
     public static void imprimirConta(ContaPagar conta) {
         System.out.printf("Fornecedor: %s%n", conta.getFornecedor().getNome());
@@ -33,4 +34,7 @@ public class Principal {
         System.out.println();
     }
 
+
 }
+
+

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="aula 07">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="aula 08">
       <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula03/Horario.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula03/Horario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -364,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693001637794</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="aula 08">
+      <option name="closed" value="true" />
+      <created>1693002943775</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1693002943775</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -407,7 +414,6 @@
     <MESSAGE value="aula 04" />
     <MESSAGE value="aula 05" />
     <MESSAGE value="adicionando arquivos do git ignore" />
-    <MESSAGE value="aula 08" />
     <MESSAGE value="aula 09" />
     <MESSAGE value="aula 10" />
     <MESSAGE value="aula 11" />
@@ -419,7 +425,8 @@
     <MESSAGE value="desafio (aula 05) completo" />
     <MESSAGE value="aula 06" />
     <MESSAGE value="aula 07" />
-    <option name="LAST_COMMIT_MESSAGE" value="aula 07" />
+    <MESSAGE value="aula 08" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula 08" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

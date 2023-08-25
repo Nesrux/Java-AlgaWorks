@@ -14,7 +14,7 @@ public class Horario {
     }
 
     public void setHora(int hora) {
-        if (validaHora(hora)){
+        if (hora < 0 || hora > 23){
             throw  new IllegalArgumentException("Hora inválida " + hora);
         }
         this.hora = hora;
@@ -29,4 +29,6 @@ public class Horario {
         }
         this.minuto = minuto;
     }
+
+
 }

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="desafio (aula 05) completo">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="aula 06">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula02_DESAFIO/Fornecedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula02_DESAFIO/Fornecedor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
+    "Notification.DoNotAsk-Vcs Important Messages": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -346,7 +347,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692996607151</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="aula 06">
+      <option name="closed" value="true" />
+      <created>1692998691736</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1692998691736</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -400,7 +409,8 @@
     <MESSAGE value="aula 04 (transformando a classe em um javabean)" />
     <MESSAGE value="desafio (aula 05)" />
     <MESSAGE value="desafio (aula 05) completo" />
-    <option name="LAST_COMMIT_MESSAGE" value="desafio (aula 05) completo" />
+    <MESSAGE value="aula 06" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula 06" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

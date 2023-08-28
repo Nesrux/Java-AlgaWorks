@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="aula 09">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula06/Agendamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula06/Agendamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula06/CalculadoraHorario.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula06/CalculadoraHorario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula06/Principal1.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula06/Principal1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula06/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula06/Principal2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula06/Horario.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula06/Horario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +68,26 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.aula05.Principal">
+  <component name="RunManager" selected="Application.Principal2">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aula01.Principal" />
       <module name="encapsulamento" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="aula01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Principal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula06.Principal2" />
+      <module name="encapsulamento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aula06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,26 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula11.principal" />
-      <module name="Arrays" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aula11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal2" />
         <item itemvalue="Application.aula05.Principal" />
         <item itemvalue="Application.aula03.Principal" />
         <item itemvalue="Application.aula02_DESAFIO.Principal" />
         <item itemvalue="Application.Principal" />
-        <item itemvalue="Application.principal" />
       </list>
     </recent_temporary>
   </component>
@@ -411,7 +408,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693250342755</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="aula 09">
+      <option name="closed" value="true" />
+      <created>1693250949301</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1693250949301</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="UnknownFeatures">

@@ -1,6 +1,6 @@
 package aula06;
 
-public final class Horario {
+ final class Horario {
     //Ess agora é uma classe imutavel
     private final int hora;
     private final int minuto;

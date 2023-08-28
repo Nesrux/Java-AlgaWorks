@@ -1,7 +1,7 @@
 package aula06;
 
 
-public class Agendamento {
+ class Agendamento {
     private final Horario horario;
     private String descricao;
 

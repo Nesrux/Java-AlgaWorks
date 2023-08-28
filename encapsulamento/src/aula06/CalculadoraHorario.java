@@ -1,6 +1,6 @@
 package aula06;
 
-public class CalculadoraHorario {
+ class CalculadoraHorario {
     private CalculadoraHorario() {
     }
 

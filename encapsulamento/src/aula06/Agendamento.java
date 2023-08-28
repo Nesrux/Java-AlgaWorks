@@ -1,8 +1,8 @@
 package aula06;
 
-import aula05.Horario;
 
-public class Agendamento { private final Horario horario;
+public class Agendamento {
+    private final Horario horario;
     private String descricao;
 
     public Agendamento(Horario horario, String descricao) {

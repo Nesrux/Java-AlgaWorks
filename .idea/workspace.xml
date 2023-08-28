@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="aula 08">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="aula 09">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula06/Agendamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula06/Agendamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula06/CalculadoraHorario.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula06/CalculadoraHorario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula06/Principal1.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula06/Principal1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula06/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula06/Principal2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +28,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -396,7 +403,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693003030243</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="aula 09">
+      <option name="closed" value="true" />
+      <created>1693250342755</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1693250342755</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -404,8 +419,18 @@
     <option featureType="dependencySupport" implementationName="executable:kubectl" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="654f361f-8408-4005-8e25-252bd92428d8" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="654f361f-8408-4005-8e25-252bd92428d8">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -439,7 +464,6 @@
     <MESSAGE value="aula 04" />
     <MESSAGE value="aula 05" />
     <MESSAGE value="adicionando arquivos do git ignore" />
-    <MESSAGE value="aula 09" />
     <MESSAGE value="aula 10" />
     <MESSAGE value="aula 11" />
     <MESSAGE value="aula 01" />
@@ -451,7 +475,8 @@
     <MESSAGE value="aula 06" />
     <MESSAGE value="aula 07" />
     <MESSAGE value="aula 08" />
-    <option name="LAST_COMMIT_MESSAGE" value="aula 08" />
+    <MESSAGE value="aula 09" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula 09" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

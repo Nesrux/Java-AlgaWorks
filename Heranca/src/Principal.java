@@ -9,6 +9,7 @@ public class Principal {
         conta1.setAgencia(1234);
         conta1.setNumero(99955533);
 
+        conta1.sacar(25.50);
         conta1.imprimirDemostrativo();
     }
 }

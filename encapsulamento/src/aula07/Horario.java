@@ -1,33 +1,17 @@
 package aula07;
 
- final class Horario {
-    //Ess agora é uma classe imutavel
-    private final int hora;
-    private final int minuto;
+  record Horario(int hora, int minuto) {
 
-    public Horario(int hora, int minuto) {
-        if (minuto < 0 || minuto > 59) {
-            throw new IllegalArgumentException("Minuto inválido: " + minuto);
-        }
-        if (hora < 0 || hora > 23) {
-            throw new IllegalArgumentException("Hora inválida: " + hora);
-        }
+      public Horario{
+          if(hora > 24 || hora < 0){
+              throw new IllegalArgumentException("Hora inválida");
+          }
+          if(minuto > 60 || minuto < 0){
+              throw new IllegalArgumentException("Hora inválida");
+          }
 
-        this.hora = hora;
-
-        this.minuto = minuto;
+      }
+    public String formatar(){
+          return String.format("Bazinga! %d", this.hora);
     }
-
-    public int getHora() {
-        return hora;
-    }
-
-    public int getMinuto() {
-        return minuto;
-    }
-
-    public String formatar() {
-        return String.format("%dh%dm", getHora(), getMinuto());
-    }
-
 }

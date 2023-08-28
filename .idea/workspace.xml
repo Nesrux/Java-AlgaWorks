@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="aula 09">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="aula 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula06/Agendamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula06/Agendamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula06/CalculadoraHorario.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula06/CalculadoraHorario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula06/Horario.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula06/Horario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula06/Principal1.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula06/Principal1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula06/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula06/Principal2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula07/Agendamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula07/Agendamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula07/CalculadoraHorario.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula07/CalculadoraHorario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encapsulamento/src/aula07/Horario.java" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulamento/src/aula07/Horario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -429,7 +427,23 @@
       <option name="project" value="LOCAL" />
       <updated>1693251483181</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="aula 10">
+      <option name="closed" value="true" />
+      <created>1693252356798</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1693252356798</updated>
+    </task>
+    <task id="LOCAL-00039" summary="aula 10">
+      <option name="closed" value="true" />
+      <created>1693252364046</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1693252364046</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -482,7 +496,6 @@
     <MESSAGE value="aula 04" />
     <MESSAGE value="aula 05" />
     <MESSAGE value="adicionando arquivos do git ignore" />
-    <MESSAGE value="aula 10" />
     <MESSAGE value="aula 11" />
     <MESSAGE value="aula 01" />
     <MESSAGE value="aula 02" />
@@ -494,7 +507,8 @@
     <MESSAGE value="aula 07" />
     <MESSAGE value="aula 08" />
     <MESSAGE value="aula 09" />
-    <option name="LAST_COMMIT_MESSAGE" value="aula 09" />
+    <MESSAGE value="aula 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula 10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

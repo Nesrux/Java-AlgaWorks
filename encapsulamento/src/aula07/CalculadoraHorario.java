@@ -5,7 +5,7 @@ package aula07;
     }
 
     public static Horario somarDuasHoras(Horario horario) {
-        int hora = horario.getHora() + 2;
+        int hora = horario.hora() + 2;
 
         if (hora > 24) {
             hora = hora - 24;
@@ -14,6 +14,6 @@ package aula07;
 //        horario.setHora(hora);
 //        return horario;
 
-        return new Horario(hora, horario.getMinuto());
+        return new Horario(hora, horario.hora());
     }
 }

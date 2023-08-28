@@ -3,8 +3,16 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="java_EJA" />
+      <module name="Heranca" />
+    </loaded-modules>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="aula 10" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Inicio de erança">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -446,7 +454,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693252934795</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Inicio de erança">
+      <option name="closed" value="true" />
+      <created>1693256300910</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1693256300910</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -515,7 +531,8 @@
     <MESSAGE value="aula 08" />
     <MESSAGE value="aula 09" />
     <MESSAGE value="aula 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="aula 10" />
+    <MESSAGE value="Inicio de erança" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicio de erança" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

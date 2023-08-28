@@ -1,3 +1,5 @@
+package com.nesrux.banco;
+
 public class Titular {
     private String nome;
     private String cpf;

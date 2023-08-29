@@ -6,8 +6,6 @@ public class ContaInvestimento {
     private int agencia;
     private int numero;
     private double saldo;
-
-    //Conta investimento
     private double valorTotalRendimentos;
 
     public Titular getTitular() {

@@ -40,12 +40,7 @@ public class ContaEspecial extends ContaInvestimento {
 
     @Override
     public void imprimirDemostrativo() {
-        System.out.println();
-        System.out.printf("Agencia de código: %d%n", getAgencia());
-        System.out.printf("com.nesrux.banco.Conta de código: %d%n", getNumero());
-        System.out.printf("com.nesrux.banco.Titular:  %s%n", getTitular().getNome());
-        System.out.printf("Saldo: %.2f%n", getSaldo());
+        super.imprimirDemostrativo();
         System.out.printf("Saldo disponivel %.2f", getSaldoDisponivel());
-        System.out.println();
     }
 }

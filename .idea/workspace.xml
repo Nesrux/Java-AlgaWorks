@@ -10,10 +10,8 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="aula 01">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="aula 02">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heranca/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Heranca/src/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heranca/src/com/nesrux/banco/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/Heranca/src/com/nesrux/banco/Conta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +71,7 @@
       <recent name="aula01" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nesrux.banco" />
       <recent name="" />
       <recent name="aula06" />
       <recent name="aula07" />
@@ -472,7 +471,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693259911593</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="aula 02">
+      <option name="closed" value="true" />
+      <created>1693324682712</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1693324682712</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -530,7 +537,6 @@
     <MESSAGE value="aula 05" />
     <MESSAGE value="adicionando arquivos do git ignore" />
     <MESSAGE value="aula 11" />
-    <MESSAGE value="aula 02" />
     <MESSAGE value="aula 03" />
     <MESSAGE value="aula 04 (transformando a classe em um javabean)" />
     <MESSAGE value="desafio (aula 05)" />
@@ -543,7 +549,8 @@
     <MESSAGE value="Inicio de erança" />
     <MESSAGE value="Criando as classes do projeto" />
     <MESSAGE value="aula 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="aula 01" />
+    <MESSAGE value="aula 02" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula 02" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

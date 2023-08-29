@@ -11,10 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="aula 03">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heranca/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Heranca/src/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heranca/src/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Heranca/src/Principal2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heranca/src/Principal3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Heranca/src/Principal3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heranca/src/com/nesrux/banco/ContaInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/Heranca/src/com/nesrux/banco/ContaInvestimento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -506,7 +503,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693326928639</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="aula 03">
+      <option name="closed" value="true" />
+      <created>1693327148916</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1693327148916</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -594,6 +599,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Heranca/src/Principal3.java</url>
+          <line>5</line>
+          <properties class="Principal3" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Arrays/src/aula11/principal.java</url>

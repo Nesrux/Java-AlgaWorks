@@ -32,14 +32,10 @@ public class ContaEspecial extends ContaInvestimento {
     }
 
     @Override
-    public void sacar(double valorSaque) {
-        if (valorSaque <= 0) {
-            throw new IllegalArgumentException("Valor de saque não pode ser menor que 0");
-        }
+    protected void validarSaque(double valorSaque) {
         if (getSaldoDisponivel() < valorSaque) {
             throw new IllegalArgumentException("saldo insulficiente para realizar saque");
         }
-        setSaldo(getSaldo() - valorSaque);
     }
 
     @Override
@@ -50,5 +46,6 @@ public class ContaEspecial extends ContaInvestimento {
         System.out.printf("com.nesrux.banco.Titular:  %s%n", getTitular().getNome());
         System.out.printf("Saldo: %.2f%n", getSaldo());
         System.out.printf("Saldo disponivel %.2f", getSaldoDisponivel());
+        System.out.println();
     }
 }

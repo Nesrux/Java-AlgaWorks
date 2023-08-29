@@ -39,14 +39,17 @@ public class Conta {
         this.saldo = saldo;
     }
 
+    protected void validarSaque(double valorSaque) {
+        if (getSaldo() < valorSaque) {
+            throw new IllegalArgumentException("saldo insulficiente para realizar saque");
+        }
+    }
 
     public void sacar(double valorSaque) {
         if (valorSaque <= 0) {
             throw new IllegalArgumentException("Valor de saque não pode ser menor que 0");
         }
-        if (getSaldo() < valorSaque) {
-            throw new IllegalArgumentException("saldo insulficiente para realizar saque");
-        }
+        validarSaque(valorSaque);
         this.saldo -= valorSaque;
     }
 
@@ -64,6 +67,7 @@ public class Conta {
         System.out.printf("com.nesrux.banco.Conta de código: %d%n", getNumero());
         System.out.printf("com.nesrux.banco.Titular:  %s%n", getTitular().getNome());
         System.out.printf("Saldo: %.2f%n", getSaldo());
+        System.out.println();
     }
 
 }

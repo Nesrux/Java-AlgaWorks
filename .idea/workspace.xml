@@ -10,8 +10,9 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="aula 03">
-      <change beforePath="$PROJECT_DIR$/Heranca/src/com/nesrux/banco/ContaInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/Heranca/src/com/nesrux/banco/ContaInvestimento.java" afterDir="false" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="aula 05">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heranca/src/com/nesrux/banco/ContaEspecial.java" beforeDir="false" afterPath="$PROJECT_DIR$/Heranca/src/com/nesrux/banco/ContaEspecial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,14 +320,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00026" summary="desafio (aula 05)">
-      <option name="closed" value="true" />
-      <created>1692915552300</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1692915552300</updated>
-    </task>
     <task id="LOCAL-00027" summary="desafio (aula 05)">
       <option name="closed" value="true" />
       <created>1692995236381</created>
@@ -511,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693327148916</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="aula 05">
+      <option name="closed" value="true" />
+      <created>1693328097413</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1693328097418</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -566,7 +567,6 @@
     <MESSAGE value="iterando um array" />
     <MESSAGE value="refatorando o código" />
     <MESSAGE value="aula 04" />
-    <MESSAGE value="aula 05" />
     <MESSAGE value="adicionando arquivos do git ignore" />
     <MESSAGE value="aula 11" />
     <MESSAGE value="aula 04 (transformando a classe em um javabean)" />
@@ -582,7 +582,8 @@
     <MESSAGE value="aula 01" />
     <MESSAGE value="aula 02" />
     <MESSAGE value="aula 03" />
-    <option name="LAST_COMMIT_MESSAGE" value="aula 03" />
+    <MESSAGE value="aula 05" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula 05" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

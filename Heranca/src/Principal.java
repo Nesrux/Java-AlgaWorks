@@ -8,10 +8,7 @@ public class Principal {
         conta1.depositar(1000);
         conta1.setAgencia(1234);
         conta1.setNumero(99955533);
-        conta1.setTipo(Conta.NORMAL);
-
         conta1.sacar(25.50);
         conta1.imprimirDemostrativo();
-        conta1.creditarRendimentos(0.10);
     }
 }

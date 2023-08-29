@@ -12,6 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="aula 05">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heranca/src/Principal3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Heranca/src/Principal3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Heranca/src/com/nesrux/banco/ContaEspecial.java" beforeDir="false" afterPath="$PROJECT_DIR$/Heranca/src/com/nesrux/banco/ContaEspecial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +45,8 @@
   </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -320,14 +323,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00027" summary="desafio (aula 05)">
-      <option name="closed" value="true" />
-      <created>1692995236381</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1692995236381</updated>
-    </task>
     <task id="LOCAL-00028" summary="desafio (aula 05) completo">
       <option name="closed" value="true" />
       <created>1692996607151</created>
@@ -512,7 +507,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693328097418</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="aula 05">
+      <option name="closed" value="true" />
+      <created>1693328241829</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1693328241829</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -600,15 +603,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Heranca/src/Principal3.java</url>
-          <line>5</line>
-          <properties class="Principal3" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Arrays/src/aula11/principal.java</url>

@@ -35,6 +35,10 @@ public class Conta {
         this.numero = numero;
     }
 
+    protected void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
 
     public void sacar(double valorSaque) {
         if (valorSaque <= 0) {

@@ -39,7 +39,7 @@ public class ContaEspecial extends ContaInvestimento {
         if (getSaldoDisponivel() < valorSaque) {
             throw new IllegalArgumentException("saldo insulficiente para realizar saque");
         }
-        this.saldo -= valorSaque;
+        setSaldo(getSaldo() - valorSaque);
     }
 
     @Override

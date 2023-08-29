@@ -43,16 +43,16 @@ public class ContaInvestimento {
     }
 
     public void creditarRendimentos(double percentualJuros) {
-
         double valorRendimentos = getSaldo() * percentualJuros / 100;
         this.valorTotalRendimentos += valorRendimentos;
         depositar(valorRendimentos);
     }
+
     public void sacar(double valorSaque) {
         if (valorSaque <= 0) {
             throw new IllegalArgumentException("Valor de saque não pode ser menor que 0");
         }
-        if (getSaldoDisponivel() < valorSaque) {
+        if (getSaldo() < valorSaque) {
             throw new IllegalArgumentException("saldo insulficiente para realizar saque");
         }
         this.saldo -= valorSaque;

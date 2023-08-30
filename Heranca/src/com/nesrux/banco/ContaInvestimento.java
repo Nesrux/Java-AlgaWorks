@@ -8,7 +8,7 @@ public class ContaInvestimento extends Conta {
         return valorTotalRendimentos;
     }
 
-    ContaInvestimento(Titular titular, int agencia, int numero) {
+   public ContaInvestimento(Titular titular, int agencia, int numero) {
         super(titular, agencia, numero);
     }
 

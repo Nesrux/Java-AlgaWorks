@@ -25,7 +25,7 @@ public class Funcionario {
         this.valorHora = valorHora;
     }
 
-    public double calcularSalario(int horasTrabalhadas){
+    protected double calcularSalario(int horasTrabalhadas){
         return getValorHora() * horasTrabalhadas;
     }
     public Horelite gerarOrelite(int horasTrabalhadas, String mesAno){

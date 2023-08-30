@@ -1,6 +1,6 @@
 package desafio.domain.model;
 
-public class Programador extends Funcionario {
+public final class Programador extends Funcionario {
     private double valorBonus;
 
     public Programador(String nome, double valorHora, double valorBonus) {
@@ -17,9 +17,10 @@ public class Programador extends Funcionario {
     }
 
     @Override
-    public double calcularSalario(int horasTrabalhadas) {
-        return super.calcularSalario(horasTrabalhadas);
+    protected final double calcularSalario(int horasTrabalhadas) {
+        return super.calcularSalario(horasTrabalhadas) + getValorBonus();
     }
+
 
     @Override
     public String toString() {

@@ -8,8 +8,8 @@ public class Main {
         funcionario.calcularSalario(300);
 
         Horelite horelite = funcionario.gerarOrelite(300, "janeiro/2010");
-        System.out.println(horelite);
         System.out.println(funcionario);
+        horelite.imprimir();
 
     }
 }

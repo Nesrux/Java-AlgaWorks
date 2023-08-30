@@ -9,6 +9,6 @@ public class Principal2 {
 
         conta.sacar(25.50);
         conta.creditarRendimentos(10);
-        conta.imprimirDemostrativo();
+        conta.imprimirDemonstrativo();
     }
 }

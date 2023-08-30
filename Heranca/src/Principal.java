@@ -8,12 +8,12 @@ public class Principal {
         conta.depositar(1000);
         conta.sacar(25.50);
 
-        conta.imprimirDemostrativo();
+        conta.imprimirDemonstrativo();
 
         conta.depositar(100);
-        conta.imprimirDemostrativo();
+        conta.imprimirDemonstrativo();
 
         conta.sacar(27.50);
-        conta.imprimirDemostrativo();
+        conta.imprimirDemonstrativo();
     }
 }

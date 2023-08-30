@@ -29,7 +29,7 @@ public class Funcionario {
         return getValorHora() * horasTrabalhadas;
     }
     public Horelite gerarOrelite(int horasTrabalhadas, String mesAno){
-
+        return new Horelite(getNome(), mesAno, horasTrabalhadas);
     }
 
     @Override

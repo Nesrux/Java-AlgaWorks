@@ -34,6 +34,6 @@ public class Funcionario {
 
     @Override
     public String toString() {
-        return String.format("Funcionário: %s%n, valorHora : %.2f%n", getNome(), getValorHora());
+        return String.format("Funcionário: %s, valorHora : %.2f", getNome(), getValorHora());
     }
 }

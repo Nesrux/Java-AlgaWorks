@@ -23,6 +23,7 @@ public class Programador extends Funcionario {
 
     @Override
     public String toString() {
-        return super.toString();
+        return super.toString() + String.format("ValorBonus: %.2f%n", getValorBonus());
+
     }
 }

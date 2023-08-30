@@ -26,6 +26,7 @@ public class Funcionario {
     }
 
     public double calcularSalario(int horasTrabalhadas){
+        return getValorHora() * horasTrabalhadas;
     }
     public Horelite gerarOrelite(int horasTrabalhadas, String mesAno){
 
@@ -33,9 +34,6 @@ public class Funcionario {
 
     @Override
     public String toString() {
-        return "Funcionario{" +
-                "nome='" + nome + '\'' +
-                ", valorHora=" + valorHora +
-                '}';
+        return String.format("Funcionário: %s%n, valorHora : %.2f%n", getNome(), getValorHora());
     }
 }

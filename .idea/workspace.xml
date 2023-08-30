@@ -11,9 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio heranca">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio_Heranca/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Heranca/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio_Heranca/src/desafio/domain/model/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Heranca/src/desafio/domain/model/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio_Heranca/src/desafio/domain/model/Horelite.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Heranca/src/desafio/domain/model/Horelite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,14 +278,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00042" summary="Criando as classes do projeto">
-      <option name="closed" value="true" />
-      <created>1693259443161</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1693259443161</updated>
-    </task>
     <task id="LOCAL-00043" summary="aula 01">
       <option name="closed" value="true" />
       <created>1693259841861</created>
@@ -472,7 +462,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693414844750</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Desafio heranca">
+      <option name="closed" value="true" />
+      <created>1693415051857</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1693415051857</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="UnknownFeatures">

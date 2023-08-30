@@ -64,4 +64,9 @@ public class Conta {
         System.out.printf("Saldo: %.2f%n", getSaldo());
     }
 
+    @Override
+    public String toString() {
+        return String.format("Conta{ Titular: %s, Agencia: %d, Numero %d }", getTitular().getNome(),
+                getAgencia(), getNumero());
+    }
 }

@@ -12,7 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="aula 12">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heranca/src/Principal3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Heranca/src/Principal3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heranca/src/com/nesrux/banco/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/Heranca/src/com/nesrux/banco/Conta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Heranca/src/com/nesrux/banco/ContaEspecial.java" beforeDir="false" afterPath="$PROJECT_DIR$/Heranca/src/com/nesrux/banco/ContaEspecial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,7 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Principal3">
+  <component name="RunManager" selected="Application.principal4">
     <configuration name="Principal (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Principal" />
       <module name="Heranca" />
@@ -116,26 +116,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aula05.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula05.Principal" />
-      <module name="encapsulamento" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aula05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="principal4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="principal4" />
+      <module name="Heranca" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.principal4" />
         <item itemvalue="Application.Principal3" />
         <item itemvalue="Application.Principal2 (1)" />
         <item itemvalue="Application.Principal (1)" />
         <item itemvalue="Application.Principal2" />
-        <item itemvalue="Application.aula05.Principal" />
       </list>
     </recent_temporary>
   </component>
@@ -323,14 +317,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00034" summary="aula 08">
-      <option name="closed" value="true" />
-      <created>1693003030243</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1693003030243</updated>
-    </task>
     <task id="LOCAL-00035" summary="aula 09">
       <option name="closed" value="true" />
       <created>1693250342755</created>
@@ -515,7 +501,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693405039689</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="aula 12">
+      <option name="closed" value="true" />
+      <created>1693405335260</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1693405335260</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="UnknownFeatures">

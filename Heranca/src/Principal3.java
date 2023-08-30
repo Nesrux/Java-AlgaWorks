@@ -5,7 +5,7 @@ public class Principal3 {
     public static void main(String[] args) {
         System.out.println();
         Titular titular = new Titular("João", "123456789");
-        ContaEspecial conta = new ContaEspecial(titular, 9, 999);
+        ContaEspecial conta = new ContaEspecial(titular, 9, 999, 10);
       
         conta.setTarifaChequeEspecial(90);
         conta.setLimiteChequeEspecial(1000);

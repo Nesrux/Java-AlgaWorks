@@ -2,10 +2,11 @@ package com.nesrux.banco;
 
 public class ContaEspecial extends ContaInvestimento {
     private double limiteChequeEspecial;
-    private double tarifaChequeEspecial;
+    private double tarifaEspecial;
 
-     public ContaEspecial(Titular titular, int agencia, int numero) {
+     public ContaEspecial(Titular titular, int agencia, int numero, double tarifaEspecial) {
         super(titular, agencia, numero);
+        this.tarifaEspecial = tarifaEspecial;
     }
 
     public double getLimiteChequeEspecial() {
@@ -21,11 +22,11 @@ public class ContaEspecial extends ContaInvestimento {
     }
 
     public double getTarifaChequeEspecial() {
-        return tarifaChequeEspecial;
+        return tarifaEspecial;
     }
 
     public void setTarifaChequeEspecial(double tarifaChequeEspecial) {
-        this.tarifaChequeEspecial = tarifaChequeEspecial;
+        this.tarifaEspecial = tarifaChequeEspecial;
     }
 
     public void debitarTatifaMensal() {

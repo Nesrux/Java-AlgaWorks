@@ -15,6 +15,12 @@ public class Conta {
         return agencia;
     }
 
+    public Conta(Titular titular, int agencia, int numero) {
+        this.titular = titular;
+        this.agencia = agencia;
+        this.numero = numero;
+    }
+
     public int getNumero() {
         return numero;
     }
@@ -23,17 +29,6 @@ public class Conta {
         return saldo;
     }
 
-    public void setTitular(Titular titular) {
-        this.titular = titular;
-    }
-
-    public void setAgencia(int agencia) {
-        this.agencia = agencia;
-    }
-
-    public void setNumero(int numero) {
-        this.numero = numero;
-    }
 
     protected void setSaldo(double saldo) {
         this.saldo = saldo;

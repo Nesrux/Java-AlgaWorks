@@ -3,23 +3,22 @@ import com.nesrux.banco.Titular;
 
 public class Principal3 {
     public static void main(String[] args) {
-        ContaEspecial conta1 = new ContaEspecial();
         System.out.println();
-        conta1.setTitular(new Titular("João", "123456789"));
-        conta1.setAgencia(1234);
-        conta1.setNumero(99955533);
-        conta1.setTarifaChequeEspecial(90);
-        conta1.setLimiteChequeEspecial(1000);
+        Titular titular = new Titular("João", "123456789");
+        ContaEspecial conta = new ContaEspecial(titular, 9, 999);
+      
+        conta.setTarifaChequeEspecial(90);
+        conta.setLimiteChequeEspecial(1000);
 
-        conta1.imprimirDemostrativo();
+        conta.imprimirDemostrativo();
 
-        conta1.depositar(100);
-        conta1.imprimirDemostrativo();
+        conta.depositar(100);
+        conta.imprimirDemostrativo();
 
-        conta1.sacar(200);
-        conta1.imprimirDemostrativo();
+        conta.sacar(200);
+        conta.imprimirDemostrativo();
 
-        conta1.debitarTatifaMensal();
-        conta1.imprimirDemostrativo();
+        conta.debitarTatifaMensal();
+        conta.imprimirDemostrativo();
     }
 }

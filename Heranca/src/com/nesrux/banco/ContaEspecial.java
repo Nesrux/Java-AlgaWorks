@@ -1,11 +1,12 @@
 package com.nesrux.banco;
 
 public class ContaEspecial extends ContaInvestimento {
-
-
-    //Conta Especial
     private double limiteChequeEspecial;
     private double tarifaChequeEspecial;
+
+     public ContaEspecial(Titular titular, int agencia, int numero) {
+        super(titular, agencia, numero);
+    }
 
     public double getLimiteChequeEspecial() {
         return limiteChequeEspecial;

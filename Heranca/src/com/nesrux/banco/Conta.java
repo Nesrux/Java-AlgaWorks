@@ -1,11 +1,17 @@
 package com.nesrux.banco;
 
-public class Conta {
+public  class Conta {
 
     private Titular titular;
     private int agencia;
     private int numero;
     private double saldo;
+
+    public Conta(Titular titular, int agencia, int numero) {
+        this.titular = titular;
+        this.agencia = agencia;
+        this.numero = numero;
+    }
 
     public Titular getTitular() {
         return titular;
@@ -15,58 +21,53 @@ public class Conta {
         return agencia;
     }
 
-    public Conta(Titular titular, int agencia, int numero) {
-        this.titular = titular;
-        this.agencia = agencia;
-        this.numero = numero;
-    }
-
     public int getNumero() {
         return numero;
     }
 
-    public double getSaldo() {
+    public final double getSaldo() {
         return saldo;
     }
 
-
-    protected void setSaldo(double saldo) {
-        this.saldo = saldo;
-    }
-
-    protected void validarSaque(double valorSaque) {
+    protected void validarSaldoParaSaque(double valorSaque) {
         if (getSaldo() < valorSaque) {
-            throw new IllegalArgumentException("saldo insulficiente para realizar saque");
+            throw new RuntimeException("Saldo insuficiente para saque");
         }
     }
 
     public void sacar(double valorSaque) {
         if (valorSaque <= 0) {
-            throw new IllegalArgumentException("Valor de saque não pode ser menor que 0");
+            throw new IllegalArgumentException("Valor do saque deve ser maior que 0");
         }
-        validarSaque(valorSaque);
-        this.saldo -= valorSaque;
+
+        validarSaldoParaSaque(valorSaque);
+
+        saldo -= valorSaque;
     }
 
-    public void depositar(double valorDeposito) {
-        if (valorDeposito < 0) {
-            throw new IllegalArgumentException("Você nao pode depositar valores negativos");
+    public final void depositar(double valorDeposito) {
+        if (valorDeposito <= 0) {
+            throw new IllegalArgumentException("Valor do depósito deve ser maior que 0");
         }
+
         saldo += valorDeposito;
     }
 
-
-    public void imprimirDemostrativo() {
+    public void imprimirDemonstrativo() {
         System.out.println();
-        System.out.printf("Agencia de código: %d%n", getAgencia());
-        System.out.printf("Conta de código: %d%n", getNumero());
-        System.out.printf("Titular:  %s%n", getTitular().getNome());
+        System.out.printf("Agência: %d%n", getAgencia());
+        System.out.printf("Conta: %d%n", getNumero());
+        System.out.printf("Titular: %s%n", getTitular().getNome());
         System.out.printf("Saldo: %.2f%n", getSaldo());
     }
 
     @Override
     public String toString() {
-        return String.format("Conta{ Titular: %s, Agencia: %d, Numero %d }", getTitular().getNome(),
-                getAgencia(), getNumero());
+        return "Conta{" +
+                "titular=" + titular +
+                ", agencia=" + agencia +
+                ", numero=" + numero +
+                '}';
     }
+
 }

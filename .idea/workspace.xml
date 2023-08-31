@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Polimorfismo aula 01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polimorfismo/src/main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Polimorfismo/src/main2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,14 +286,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00050" summary="aula 05">
-      <option name="closed" value="true" />
-      <created>1693328097413</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1693328097418</updated>
-    </task>
     <task id="LOCAL-00051" summary="aula 05">
       <option name="closed" value="true" />
       <created>1693328241829</created>
@@ -479,7 +470,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693501145254</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Polimorfismo aula 01">
+      <option name="closed" value="true" />
+      <created>1693501300831</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1693501300831</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="UnknownFeatures">

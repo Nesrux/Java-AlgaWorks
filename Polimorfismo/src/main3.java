@@ -9,9 +9,8 @@ public class main3 {
         Titular titular2 = new Titular("Thiago Malaquias", "654321");
         Titular titular3 = new Titular("Gerundina almeida", "987654");
 
-        ContaEspecial conta1 = new ContaEspecial(titular1, 999,99, 50);
+        ContaEspecial conta1 = new ContaEspecial(titular1, 999, 99, 50);
         conta1.setLimiteChequeEspecial(500);
-
 
 
         ContaEspecial conta2 = new ContaEspecial(titular2, 568, 878, 100);
@@ -22,7 +21,7 @@ public class main3 {
 
         caixaEletronico.transferir(conta1, conta2, 400);
 
-        conta1.imprimirDemonstrativo();
+          conta1.imprimirDemonstrativo();
         conta3.imprimirDemonstrativo();
     }
 }

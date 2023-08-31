@@ -9,9 +9,12 @@ public class main4 {
 
         ContaEspecial conta1 = new ContaEspecial(new Titular("Joséfino pinto", "123456"), 123, 123456789, 10);
         conta1.setLimiteChequeEspecial(1000);
+        conta1.depositar(100);
+        conta1.creditarRendimentos(50);
 
         ContaInvestimento conta2 = new ContaInvestimento(new Titular("Joséfa vagina", "654321"), 123, 7854496);
         conta2.depositar(100);
+
 
         caixaEletronico.imprimirDemostrativo(conta1);
     }

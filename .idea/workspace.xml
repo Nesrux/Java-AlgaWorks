@@ -10,11 +10,8 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio heranca">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio heranca completo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio_Heranca/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Heranca/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio_Heranca/src/desafio/domain/model/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Heranca/src/desafio/domain/model/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio_Heranca/src/desafio/domain/model/Programador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Heranca/src/desafio/domain/model/Programador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,14 +278,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00045" summary="aula 02">
-      <option name="closed" value="true" />
-      <created>1693324682712</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1693324682712</updated>
-    </task>
     <task id="LOCAL-00046" summary="aula 03">
       <option name="closed" value="true" />
       <created>1693326709823</created>
@@ -473,7 +462,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693415199030</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Desafio heranca completo">
+      <option name="closed" value="true" />
+      <created>1693416030923</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1693416030923</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -548,7 +545,8 @@
     <MESSAGE value="aula 12" />
     <MESSAGE value="aula 14" />
     <MESSAGE value="Desafio heranca" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio heranca" />
+    <MESSAGE value="Desafio heranca completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio heranca completo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

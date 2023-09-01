@@ -10,7 +10,7 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Polimorfismo aula 04">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Polimorfismo aula 06 Importante!!!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Polimorfismo/src/com/banco/CaixaEletronico.java" beforeDir="false" afterPath="$PROJECT_DIR$/Polimorfismo/src/com/banco/CaixaEletronico.java" afterDir="false" />
     </list>
@@ -307,14 +307,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00055" summary="aula 07">
-      <option name="closed" value="true" />
-      <created>1693346085037</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1693346085037</updated>
-    </task>
     <task id="LOCAL-00056" summary="aula 12">
       <option name="closed" value="true" />
       <created>1693404940272</created>
@@ -499,7 +491,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693526365135</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Polimorfismo aula 06 Importante!!!">
+      <option name="closed" value="true" />
+      <created>1693599526884</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1693599526884</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -551,7 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adicionando arquivos do git ignore" />
     <MESSAGE value="aula 11" />
     <MESSAGE value="aula 04 (transformando a classe em um javabean)" />
     <MESSAGE value="desafio (aula 05)" />
@@ -576,7 +575,8 @@
     <MESSAGE value="Polimorfismo aula 03" />
     <MESSAGE value="Polimorfismo aula 04 Downcasting" />
     <MESSAGE value="Polimorfismo aula 04" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polimorfismo aula 04" />
+    <MESSAGE value="Polimorfismo aula 06 Importante!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polimorfismo aula 06 Importante!!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

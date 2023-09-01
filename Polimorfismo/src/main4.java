@@ -16,6 +16,6 @@ public class main4 {
         conta2.depositar(100);
 
 
-        caixaEletronico.imprimirDemostrativo(conta1);
+        caixaEletronico.imprimirDemostrativo(conta2);
     }
 }

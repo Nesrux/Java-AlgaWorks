@@ -29,6 +29,10 @@ public class Conta {
         return saldo;
     }
 
+    public boolean prossuiGratuidadeParaImpresseao(){
+        return false;
+    }
+
     protected void validarSaldoParaSaque(double valorSaque) {
         if (getSaldo() < valorSaque) {
             throw new RuntimeException("Saldo insuficiente para saque");

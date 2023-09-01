@@ -15,14 +15,11 @@ public class CaixaEletronico {
     }
 
     public void imprimirDemostrativo(Conta conta) {
-        //Isso é um pattern maching for instance of
-        //Ele faz a mesma coisa que instanceof e ja atribui
-        // um tipo conta especial a variavel Conta investimeto
-        if (conta instanceof ContaEspecial contaInvestimento && rendimentoMaiorQueZero(contaInvestimento)) {
+        if (conta.prossuiGratuidadeParaImpresseao()) {
             System.out.println("Impressao é gratuita");
         } else {
-            System.out.printf("Custo da impressao: R$:%.2f%n", TARIFA_IMPRESSAO_DEMOSTRATIVO);
             conta.sacar(TARIFA_IMPRESSAO_DEMOSTRATIVO);
+            System.out.printf("Custo da impressao: R$:%.2f%n", TARIFA_IMPRESSAO_DEMOSTRATIVO);
         }
         conta.imprimirDemonstrativo();
     }
@@ -31,4 +28,11 @@ public class CaixaEletronico {
     private static boolean rendimentoMaiorQueZero(ContaEspecial contaInvestimento) {
         return contaInvestimento.getValorTotalRendimentos() > 0;
     }
+    /*
+    * Isso é um pattern maching for instance of
+       Ele faz a mesma coisa que instanceof e ja atribui
+       um tipo conta especial a variavel Conta investimeto
+       if (conta instanceof ContaEspecial contaInvestimento && rendimentoMaiorQueZero(contaInvestimento)) {
+       System.out.println("Impressao é gratuita");
+     */
 }

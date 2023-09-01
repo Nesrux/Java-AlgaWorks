@@ -19,6 +19,11 @@ public class ContaInvestimento extends Conta {
     }
 
     @Override
+    public boolean prossuiGratuidadeParaImpresseao() {
+        return getValorTotalRendimentos() > 0;
+    }
+
+    @Override
     public String toString() {
         return "ContaInvestimento{" +
                 "titular=" + getTitular() +

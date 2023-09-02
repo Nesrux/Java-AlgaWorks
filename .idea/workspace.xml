@@ -12,9 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Herança/classesAbstratas aula 08">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polimorfismo/src/ClassesAbistratas/com/nesrix/fiscal/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Polimorfismo/src/ClassesAbistratas/com/nesrux/domain/NotaFiscal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polimorfismo/src/ClassesAbistratas/com/nesrix/fiscal/NotaFiscalProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Polimorfismo/src/ClassesAbistratas/com/nesrux/domain/NotaFiscalProduto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polimorfismo/src/ClassesAbistratas/com/nesrix/fiscal/NotaFiscalServico.java" beforeDir="false" afterPath="$PROJECT_DIR$/Polimorfismo/src/ClassesAbistratas/com/nesrux/domain/NotaFiscalServico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polimorfismo/src/ClassesAbistratas/com/nesrux/domain/NotaFiscalProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Polimorfismo/src/ClassesAbistratas/com/nesrux/domain/NotaFiscalProduto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polimorfismo/src/ClassesAbistratas/com/nesrux/domain/NotaFiscalServico.java" beforeDir="false" afterPath="$PROJECT_DIR$/Polimorfismo/src/ClassesAbistratas/com/nesrux/domain/NotaFiscalServico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polimorfismo/src/ClassesAbistratas/com/nesrux/main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Polimorfismo/src/ClassesAbistratas/com/nesrux/main1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,10 +86,23 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.main4">
+  <component name="RunManager" selected="Application.main1">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="heranca.projeto.banco.Main" />
       <module name="Polimorfismo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassesAbistratas.com.nesrux.main1" />
+      <module name="Polimorfismo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ClassesAbistratas.com.nesrux.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main1" />
         <item itemvalue="Application.main4" />
         <item itemvalue="Application.main3" />
         <item itemvalue="Application.main2" />
@@ -308,14 +322,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00061" summary="aula 14">
-      <option name="closed" value="true" />
-      <created>1693411678180</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1693411678180</updated>
-    </task>
     <task id="LOCAL-00062" summary="aula 14">
       <option name="closed" value="true" />
       <created>1693411886377</created>
@@ -500,7 +506,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693669053825</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Herança/classesAbstratas aula 08">
+      <option name="closed" value="true" />
+      <created>1693669459072</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1693669459072</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="UnknownFeatures">

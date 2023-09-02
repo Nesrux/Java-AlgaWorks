@@ -7,6 +7,10 @@ import ClassesAbistratas.com.nesrux.domain.NotaFiscalServico;
 public class main1 {
     public static void main(String[] args) {
         var nfBolaFutebol = new NotaFiscalProduto("Bola de futebol", 150, 100);
+
         var nfReparoMotor = new NotaFiscalServico("Reparo do motor", 2000, true);
+
+        System.out.println(nfBolaFutebol.calcularImposto());
+        System.out.println(nfReparoMotor.calcularImposto());
     }
 }

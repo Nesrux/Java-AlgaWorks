@@ -1,6 +1,5 @@
 package heranca.projeto;
 
-import Aula1Até7.banco.*;
 import heranca.projeto.banco.CaixaEletronico;
 import heranca.projeto.banco.ContaEspecial;
 import heranca.projeto.banco.ContaSalario;

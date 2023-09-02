@@ -10,8 +10,9 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Polimorfismo aula 07">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Polimorfismo aula  01-07 refatoração">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polimorfismo/src/heranca/projeto/main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Polimorfismo/src/heranca/projeto/main3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
-    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
@@ -86,28 +86,28 @@
   </component>
   <component name="RunManager" selected="Application.main4">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Desafio_Heranca" />
+      <option name="MAIN_CLASS_NAME" value="heranca.projeto.banco.Main" />
+      <module name="Polimorfismo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main2" />
+      <option name="MAIN_CLASS_NAME" value="heranca.projeto.banco.main2" />
       <module name="Polimorfismo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main3" />
+      <option name="MAIN_CLASS_NAME" value="heranca.projeto.banco.main3" />
       <module name="Polimorfismo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main4" />
+      <option name="MAIN_CLASS_NAME" value="heranca.projeto.banco.main4" />
       <module name="Polimorfismo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -306,14 +306,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00059" summary="aula 12">
-      <option name="closed" value="true" />
-      <created>1693406331194</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1693406331194</updated>
-    </task>
     <task id="LOCAL-00060" summary="aula 12">
       <option name="closed" value="true" />
       <created>1693411627761</created>
@@ -498,7 +490,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693608610476</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Polimorfismo aula  01-07 refatoração">
+      <option name="closed" value="true" />
+      <created>1693667232695</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1693667232695</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -550,7 +550,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="aula 04 (transformando a classe em um javabean)" />
     <MESSAGE value="desafio (aula 05)" />
     <MESSAGE value="desafio (aula 05) completo" />
     <MESSAGE value="aula 06" />
@@ -575,7 +574,8 @@
     <MESSAGE value="Polimorfismo aula 04" />
     <MESSAGE value="Polimorfismo aula 06 Importante!!!" />
     <MESSAGE value="Polimorfismo aula 07" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polimorfismo aula 07" />
+    <MESSAGE value="Polimorfismo aula  01-07 refatoração" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polimorfismo aula  01-07 refatoração" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

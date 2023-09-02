@@ -1,6 +1,6 @@
 package desafioPolimorfismo.domain;
 
-public class Pessoa {
+public abstract class Pessoa {
     private final String nome;
 
     Pessoa(String nome) {
@@ -11,7 +11,5 @@ public class Pessoa {
         return nome;
     }
 
-    public double calcularImpostos() {
-        return 0;
-    }
+    public abstract double calcularImpostos();
 }

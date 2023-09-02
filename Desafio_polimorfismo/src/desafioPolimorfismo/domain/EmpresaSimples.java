@@ -14,6 +14,6 @@ public class EmpresaSimples extends PessoaJuridica {
 
     @Override
     public double calcularImpostos() {
-        return super.calcularImpostos();
+        return 0;
     }
 }

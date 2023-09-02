@@ -1,4 +1,4 @@
-package com.banco;
+package heranca.projeto.banco;
 
 import java.util.Objects;
 

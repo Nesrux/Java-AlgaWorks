@@ -1,4 +1,10 @@
-import com.banco.*;
+package heranca.projeto;
+
+import Aula1Até7.banco.*;
+import heranca.projeto.banco.CaixaEletronico;
+import heranca.projeto.banco.ContaEspecial;
+import heranca.projeto.banco.ContaSalario;
+import heranca.projeto.banco.Titular;
 
 public class main3 {
     public static void main(String[] args) {

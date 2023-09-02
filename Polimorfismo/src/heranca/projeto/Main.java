@@ -1,6 +1,8 @@
-import com.banco.Conta;
-import com.banco.ContaEspecial;
-import com.banco.Titular;
+package heranca.projeto;
+
+import heranca.projeto.banco.Conta;
+import heranca.projeto.banco.ContaEspecial;
+import heranca.projeto.banco.Titular;
 
 public class Main {
     public static void main(String[] args) {

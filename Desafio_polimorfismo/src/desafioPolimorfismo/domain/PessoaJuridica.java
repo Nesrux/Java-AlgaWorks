@@ -1,8 +1,8 @@
 package desafioPolimorfismo.domain;
 
 public abstract class PessoaJuridica extends Pessoa {
-    private double faturamentoAnual;
-    private double despesaAnual;
+    private final double faturamentoAnual;
+    private final double despesaAnual;
 
     public PessoaJuridica(String nome, double faturamentoAnual, double despesaAnual) {
         super(nome);
@@ -18,5 +18,9 @@ public abstract class PessoaJuridica extends Pessoa {
         return despesaAnual;
     }
 
-    public abstract double getLucroAnual();
+    public double getLucroAnual() {
+        return getFaturamentoAnual() - getDespesaAnual();
+    }
+
+    ;
 }

@@ -6,7 +6,7 @@ public class PessoaFisica extends Pessoa {
 
     private final double receitaAnual;
 
-    PessoaFisica(String nome, double receitaAnual) {
+   public PessoaFisica(String nome, double receitaAnual) {
         super(nome);
         this.receitaAnual = receitaAnual;
     }

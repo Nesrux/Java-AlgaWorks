@@ -1,4 +1,4 @@
-package ClassesAbistratas.com.nesrix.fiscal;
+package ClassesAbistratas.com.nesrux.domain;
 
 public class NotaFiscal {
     private String descricao;
@@ -15,5 +15,8 @@ public class NotaFiscal {
 
     public double getValorTotal() {
         return valorTotal;
+    }
+    public double calcularImposto(){
+        return 0;
     }
 }

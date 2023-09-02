@@ -1,4 +1,4 @@
-package ClassesAbistratas.com.nesrix.fiscal;
+package ClassesAbistratas.com.nesrux.domain;
 
 public class NotaFiscalProduto extends NotaFiscal {
     private double valorFrete;

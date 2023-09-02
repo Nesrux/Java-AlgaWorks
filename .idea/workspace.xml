@@ -10,9 +10,11 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Polimorfismo aula  01-07 refatoração">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Herança/classesAbstratas aula 08">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polimorfismo/src/heranca/projeto/main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Polimorfismo/src/heranca/projeto/main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polimorfismo/src/ClassesAbistratas/com/nesrix/fiscal/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Polimorfismo/src/ClassesAbistratas/com/nesrux/domain/NotaFiscal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polimorfismo/src/ClassesAbistratas/com/nesrix/fiscal/NotaFiscalProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Polimorfismo/src/ClassesAbistratas/com/nesrux/domain/NotaFiscalProduto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polimorfismo/src/ClassesAbistratas/com/nesrix/fiscal/NotaFiscalServico.java" beforeDir="false" afterPath="$PROJECT_DIR$/Polimorfismo/src/ClassesAbistratas/com/nesrux/domain/NotaFiscalServico.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,14 +308,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00060" summary="aula 12">
-      <option name="closed" value="true" />
-      <created>1693411627761</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1693411627761</updated>
-    </task>
     <task id="LOCAL-00061" summary="aula 14">
       <option name="closed" value="true" />
       <created>1693411678180</created>
@@ -498,7 +492,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693667232695</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Herança/classesAbstratas aula 08">
+      <option name="closed" value="true" />
+      <created>1693669053825</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1693669053825</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -550,7 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="desafio (aula 05)" />
     <MESSAGE value="desafio (aula 05) completo" />
     <MESSAGE value="aula 06" />
     <MESSAGE value="aula 08" />
@@ -575,7 +576,8 @@
     <MESSAGE value="Polimorfismo aula 06 Importante!!!" />
     <MESSAGE value="Polimorfismo aula 07" />
     <MESSAGE value="Polimorfismo aula  01-07 refatoração" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polimorfismo aula  01-07 refatoração" />
+    <MESSAGE value="Herança/classesAbstratas aula 08" />
+    <option name="LAST_COMMIT_MESSAGE" value="Herança/classesAbstratas aula 08" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,7 +1,6 @@
 package ClassesAbistratas.com.nesrux;
 
 import ClassesAbistratas.com.nesrux.domain.GestorFiscal;
-import ClassesAbistratas.com.nesrux.domain.NotaFiscal;
 import ClassesAbistratas.com.nesrux.domain.NotaFiscalProduto;
 import ClassesAbistratas.com.nesrux.domain.NotaFiscalServico;
 
@@ -14,7 +13,5 @@ public class main1 {
         GestorFiscal gestorFiscal = new GestorFiscal();
         gestorFiscal.emitirNotasFiscais(nfBolaFutebol, nfReparoMotor);
 
-        //      System.out.println(nfBolaFutebol.calcularImposto());
-//        System.out.println(nfReparoMotor.calcularImposto());
     }
 }

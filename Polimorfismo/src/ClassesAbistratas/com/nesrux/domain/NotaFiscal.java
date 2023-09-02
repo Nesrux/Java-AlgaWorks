@@ -1,6 +1,6 @@
 package ClassesAbistratas.com.nesrux.domain;
 
-public class NotaFiscal {
+public abstract class NotaFiscal {
     private String descricao;
     private double valorTotal;
 
@@ -17,9 +17,7 @@ public class NotaFiscal {
         return valorTotal;
     }
 
-    public double calcularImposto() {
-        return 0;
-    }
+    public abstract double calcularImposto();
 
     public void emitir() {
         System.out.printf("Emitindo nota fiscal para %s%n", getDescricao());

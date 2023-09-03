@@ -10,10 +10,7 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Aula de interfaces 01">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfaces/src/com/nesrux/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/src/com/nesrux/Principal.java" afterDir="false" />
-    </list>
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Aula de interfaces 02" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -324,14 +321,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00072" summary="Polimorfismo aula 01">
-      <option name="closed" value="true" />
-      <created>1693499499496</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1693499499496</updated>
-    </task>
     <task id="LOCAL-00073" summary="Polimorfismo aula 01">
       <option name="closed" value="true" />
       <created>1693501145254</created>
@@ -516,7 +505,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693774307313</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Aula de interfaces 02">
+      <option name="closed" value="true" />
+      <created>1693776027941</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1693776027941</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -570,7 +567,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="aula 10" />
     <MESSAGE value="Inicio de erança" />
     <MESSAGE value="Criando as classes do projeto" />
     <MESSAGE value="aula 01" />
@@ -595,7 +591,8 @@
     <MESSAGE value="Desafio herança e polimorfismo aula 11" />
     <MESSAGE value="Desafio completo!" />
     <MESSAGE value="Aula de interfaces 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula de interfaces 01" />
+    <MESSAGE value="Aula de interfaces 02" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula de interfaces 02" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -10,15 +10,7 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio herança e polimorfismo aula 11">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio_polimorfismo/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_polimorfismo/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio_polimorfismo/src/desafioPolimorfismo/domain/EmpresaLucroReal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_polimorfismo/src/desafioPolimorfismo/domain/EmpresaLucroReal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio_polimorfismo/src/desafioPolimorfismo/domain/EmpresaSimples.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_polimorfismo/src/desafioPolimorfismo/domain/EmpresaSimples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio_polimorfismo/src/desafioPolimorfismo/domain/GestorImpostos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_polimorfismo/src/desafioPolimorfismo/domain/GestorImpostos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio_polimorfismo/src/desafioPolimorfismo/domain/PessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_polimorfismo/src/desafioPolimorfismo/domain/PessoaFisica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio_polimorfismo/src/desafioPolimorfismo/domain/PessoaJuridica.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_polimorfismo/src/desafioPolimorfismo/domain/PessoaJuridica.java" afterDir="false" />
-    </list>
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio completo!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,24 +45,24 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
-    "Notification.DoNotAsk-Vcs Important Messages": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "azul-17",
-    "last_opened_file_path": "C:/Users/jucaj/OneDrive/Área de Trabalho/Programacao/java_EJA/encapsulamento/src/aula07",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-Vcs Important Messages&quot;: &quot;VCS important messages&quot;,
+    &quot;Notification.DoNotAsk-Vcs Important Messages&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;azul-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jucaj/OneDrive/Área de Trabalho/Programacao/java_EJA/encapsulamento/src/aula07&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\encapsulamento\src\aula07" />
@@ -325,14 +317,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00068" summary="Desafio heranca">
-      <option name="closed" value="true" />
-      <created>1693415199030</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1693415199030</updated>
-    </task>
     <task id="LOCAL-00069" summary="Desafio heranca completo">
       <option name="closed" value="true" />
       <created>1693416030923</created>
@@ -517,7 +501,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693686008078</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Desafio completo!">
+      <option name="closed" value="true" />
+      <created>1693688157177</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1693688157177</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -527,6 +519,7 @@
   <component name="UnloadedModulesList">
     <module name="Arrays" />
     <module name="Desafio_Heranca" />
+    <module name="Desafio_polimorfismo" />
     <module name="Heranca" />
     <module name="Polimorfismo" />
     <module name="encapsulamento" />
@@ -570,7 +563,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="aula 08" />
     <MESSAGE value="aula 09" />
     <MESSAGE value="aula 10" />
     <MESSAGE value="Inicio de erança" />
@@ -595,7 +587,8 @@
     <MESSAGE value="Herança/classesAbstratas aula 08" />
     <MESSAGE value="Herança/classesAbstratas aula 10" />
     <MESSAGE value="Desafio herança e polimorfismo aula 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio herança e polimorfismo aula 11" />
+    <MESSAGE value="Desafio completo!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio completo!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

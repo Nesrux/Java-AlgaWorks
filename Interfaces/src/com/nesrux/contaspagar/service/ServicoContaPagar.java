@@ -6,6 +6,7 @@ import com.nesrux.pagamento.MetodoPagamento;
 public class ServicoContaPagar {
     //Injeção de dependencia, nao depende dessa classe a instancia de documento
     //Pagavel
+    //E também é uma inversão de controle, pois nao depende dessa classe a instancia de documentoPagavel
 
     private final MetodoPagamento metodoPagamento;
 

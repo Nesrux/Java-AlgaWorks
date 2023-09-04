@@ -1,6 +1,7 @@
 package com.nesrux;
 
 import com.nesrux.contaspagar.model.Horelite;
+import com.nesrux.contaspagar.model.OrdemServico;
 import com.nesrux.contaspagar.service.ServicoContaPagar;
 import com.nesrux.pagamento.Beneficiario;
 import com.nesrux.pagamento.DocumentoPagavel;
@@ -14,7 +15,10 @@ public class Principal {
         Beneficiario funcionario = new Beneficiario("Jão da silva", UUID.randomUUID().toString(), "888-777");
         DocumentoPagavel documento = new Horelite(funcionario, 50, 250);
 
-        servicoContaPagar.pagar(documento);
+        Beneficiario fornecedor = new Beneficiario("Consultoria lima maria", UUID.randomUUID().toString(), "999-999");
+        OrdemServico ordemServico = new OrdemServico(fornecedor, 100);
 
+        servicoContaPagar.pagar(documento);
+        servicoContaPagar.pagar(ordemServico);
     }
 }

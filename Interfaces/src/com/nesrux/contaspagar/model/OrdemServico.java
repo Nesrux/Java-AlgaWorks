@@ -3,13 +3,13 @@ package com.nesrux.contaspagar.model;
 import com.nesrux.pagamento.Beneficiario;
 import com.nesrux.pagamento.DocumentoPagavel;
 
-public class OrdenServico implements DocumentoPagavel {
+public class OrdemServico implements DocumentoPagavel {
 
     private Beneficiario fornecedor;
     private double valorTotal;
 
 
-    public OrdenServico(Beneficiario fornecedor, double valorTotal) {
+    public OrdemServico(Beneficiario fornecedor, double valorTotal) {
         this.fornecedor = fornecedor;
         this.valorTotal = valorTotal;
     }

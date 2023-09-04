@@ -2,15 +2,23 @@ package com.nesrux.contaspagar.service;
 
 import com.nesrux.pagamento.DocumentoPagavel;
 import com.nesrux.pagamento.MetodoPagamento;
-import com.nesrux.pagamento.Pix;
 
 public class ServicoContaPagar {
+    //Injeção de dependencia, nao depende dessa classe a instancia de documento
+    //Pagavel
+
+    private final MetodoPagamento metodoPagamento;
+
+    public ServicoContaPagar(MetodoPagamento metodoPagamento) {
+        this.metodoPagamento = metodoPagamento;
+    }
 
     public void pagar(DocumentoPagavel documento) {
-        MetodoPagamento metodoPagamento = new Pix();
+
         /*Poderia ter outros métodos aqui
          * como por exemplo salvar essa transação
          * em um banco de dados*/
+
         metodoPagamento.pagar(documento);
     }
 }

@@ -4,7 +4,6 @@ public abstract class Empresa {
     private String razaoSocial;
     private double totalFaturamento;
 
-
     public Empresa(String razaoSocial, double totalFaturamento) {
         this.razaoSocial = razaoSocial;
         this.totalFaturamento = totalFaturamento;
@@ -26,6 +25,4 @@ public abstract class Empresa {
         this.totalFaturamento = totalFaturamento;
     }
 
-
-    public abstract double getLimiteAprovado();
-}
+    public abstract double calcularLimiteAprovado();}

@@ -5,17 +5,23 @@ import com.nesrux.financeira.modelo.Empresa;
 public class ServicoFinanciamento {
 
     public void solicitarFinanciamento(Empresa empresa, double valorSolicitado) {
-        double limiteAprovado = empresa.getLimiteAprovado();
+        double limiteAprovado = empresa.calcularLimiteAprovado();
 
         if (limiteAprovado < valorSolicitado) {
-            throw new RuntimeException(String.format("Financiamente não aprovado. Limite de %.2f", limiteAprovado));
+            throw new RuntimeException(String.format(
+                    "Financiamento não aprovado. Limite máximo de %.2f", limiteAprovado));
         }
 
-        System.out.printf("DEBUG: Financiamento aprovado. limite máximo de %.2f%n", limiteAprovado);
-
+        // registraríamos a solicitação do financiamento aqui em alguma classe de persistência de dados,
+        // mas por enquanto, apenas imagine isso acontecendo...
+        System.out.printf("DEBUG: Financiamento aprovado. Limite máximo de %.2f%n",
+                limiteAprovado);
     }
 
-    public double consultarLimiteAProvado(Empresa empresa) {
-        return 2.0;
+    public double consultarLimiteAprovado(Empresa empresa) {
+        // aqui poderia registrar a consulta em algum lugar para um consultor comercial entrar em contato
+        // com o cliente (não vamos fazer isso, porque o objetivo agora é estudar OO primeiro)
+
+        return empresa.calcularLimiteAprovado();
     }
 }

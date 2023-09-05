@@ -1,6 +1,6 @@
 package com.nesrux.financeira.modelo;
 
-import com.nesrux.financeira.repository.ClienteFinanciavel;
+import com.nesrux.financeira.interfaces.ClienteFinanciavel;
 
 public class LojaVarejista extends Empresa implements ClienteFinanciavel {
 

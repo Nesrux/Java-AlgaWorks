@@ -10,8 +10,15 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Aula de interfaces 06-07">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Aula de interfaces 07">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/Fazenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/Fazenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/Industria.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/Industria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/LojaVarejista.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/LojaVarejista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/ParceiroFinanceiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/ParceiroFinanceiro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/repository/ClienteFinanciavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/interfaces/ClienteFinanciavel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/servico/ServicoFinanciamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/servico/ServicoFinanciamento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,24 +58,24 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-Vcs Important Messages&quot;: &quot;VCS important messages&quot;,
-    &quot;Notification.DoNotAsk-Vcs Important Messages&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;azul-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jucaj/OneDrive/Área de Trabalho/Programacao/java_EJA/encapsulamento/src/aula07&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
+    "Notification.DoNotAsk-Vcs Important Messages": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "azul-17",
+    "last_opened_file_path": "C:/Users/jucaj/OneDrive/Área de Trabalho/Programacao/java_EJA/encapsulamento/src/aula07",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\encapsulamento\src\aula07" />
@@ -329,14 +336,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00083" summary="Polimorfismo aula  01-07 refatoração">
-      <option name="closed" value="true" />
-      <created>1693667232695</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1693667232695</updated>
-    </task>
     <task id="LOCAL-00084" summary="Herança/classesAbstratas aula 08">
       <option name="closed" value="true" />
       <created>1693669053825</created>
@@ -521,7 +520,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693938675575</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="Aula de interfaces 07">
+      <option name="closed" value="true" />
+      <created>1693939152681</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1693939152681</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -576,7 +583,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="aula 03" />
     <MESSAGE value="aula 05" />
     <MESSAGE value="aula 07" />
     <MESSAGE value="aula 12" />
@@ -601,7 +607,8 @@
     <MESSAGE value="Aula de interfaces 04" />
     <MESSAGE value="Aula de interfaces 05 (Projeto financeira)" />
     <MESSAGE value="Aula de interfaces 06-07" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula de interfaces 06-07" />
+    <MESSAGE value="Aula de interfaces 07" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula de interfaces 07" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

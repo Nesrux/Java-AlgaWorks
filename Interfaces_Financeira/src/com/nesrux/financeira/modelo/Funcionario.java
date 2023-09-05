@@ -1,6 +1,6 @@
 package com.nesrux.financeira.modelo;
 
-import com.nesrux.financeira.repository.ClienteFinanciavel;
+import com.nesrux.financeira.interfaces.ClienteFinanciavel;
 
 public class Funcionario implements ClienteFinanciavel {
     public static final int LIMITE_CREDITO_SALARIO = 5;

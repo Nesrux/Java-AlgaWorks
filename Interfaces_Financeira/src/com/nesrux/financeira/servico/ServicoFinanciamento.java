@@ -1,7 +1,6 @@
 package com.nesrux.financeira.servico;
 
-import com.nesrux.financeira.modelo.Empresa;
-import com.nesrux.financeira.repository.ClienteFinanciavel;
+import com.nesrux.financeira.interfaces.ClienteFinanciavel;
 
 public class ServicoFinanciamento {
 

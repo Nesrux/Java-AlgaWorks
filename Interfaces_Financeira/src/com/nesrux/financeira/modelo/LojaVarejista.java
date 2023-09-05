@@ -1,6 +1,8 @@
 package com.nesrux.financeira.modelo;
 
-public class LojaVarejista extends Empresa {
+import com.nesrux.financeira.repository.ClienteFinanciavel;
+
+public class LojaVarejista extends Empresa implements ClienteFinanciavel {
 
     public static final double PERCENTUAL_FATURAMENTO_LIMITE_CREDITO = 0.2;
     public static final double PERCENTUAL_VALOR_ESTOQUE_LIMITE_CREDITO = 0.5;

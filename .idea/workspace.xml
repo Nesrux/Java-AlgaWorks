@@ -11,13 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Aula de interfaces 05 (Projeto financeira)">
-      <change afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/LojaVarejista.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/Empresa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/Fazenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/Fazenda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/Industria.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/Industria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/LojaVaregista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/LojaVarejista.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/LojaVarejista.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/servico/ServicoFinanciamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/servico/ServicoFinanciamento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -336,14 +334,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00081" summary="Polimorfismo aula 07">
-      <option name="closed" value="true" />
-      <created>1693600519211</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1693600519211</updated>
-    </task>
     <task id="LOCAL-00082" summary="Polimorfismo aula 07">
       <option name="closed" value="true" />
       <created>1693608610476</created>
@@ -528,7 +518,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693863795792</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="Aula de interfaces 05 (Projeto financeira)">
+      <option name="closed" value="true" />
+      <created>1693864704444</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1693864704444</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="UnknownFeatures">

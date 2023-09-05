@@ -1,5 +1,8 @@
 package com.nesrux.financeira.modelo;
-public class Industria extends Empresa {
+
+import com.nesrux.financeira.repository.ClienteFinanciavel;
+
+public class Industria extends Empresa implements ClienteFinanciavel {
 
     public static final double PERCENTUAL_FATURAMENTO_LIMITE_CREDITO = 0.5;
     public static final double TAXA_ACRESCIMO_LIMITE_INDUSTRIA_SUSTENTAVEL = 1.2;

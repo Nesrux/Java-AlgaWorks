@@ -18,6 +18,6 @@ public class Principal {
         servicoFinanciamento.solicitarFinanciamento(funcionario, 10_000);
 
         //Numero teste é uma constante!
-        System.out.println(ClienteFinanciavel.numeroTeste);
+        System.out.println(ClienteFinanciavel.JUROS_ALTO_RISCO);
     }
 }

@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Aula de interfaces 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/interfaces/ClienteFinanciavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/interfaces/ClienteFinanciavel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -337,14 +336,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00091" summary="Desafio herança e polimorfismo aula 11">
-      <option name="closed" value="true" />
-      <created>1693686008078</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1693686008078</updated>
-    </task>
     <task id="LOCAL-00092" summary="Desafio completo!">
       <option name="closed" value="true" />
       <created>1693688157177</created>
@@ -529,7 +520,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694115651436</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="Aula de interfaces 10">
+      <option name="closed" value="true" />
+      <created>1694116964182</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1694116964182</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="UnknownFeatures">

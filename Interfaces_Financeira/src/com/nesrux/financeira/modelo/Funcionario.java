@@ -1,8 +1,9 @@
 package com.nesrux.financeira.modelo;
 
 import com.nesrux.financeira.interfaces.ClienteFinanciavel;
+import com.nesrux.financeira.interfaces.EntidadeBonificavel;
 
-public class Funcionario implements ClienteFinanciavel {
+public class Funcionario implements ClienteFinanciavel, EntidadeBonificavel {
     public static final int LIMITE_CREDITO_SALARIO = 5;
 
     private String nome;
@@ -32,5 +33,10 @@ public class Funcionario implements ClienteFinanciavel {
     @Override
     public double calcularLimiteAprovado() {
         return getSalarioMensal() * LIMITE_CREDITO_SALARIO;
+    }
+
+    @Override
+    public double calcularBonus(double percentualMetaAlcancada) {
+        return getSalarioMensal() * percentualMetaAlcancada / 100;
     }
 }

@@ -7,7 +7,7 @@ public class ServicoFinanciamento {
     public void solicitarFinanciamento(ClienteFinanciavel clienteFinanciavel, double valorSolicitado) {
         double limiteAprovado = clienteFinanciavel.calcularLimiteAprovado();
 
-        double jurosCalculado = clienteFinanciavel.calcularTaxaDeJuros(valorSolicitado);
+        double jurosCalculado = clienteFinanciavel.calcularJuros(valorSolicitado);
 
         if (limiteAprovado < valorSolicitado) {
             throw new RuntimeException(String.format(

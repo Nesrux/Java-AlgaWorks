@@ -1,9 +1,8 @@
 package com.nesrux.financeira.modelo;
 
-import com.nesrux.financeira.interfaces.ClienteFinanciavel;
 import com.nesrux.financeira.interfaces.EntidadeBonificavel;
 
-public class Funcionario implements ClienteFinanciavel, EntidadeBonificavel {
+public class Funcionario implements EntidadeBonificavel {
     public static final int LIMITE_CREDITO_SALARIO = 5;
 
     private String nome;

@@ -12,6 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Aula de interfaces 13">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/interfaces/EntidadeBonificavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/interfaces/EntidadeBonificavel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/Funcionario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,7 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.nesrux.financeira.Principal">
+  <component name="RunManager" selected="Application.Principal2">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Desafio_polimorfismo" />
@@ -108,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.nesrux.financeira.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nesrux.financeira.Principal" />
+    <configuration name="Principal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nesrux.financeira.Principal2" />
       <module name="Interfaces_Financeira" />
       <extension name="coverage">
         <pattern>
@@ -121,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassesAbistratas.com.nesrux.main1" />
-      <module name="Polimorfismo" />
+    <configuration name="com.nesrux.financeira.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nesrux.financeira.Principal" />
+      <module name="Interfaces_Financeira" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClassesAbistratas.com.nesrux.*" />
+          <option name="PATTERN" value="com.nesrux.financeira.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal2" />
         <item itemvalue="Application.com.nesrux.financeira.Principal" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.main2 (1)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.main1" />
       </list>
     </recent_temporary>
   </component>
@@ -335,14 +337,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00095" summary="Aula de interfaces 01">
-      <option name="closed" value="true" />
-      <created>1693774307313</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1693774307313</updated>
-    </task>
     <task id="LOCAL-00096" summary="Aula de interfaces 02">
       <option name="closed" value="true" />
       <created>1693776027941</created>
@@ -527,7 +521,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694117828758</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="Aula de interfaces 13">
+      <option name="closed" value="true" />
+      <created>1694118097973</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1694118097983</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="UnknownFeatures">

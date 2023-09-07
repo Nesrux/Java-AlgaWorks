@@ -1,6 +1,6 @@
 package com.nesrux.financeira.interfaces;
 
-public interface EntidadeBonificavel {
+public interface EntidadeBonificavel extends  ClienteFinanciavel {
 
     double calcularBonus(double percentualMetaAlcancada);
 }

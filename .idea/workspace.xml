@@ -12,6 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio interfaces">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio_Interfaces/src/com/nesrux/model/Caminhao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Interfaces/src/com/nesrux/model/Caminhao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio_Interfaces/src/com/nesrux/model/CarroParticular.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Interfaces/src/com/nesrux/model/CarroParticular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio_Interfaces/src/com/nesrux/model/VeiculoAutomotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Interfaces/src/com/nesrux/model/VeiculoAutomotor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -338,22 +341,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00098" summary="Aula de interfaces 03">
-      <option name="closed" value="true" />
-      <created>1693851376221</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1693851376221</updated>
-    </task>
-    <task id="LOCAL-00099" summary="Aula de interfaces 03">
-      <option name="closed" value="true" />
-      <created>1693851585794</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1693851585794</updated>
-    </task>
     <task id="LOCAL-00100" summary="Aula de interfaces 04">
       <option name="closed" value="true" />
       <created>1693861068642</created>
@@ -530,7 +517,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694126153890</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="Desafio interfaces">
+      <option name="closed" value="true" />
+      <created>1694126204667</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1694126204667</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Desafio interfaces">
+      <option name="closed" value="true" />
+      <created>1694126209029</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1694126209029</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="UnknownFeatures">

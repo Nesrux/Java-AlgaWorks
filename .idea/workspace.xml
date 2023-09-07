@@ -10,13 +10,9 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Aula de interfaces 08">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Aula de interfaces 09">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/interfaces/ClienteFinanciavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/interfaces/ClienteFinanciavel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/Fazenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/Fazenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/Industria.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/Industria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/LojaVarejista.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/modelo/LojaVarejista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/servico/ServicoFinanciamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces_Financeira/src/com/nesrux/financeira/servico/ServicoFinanciamento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -340,14 +336,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00088" summary="Herança/classesAbstratas aula 10">
-      <option name="closed" value="true" />
-      <created>1693673738697</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1693673738707</updated>
-    </task>
     <task id="LOCAL-00089" summary="Desafio herança e polimorfismo aula 11">
       <option name="closed" value="true" />
       <created>1693682411393</created>
@@ -532,7 +520,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693951708033</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="Aula de interfaces 09">
+      <option name="closed" value="true" />
+      <created>1694114986099</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1694114986100</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -587,7 +583,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="aula 07" />
     <MESSAGE value="aula 12" />
     <MESSAGE value="aula 14" />
     <MESSAGE value="Desafio heranca" />
@@ -612,7 +607,8 @@
     <MESSAGE value="Aula de interfaces 06-07" />
     <MESSAGE value="Aula de interfaces 07" />
     <MESSAGE value="Aula de interfaces 08" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula de interfaces 08" />
+    <MESSAGE value="Aula de interfaces 09" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula de interfaces 09" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

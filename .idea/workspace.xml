@@ -11,10 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio interfaces">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio_Interfaces/src/com/nesrux/model/Caminhao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Interfaces/src/com/nesrux/model/Caminhao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio_Interfaces/src/com/nesrux/model/CarroParticular.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Interfaces/src/com/nesrux/model/CarroParticular.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio_Interfaces/src/com/nesrux/model/VeiculoAutomotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Interfaces/src/com/nesrux/model/VeiculoAutomotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio_Interfaces/src/com/nesrux/model/ImovelResidencial.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Interfaces/src/com/nesrux/model/ImovelResidencial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,30 +338,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00100" summary="Aula de interfaces 04">
-      <option name="closed" value="true" />
-      <created>1693861068642</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1693861068642</updated>
-    </task>
-    <task id="LOCAL-00101" summary="Aula de interfaces 04">
-      <option name="closed" value="true" />
-      <created>1693861613537</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1693861613537</updated>
-    </task>
-    <task id="LOCAL-00102" summary="Aula de interfaces 04">
-      <option name="closed" value="true" />
-      <created>1693861754031</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1693861754031</updated>
-    </task>
     <task id="LOCAL-00103" summary="Aula de interfaces 05 (Projeto financeira)">
       <option name="closed" value="true" />
       <created>1693862967399</created>
@@ -533,7 +506,31 @@
       <option name="project" value="LOCAL" />
       <updated>1694126209029</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="Desafio interfaces">
+      <option name="closed" value="true" />
+      <created>1694126418858</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1694126418858</updated>
+    </task>
+    <task id="LOCAL-00125" summary="Desafio interfaces">
+      <option name="closed" value="true" />
+      <created>1694126426259</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1694126426259</updated>
+    </task>
+    <task id="LOCAL-00126" summary="Desafio interfaces">
+      <option name="closed" value="true" />
+      <created>1694126443699</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1694126443699</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="UnknownFeatures">

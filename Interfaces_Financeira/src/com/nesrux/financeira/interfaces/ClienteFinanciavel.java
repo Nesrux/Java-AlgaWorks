@@ -5,19 +5,19 @@ public interface ClienteFinanciavel {
     double calcularLimiteAprovado();
 
     default double calcularJuros(double valorSolicitado) {
-        if (isEmpresaPequena(valorSolicitado)) {
+        if (isEmpresaDePequenoValor(valorSolicitado)) {
             return 1.0;
-        } else if (IsEmpresaMedia(valorSolicitado)) {
+        } else if (IsEmpresaDeMedioValor(valorSolicitado)) {
             return 1.5;
         }
         return 2.0;
     }
 
-    private static boolean IsEmpresaMedia(double valorSolicitado) {
+    private static boolean IsEmpresaDeMedioValor(double valorSolicitado) {
         return valorSolicitado <= 1_000_000;
     }
 
-    private static boolean isEmpresaPequena(double valorSolicitado) {
+    private static boolean isEmpresaDePequenoValor(double valorSolicitado) {
         return valorSolicitado <= 100_000;
     }
 }

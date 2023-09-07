@@ -1,5 +1,6 @@
 package com.nesrux.financeira;
 
+import com.nesrux.financeira.interfaces.ClienteFinanciavel;
 import com.nesrux.financeira.modelo.Fazenda;
 import com.nesrux.financeira.modelo.Funcionario;
 import com.nesrux.financeira.modelo.Industria;
@@ -15,5 +16,8 @@ public class Principal {
         servicoFinanciamento.solicitarFinanciamento(fazenda, 600_000);
         servicoFinanciamento.solicitarFinanciamento(industria, 540_000);
         servicoFinanciamento.solicitarFinanciamento(funcionario, 10_000);
+
+        //Numero teste é uma constante!
+        System.out.println(ClienteFinanciavel.numeroTeste);
     }
 }

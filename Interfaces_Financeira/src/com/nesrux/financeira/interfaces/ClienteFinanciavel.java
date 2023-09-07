@@ -1,6 +1,11 @@
 package com.nesrux.financeira.interfaces;
 
 public interface ClienteFinanciavel {
+    //Automaticamente o compilador vai transformar esse int numero teste em
+    //Public static final int numeroTeste = 0
+    //é a mesma ideia de nao colocar abstract em interfaces
+
+    int numeroTeste = 12;
 
     double calcularLimiteAprovado();
 

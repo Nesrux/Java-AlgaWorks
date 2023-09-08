@@ -1,7 +1,8 @@
 package com.nesrux.locadora;
 
-public abstract class Locacao {
-    private final Notebook notebook;
+public class Locacao {
+    private Notebook notebook;
+    private Precificacao precificacao;
 
     public Locacao(Notebook notebook) {
         this.notebook = notebook;
@@ -11,5 +12,13 @@ public abstract class Locacao {
         return notebook;
     }
 
-    public abstract double calcularValorDevido(int horasUtilizadas);
+    public Precificacao getPrecificacao() {
+        return precificacao;
+    }
+
+    public double calcularValorDevido(int horasUtilizadas) {
+        double valorTotal = getPrecificacao().calcularValorTotal(getNotebook(), horasUtilizadas);
+        return valorTotal;
+    }
+
 }

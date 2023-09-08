@@ -12,13 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Boas praticas com interfaces aula 01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoasPraticas_interfaces/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/BoasPraticas_interfaces/src/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoasPraticas_interfaces/src/com/nesrux/locadora/LocacaoPorDia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoasPraticas_interfaces/src/com/nesrux/locadora/LocacaoPorDiaSeguro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoasPraticas_interfaces/src/com/nesrux/locadora/LocacaoPorDiaSeguroItau.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoasPraticas_interfaces/src/com/nesrux/locadora/LocacaoPorHora.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoasPraticas_interfaces/src/com/nesrux/locadora/LocacaoPorHoraSeguro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoasPraticas_interfaces/src/com/nesrux/locadora/LocacaoPorHoraSeguroItau.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoasPraticas_interfaces/src/com/nesrux/locadora/Locacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/BoasPraticas_interfaces/src/com/nesrux/locadora/Locacao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -310,22 +304,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00116" summary="Aula de interfaces 11-12">
-      <option name="closed" value="true" />
-      <created>1694117161550</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1694117161550</updated>
-    </task>
-    <task id="LOCAL-00117" summary="Aula de interfaces 12">
-      <option name="closed" value="true" />
-      <created>1694117308593</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1694117308593</updated>
-    </task>
     <task id="LOCAL-00118" summary="Aula de interfaces 13">
       <option name="closed" value="true" />
       <created>1694117828758</created>
@@ -502,7 +480,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694198048343</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="Boas praticas com interfaces aula 01">
+      <option name="closed" value="true" />
+      <created>1694200196153</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1694200196153</updated>
+    </task>
+    <task id="LOCAL-00141" summary="Boas praticas com interfaces aula 02">
+      <option name="closed" value="true" />
+      <created>1694200205706</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1694200205706</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="UnknownFeatures">

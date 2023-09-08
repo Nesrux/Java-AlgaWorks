@@ -12,6 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Boas praticas com interfaces aula 01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoasPraticas_interfaces/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/BoasPraticas_interfaces/src/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,14 +303,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00113" summary="Aula de interfaces 10">
-      <option name="closed" value="true" />
-      <created>1694115506612</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1694115506612</updated>
-    </task>
     <task id="LOCAL-00114" summary="Aula de interfaces 10">
       <option name="closed" value="true" />
       <created>1694115651436</created>
@@ -494,7 +487,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694194808371</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="Boas praticas com interfaces aula 01">
+      <option name="closed" value="true" />
+      <created>1694197457885</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1694197457885</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -603,11 +604,6 @@
           <url>file://$PROJECT_DIR$/Desafio_Heranca/src/Main.java</url>
           <line>6</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/BoasPraticas_interfaces/src/Principal.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

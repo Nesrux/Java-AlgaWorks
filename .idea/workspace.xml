@@ -11,7 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio interfaces">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Desafio_Interfaces/src/com/nesrux/model/ImovelResidencial.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Interfaces/src/com/nesrux/model/ImovelResidencial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio_Interfaces/src/com/nesrux/service/ServicoPropostaSeguro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Interfaces/src/com/nesrux/service/ServicoPropostaSeguro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,24 +53,24 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
-    "Notification.DoNotAsk-Vcs Important Messages": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "azul-17",
-    "last_opened_file_path": "C:/Users/jucaj/OneDrive/Área de Trabalho/Programacao/java_EJA/encapsulamento/src/aula07",
-    "settings.editor.selected.configurable": "copyright"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-Vcs Important Messages&quot;: &quot;VCS important messages&quot;,
+    &quot;Notification.DoNotAsk-Vcs Important Messages&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;azul-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jucaj/OneDrive/Área de Trabalho/Programacao/java_EJA/encapsulamento/src/aula07&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\encapsulamento\src\aula07" />
@@ -92,6 +94,8 @@
   </component>
   <component name="RunManager" selected="Application.Principal">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="azul-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.nesrux.Principal" />
       <extension name="coverage">
         <pattern>
@@ -315,14 +319,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00106" summary="Aula de interfaces 06-07">
-      <option name="closed" value="true" />
-      <created>1693938675575</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1693938675575</updated>
-    </task>
     <task id="LOCAL-00107" summary="Aula de interfaces 07">
       <option name="closed" value="true" />
       <created>1693939152681</created>
@@ -507,7 +503,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694128524052</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="Desafio interfaces">
+      <option name="closed" value="true" />
+      <created>1694128909169</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1694128909169</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="UnknownFeatures">

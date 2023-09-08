@@ -5,8 +5,9 @@ public class Principal {
 
         Notebook notebook = new Notebook("Idea Pad ryzen 5 8gb ram", 5, 100);
         Precificacao precificacao = new PrecificacaoPorDia();
+        Seguro seguro = new SeguroItau();
 
-        Locacao locacao = new Locacao(notebook, precificacao);
+        Locacao locacao = new Locacao(notebook, precificacao, seguro);
         System.out.println(locacao.calcularValorDevido(10));
 
     }

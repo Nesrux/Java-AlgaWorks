@@ -12,7 +12,7 @@ public class Principal {
         Caminhao caminhao = new Caminhao("Honda", 150_000, 2010, 10);
         ServicoPropostaSeguro servico = new ServicoPropostaSeguro();
 
-         servico.emitir(imovel);
+        servico.emitir(imovel);
         servico.emitir(carro);
         servico.emitir(caminhao);
     }

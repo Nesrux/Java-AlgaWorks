@@ -6,8 +6,8 @@ public class LocacaoPorDia extends Locacao {
     }
 
     @Override
-    public double calcularValorDevido(int horasUtilizadas) {
-        double dias = Math.ceil(horasUtilizadas / 24d);
+    public double calcularValorDevido(int diasUtilizados) {
+        double dias = Math.ceil(diasUtilizados / 24d);
 
         return getNotebook().getPrecoDia() * dias;
     }

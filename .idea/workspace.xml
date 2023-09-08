@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Boas praticas com interfaces aula 01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoasPraticas_interfaces/src/com/nesrux/locadora/LocacaoPorDia.java" beforeDir="false" afterPath="$PROJECT_DIR$/BoasPraticas_interfaces/src/com/nesrux/locadora/LocacaoPorDia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,14 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Principal (1)">
+    <configuration name="Principal (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Principal" />
+      <module name="BoasPraticas_interfaces" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nesrux.Principal" />
       <module name="Desafio_Interfaces" />
@@ -107,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal (1)" />
         <item itemvalue="Application.Principal" />
       </list>
     </recent_temporary>
@@ -295,14 +302,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00112" summary="Aula de interfaces 09">
-      <option name="closed" value="true" />
-      <created>1694114986099</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1694114986100</updated>
-    </task>
     <task id="LOCAL-00113" summary="Aula de interfaces 10">
       <option name="closed" value="true" />
       <created>1694115506612</created>
@@ -487,7 +486,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694194476941</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="Boas praticas com interfaces aula 01">
+      <option name="closed" value="true" />
+      <created>1694194808371</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1694194808371</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -596,6 +603,11 @@
           <url>file://$PROJECT_DIR$/Desafio_Heranca/src/Main.java</url>
           <line>6</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/BoasPraticas_interfaces/src/Principal.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

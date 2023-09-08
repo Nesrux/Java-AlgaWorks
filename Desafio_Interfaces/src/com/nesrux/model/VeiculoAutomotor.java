@@ -35,6 +35,5 @@ public abstract class VeiculoAutomotor implements BemSeguravel {
 
     public void setAnoFabricacao(int anoFabricacao) {
         this.anoFabricacao = anoFabricacao;
-
     }
 }

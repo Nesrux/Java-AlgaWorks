@@ -9,7 +9,5 @@ public class ServicoPropostaSeguro {
         System.out.println("-------------------");
         System.out.println(bemSeguravel.descrever());
         System.out.printf("Premio: %.2f", bemSeguravel.calcularValorPremio());
-
-
     }
 }

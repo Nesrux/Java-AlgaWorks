@@ -8,6 +8,6 @@ public class Principal {
         ImovelResidencial imovel = new ImovelResidencial(100_000, 100);
         ServicoPropostaSeguro servico = new ServicoPropostaSeguro();
 
-        System.out.println(imovel.calcularValorPremio());
+        servico.emitir(imovel);
     }
 }

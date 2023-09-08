@@ -10,12 +10,15 @@ public class Caminhao extends VeiculoAutomotor {
 
     @Override
     public double calcularValorPremio() {
-        return 0;
+        var valoPremio = getValorMercado() * 0.02;
+        valoPremio += getQuantidadeEixos() * 50;
+
+        return valoPremio;
     }
 
     @Override
     public String descrever() {
-        return null;
+        return String.format("Caminhão com o valor de mercado R$%.2f, e com %d eixos", getValorMercado(), getQuantidadeEixos());
     }
 
     public int getQuantidadeEixos() {

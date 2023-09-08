@@ -1,17 +1,16 @@
+import com.nesrux.locadora.Locacao;
 import com.nesrux.locadora.Notebook;
+import com.nesrux.locadora.Precificacao;
+import com.nesrux.locadora.PrecificacaoPorHora;
 
 public class Principal {
     public static void main(String[] args) {
+
         Notebook notebook = new Notebook("Idea Pad ryzen 5 8gb ram", 5, 100);
+        Precificacao precificacao = new PrecificacaoPorHora();
 
-        //LocacaoPorDia dia = new LocacaoPorDiaSeguro(notebook);
-        //var locacaoDia = dia.calcularValorDevido(10);
+        Locacao locacao = new Locacao(notebook, precificacao);
+        System.out.println(locacao.calcularValorDevido(10));
 
-        //LocacaoPorHora hora = new LocacaoPorHora(notebook);
-        //var locacaoHora = hora.calcularValorDevido(10);
-
-
-       // System.out.println("O valor a pagar é (dias) : " + locacaoDia);
-       // System.out.println("O valor a pagar é (horas) : " + locacaoHora);
     }
 }

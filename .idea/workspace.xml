@@ -10,8 +10,10 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Boas praticas com interfaces aula 01">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Boas praticas com interfaces aula 02">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoasPraticas_interfaces/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/BoasPraticas_interfaces/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoasPraticas_interfaces/src/com/nesrux/locadora/Locacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/BoasPraticas_interfaces/src/com/nesrux/locadora/Locacao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,14 +305,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00119" summary="Aula de interfaces 13">
-      <option name="closed" value="true" />
-      <created>1694118097973</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1694118097983</updated>
-    </task>
     <task id="LOCAL-00120" summary="Aula de interfaces 14">
       <option name="closed" value="true" />
       <created>1694125755058</created>
@@ -495,7 +489,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694200848620</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="Boas praticas com interfaces aula 02">
+      <option name="closed" value="true" />
+      <created>1694200968139</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1694200968139</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -552,7 +554,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Polimorfismo aula 04" />
     <MESSAGE value="Polimorfismo aula 06 Importante!!!" />
     <MESSAGE value="Polimorfismo aula 07" />
     <MESSAGE value="Polimorfismo aula  01-07 refatoração" />
@@ -577,7 +578,8 @@
     <MESSAGE value="Desafio interfaces" />
     <MESSAGE value="Desafio interfaces (Completo)" />
     <MESSAGE value="Boas praticas com interfaces aula 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="Boas praticas com interfaces aula 01" />
+    <MESSAGE value="Boas praticas com interfaces aula 02" />
+    <option name="LAST_COMMIT_MESSAGE" value="Boas praticas com interfaces aula 02" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

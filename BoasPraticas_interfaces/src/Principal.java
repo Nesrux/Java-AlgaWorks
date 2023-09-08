@@ -11,7 +11,7 @@ public class Principal {
         //var locacaoHora = hora.calcularValorDevido(10);
 
 
-        System.out.println("O valor a pagar é (dias) : " + locacaoDia);
-        System.out.println("O valor a pagar é (horas) : " + locacaoHora);
+       // System.out.println("O valor a pagar é (dias) : " + locacaoDia);
+       // System.out.println("O valor a pagar é (horas) : " + locacaoHora);
     }
 }

@@ -15,7 +15,7 @@ public class Principal2 {
 
     private static void comprar(Produto produto) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("quantidade: ");
+        System.out.print("quantidade: ");
         int quantidade = sc.nextInt();
         efetuarBaixaEstoque(produto, quantidade);
         sc.close();

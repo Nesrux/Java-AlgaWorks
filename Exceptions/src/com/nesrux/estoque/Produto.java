@@ -1,5 +1,7 @@
 package com.nesrux.estoque;
 
+import java.util.Objects;
+
 public class Produto {
     private String nome;
     private int quantidadeEstoque;
@@ -7,8 +9,6 @@ public class Produto {
 
     public Produto(String nome) {
         setNome(nome);
-
-
     }
 
     public String getNome() {
@@ -16,9 +16,8 @@ public class Produto {
     }
 
     public void setNome(String nome) {
-        if (nome == null) {
-            throw new NullPointerException("O nome do produto não pode ser nulo ");
-        }
+        Objects.requireNonNull(nome, "Nome dese ser informado");
+
         this.nome = nome;
     }
 

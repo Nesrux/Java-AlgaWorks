@@ -17,6 +17,7 @@ public class Principal2 {
         Scanner sc = new Scanner(System.in);
         System.out.print("quantidade: ");
         int quantidade = sc.nextInt();
+
         try {
             efetuarBaixaEstoque(produto, quantidade);
         } catch (IllegalArgumentException e) {

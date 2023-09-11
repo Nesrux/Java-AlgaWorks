@@ -31,7 +31,7 @@ public class Principal2 {
                 System.out.println("Produto ativado!");
                 comprar(produto);
             } else {
-                System.out.println("Ok, produto não ativado, programa encerrado!");
+                System.out.println("Compra não pode ser realizada");
             }
         }
 

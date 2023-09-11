@@ -25,6 +25,7 @@ public class Principal2 {
         }
 
         sc.close();
+        System.out.println("Compra feita com sucesso!");
     }
 
     private static void efetuarBaixaEstoque(Produto produto, int quantidade) {

@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Principal2 {
     public static void main(String[] args) {
         Produto produto = new Produto("Cadeira gamer");
-        produto.ativar();
+        // produto.ativar();
         produto.setQuantidadeEstoque(10);
 
         comprar(produto);
@@ -22,6 +22,16 @@ public class Principal2 {
         } catch (IllegalArgumentException e) {
             System.out.println("Não foi possível realizar esta operação, pois foi informado valor inválido");
             comprar(produto);
+        } catch (IllegalStateException ex) {
+            System.out.println("O produto não esta ativo, desaja ativar? ");
+
+            if (sc.nextBoolean()) {
+                produto.ativar();
+                System.out.println("Produto ativado!");
+                comprar(produto);
+            } else {
+                System.out.println("Ok, produto não ativado, programa encerrado!");
+            }
         }
 
         sc.close();

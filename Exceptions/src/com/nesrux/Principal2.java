@@ -17,17 +17,18 @@ public class Principal2 {
         Scanner sc = new Scanner(System.in);
         System.out.print("quantidade: ");
         int quantidade = sc.nextInt();
+        try {
+            efetuarBaixaEstoque(produto, quantidade);
+        } catch (IllegalArgumentException e) {
+            System.out.println("Não foi possível realizar esta operação, pois foi informado valor inválido");
+            comprar(produto);
+        }
 
-        efetuarBaixaEstoque(produto, quantidade);
         sc.close();
     }
 
     private static void efetuarBaixaEstoque(Produto produto, int quantidade) {
-        try {
-            produto.removerDoEstoque(quantidade);
-            System.out.printf("%d unidades retiradas do estoque, estoque atual: %d%n", quantidade, produto.getQuantidadeEstoque());
-        } catch (Exception e) {
-            System.out.println("Deu ruim: " + e.getMessage());
-        }
+        produto.removerDoEstoque(quantidade);
+        System.out.printf("%d unidades retiradas do estoque, estoque atual: %d%n", quantidade, produto.getQuantidadeEstoque());
     }
 }

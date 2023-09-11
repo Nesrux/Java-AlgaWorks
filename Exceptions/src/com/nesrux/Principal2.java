@@ -17,12 +17,17 @@ public class Principal2 {
         Scanner sc = new Scanner(System.in);
         System.out.print("quantidade: ");
         int quantidade = sc.nextInt();
+
         efetuarBaixaEstoque(produto, quantidade);
         sc.close();
     }
 
     private static void efetuarBaixaEstoque(Produto produto, int quantidade) {
-        produto.removerDoEstoque(quantidade);
-        System.out.printf("%d unidades retiradas do estoque, estoque atual: %d%n", quantidade, produto.getQuantidadeEstoque());
+        try {
+            produto.removerDoEstoque(quantidade);
+            System.out.printf("%d unidades retiradas do estoque, estoque atual: %d%n", quantidade, produto.getQuantidadeEstoque());
+        } catch (Exception e) {
+            System.out.println("Deu ruim: " + e.getMessage());
+        }
     }
 }

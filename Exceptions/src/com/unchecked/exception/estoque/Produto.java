@@ -47,7 +47,7 @@ public class Produto {
 
     public void removerDoEstoque(int quantidade) {
         if (quantidade < 0) {
-            throw new IllegalArgumentException("O argumento quantidade não pode ser negativo!");
+            throw new IllegalArgumentException("quantidade não pode ser negativa!");
         }
         if (isInanivo()) {
             throw new ProdutoInativoException("Não é possivel retitar o produto do estoque, pois ele esta inativo!");

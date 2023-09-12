@@ -2,6 +2,7 @@ package com.unchecked;
 
 import com.unchecked.exception.estoque.Produto;
 import com.unchecked.exception.estoque.ProdutoInativoException;
+import com.unchecked.exception.estoque.ProdutoSemEstoqueException;
 
 import java.util.Scanner;
 
@@ -21,12 +22,13 @@ public class Principal2 {
 
         try {
             efetuarBaixaEstoque(produto, quantidade);
-        } catch (IllegalArgumentException e) {
-            System.out.println("Não foi possível realizar esta operação, pois foi informado valor inválido");
+        } catch (ProdutoSemEstoqueException e) {
+            System.out.println("Não foi possível realizar esta operação, não existe estoque deste produto");
             comprar(produto);
+        } catch (IllegalArgumentException ila) {
+            System.out.println(ila.getMessage());
         } catch (ProdutoInativoException ex) {
             System.out.println("O produto não esta ativo, desaja ativar? ");
-
             if (sc.nextBoolean()) {
                 produto.ativar();
                 System.out.println("Produto ativado!");

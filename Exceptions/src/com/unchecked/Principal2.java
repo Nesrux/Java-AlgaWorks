@@ -1,6 +1,7 @@
 package com.unchecked;
 
 import com.unchecked.exception.estoque.Produto;
+import com.unchecked.exception.estoque.ProdutoInativoException;
 
 import java.util.Scanner;
 
@@ -23,7 +24,7 @@ public class Principal2 {
         } catch (IllegalArgumentException e) {
             System.out.println("Não foi possível realizar esta operação, pois foi informado valor inválido");
             comprar(produto);
-        } catch (IllegalStateException ex) {
+        } catch (ProdutoInativoException ex) {
             System.out.println("O produto não esta ativo, desaja ativar? ");
 
             if (sc.nextBoolean()) {
@@ -36,7 +37,6 @@ public class Principal2 {
         }
 
         sc.close();
-        System.out.println("Compra feita com sucesso!");
     }
 
     private static void efetuarBaixaEstoque(Produto produto, int quantidade) {

@@ -50,7 +50,7 @@ public class Produto {
             throw new IllegalArgumentException("O argumento quantidade não pode ser negativo!");
         }
         if (isInanivo()) {
-            throw new IllegalStateException("Não é possivel retitar o produto do estoque, pois ele esta inativo!");
+            throw new ProdutoInativoException("Não é possivel retitar o produto do estoque, pois ele esta inativo!");
         }
         if (getQuantidadeEstoque() - quantidade < 0) {
             throw new IllegalArgumentException("Não é possivel realizar esta operação," +

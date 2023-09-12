@@ -12,7 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Exceptions aula 08">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exceptions/src/com/checked/exceptions/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/com/checked/exceptions/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exceptions/src/com/unchecked/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/com/unchecked/Principal2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exceptions/src/com/unchecked/exception/estoque/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/com/unchecked/exception/estoque/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,7 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.checked.exceptions.Principal">
+  <component name="RunManager" selected="Application.Principal2">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.unchecked.Principal" />
       <module name="Exceptions" />
@@ -134,8 +135,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.checked.exceptions.Principal" />
         <item itemvalue="Application.Principal2" />
+        <item itemvalue="Application.com.checked.exceptions.Principal" />
         <item itemvalue="Application.Principal" />
       </list>
     </recent_temporary>
@@ -324,14 +325,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00138" summary="Boas praticas com interfaces aula 01">
-      <option name="closed" value="true" />
-      <created>1694198015783</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1694198015783</updated>
-    </task>
     <task id="LOCAL-00139" summary="Boas praticas com interfaces aula 01">
       <option name="closed" value="true" />
       <created>1694198048343</created>
@@ -516,7 +509,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694536007793</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="Exceptions aula 08">
+      <option name="closed" value="true" />
+      <created>1694536944053</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1694536944053</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="UnknownFeatures">

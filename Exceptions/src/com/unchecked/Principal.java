@@ -1,13 +1,18 @@
 package com.unchecked;
 
 import com.unchecked.exception.estoque.Produto;
+import com.unchecked.exception.estoque.ProdutoSemEstoqueException;
 
 public class Principal {
     public static void main(String[] args) {
         Produto produto = new Produto("Motorola moto G 10");
         produto.setQuantidadeEstoque(10);
         produto.ativar();
-        produto.removerDoEstoque(10);
+        try {
+            produto.removerDoEstoque(10);
+        } catch (ProdutoSemEstoqueException e) {
+            throw new RuntimeException(e);
+        }
 
         System.out.println("Estoque: " + produto.getQuantidadeEstoque());
     }

@@ -41,7 +41,7 @@ public class Principal2 {
         sc.close();
     }
 
-    private static void efetuarBaixaEstoque(Produto produto, int quantidade) {
+    private static void efetuarBaixaEstoque(Produto produto, int quantidade) throws ProdutoSemEstoqueException {
         produto.removerDoEstoque(quantidade);
         System.out.printf("%d unidades retiradas do estoque, estoque atual: %d%n", quantidade, produto.getQuantidadeEstoque());
     }

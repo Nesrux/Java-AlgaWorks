@@ -45,7 +45,7 @@ public class Produto {
         this.ativo = false;
     }
 
-    public void removerDoEstoque(int quantidade) {
+    public void removerDoEstoque(int quantidade) throws ProdutoSemEstoqueException {
         if (quantidade < 0) {
             throw new IllegalArgumentException("quantidade não pode ser negativa!");
         }

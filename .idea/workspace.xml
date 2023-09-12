@@ -10,8 +10,9 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Exceptions aula 06">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Exceptions aula 08">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exceptions/src/com/checked/exceptions/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/com/checked/exceptions/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,7 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Principal2">
+  <component name="RunManager" selected="Application.com.checked.exceptions.Principal">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.unchecked.Principal" />
       <module name="Exceptions" />
@@ -118,8 +119,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.checked.exceptions.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.checked.exceptions.Principal" />
+      <module name="Exceptions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.checked.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.checked.exceptions.Principal" />
         <item itemvalue="Application.Principal2" />
         <item itemvalue="Application.Principal" />
       </list>
@@ -309,14 +324,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00136" summary="Boas praticas com interfaces aula 01">
-      <option name="closed" value="true" />
-      <created>1694194808371</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1694194808371</updated>
-    </task>
     <task id="LOCAL-00137" summary="Boas praticas com interfaces aula 01">
       <option name="closed" value="true" />
       <created>1694197457885</created>
@@ -501,7 +508,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694473473766</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="Exceptions aula 08">
+      <option name="closed" value="true" />
+      <created>1694535567081</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1694535567081</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -559,7 +574,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Desafio herança e polimorfismo aula 11" />
     <MESSAGE value="Desafio completo!" />
     <MESSAGE value="Aula de interfaces 01" />
     <MESSAGE value="Aula de interfaces 02" />
@@ -584,7 +598,8 @@
     <MESSAGE value="Exceptions aula 04" />
     <MESSAGE value="Exceptions aula 05" />
     <MESSAGE value="Exceptions aula 06" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exceptions aula 06" />
+    <MESSAGE value="Exceptions aula 08" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exceptions aula 08" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -611,6 +626,11 @@
           <url>file://$PROJECT_DIR$/Desafio_Heranca/src/Main.java</url>
           <line>6</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Exceptions/src/com/checked/exceptions/Principal.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

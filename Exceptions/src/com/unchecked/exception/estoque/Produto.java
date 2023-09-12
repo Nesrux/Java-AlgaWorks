@@ -1,4 +1,4 @@
-package com.nesrux.estoque;
+package com.unchecked.exception.estoque;
 
 import java.util.Objects;
 

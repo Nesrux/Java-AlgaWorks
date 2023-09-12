@@ -1,6 +1,6 @@
-package com.nesrux;
+package com.unchecked;
 
-import com.nesrux.estoque.Produto;
+import com.unchecked.exception.estoque.Produto;
 
 import java.util.Scanner;
 

@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Exceptions aula 06">
-      <change beforePath="$PROJECT_DIR$/Exceptions/src/com/nesrux/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/com/nesrux/Principal2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,11 +93,11 @@
   </component>
   <component name="RunManager" selected="Application.Principal2">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nesrux.Principal" />
+      <option name="MAIN_CLASS_NAME" value="com.unchecked.Principal" />
       <module name="Exceptions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nesrux.*" />
+          <option name="PATTERN" value="com.unchecked.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +106,11 @@
       </method>
     </configuration>
     <configuration name="Principal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nesrux.Principal2" />
+      <option name="MAIN_CLASS_NAME" value="com.unchecked.Principal2" />
       <module name="Exceptions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nesrux.*" />
+          <option name="PATTERN" value="com.unchecked.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,14 +309,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00135" summary="Boas praticas com interfaces aula 01">
-      <option name="closed" value="true" />
-      <created>1694194476941</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1694194476941</updated>
-    </task>
     <task id="LOCAL-00136" summary="Boas praticas com interfaces aula 01">
       <option name="closed" value="true" />
       <created>1694194808371</created>
@@ -501,7 +493,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694473442382</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="Exceptions aula 06">
+      <option name="closed" value="true" />
+      <created>1694473473766</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1694473473766</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="UnknownFeatures">

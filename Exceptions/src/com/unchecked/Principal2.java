@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Principal2 {
     public static void main(String[] args) {
         Produto produto = new Produto("Cadeira gamer");
-        // produto.ativar();
+        produto.ativar();
         produto.setQuantidadeEstoque(10);
 
         comprar(produto);
@@ -23,7 +23,7 @@ public class Principal2 {
         try {
             efetuarBaixaEstoque(produto, quantidade);
         } catch (ProdutoSemEstoqueException e) {
-            System.out.println("Não foi possível realizar esta operação, não existe estoque deste produto");
+            System.out.println(e.getMessage());
             comprar(produto);
         } catch (IllegalArgumentException ila) {
             System.out.println(ila.getMessage());

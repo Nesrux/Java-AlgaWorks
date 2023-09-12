@@ -6,4 +6,5 @@ public class ProdutoInativoException extends RuntimeException {
         super(mensagem);
     }
 
+
 }

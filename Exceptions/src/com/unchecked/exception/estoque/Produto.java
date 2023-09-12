@@ -53,8 +53,7 @@ public class Produto {
             throw new ProdutoInativoException("Não é possivel retitar o produto do estoque, pois ele esta inativo!");
         }
         if (getQuantidadeEstoque() - quantidade < 0) {
-            throw new ProdutoSemEstoqueException("Não é possivel realizar esta operação," +
-                    " pois o estoque deste produto ficara negativo");
+            throw new ProdutoSemEstoqueException(getQuantidadeEstoque());
         }
         setQuantidadeEstoque(getQuantidadeEstoque() - quantidade);
     }

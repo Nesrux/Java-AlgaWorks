@@ -324,14 +324,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00137" summary="Boas praticas com interfaces aula 01">
-      <option name="closed" value="true" />
-      <created>1694197457885</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1694197457885</updated>
-    </task>
     <task id="LOCAL-00138" summary="Boas praticas com interfaces aula 01">
       <option name="closed" value="true" />
       <created>1694198015783</created>
@@ -516,7 +508,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694535567081</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="Exceptions aula 08">
+      <option name="closed" value="true" />
+      <created>1694536007793</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1694536007793</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="UnknownFeatures">

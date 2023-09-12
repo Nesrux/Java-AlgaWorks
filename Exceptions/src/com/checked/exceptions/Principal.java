@@ -9,5 +9,6 @@ public class Principal {
         Path caminho = Path.of("C:\\Users\\jucaj\\Downloads\\teste.txt");
 
         Files.createFile(caminho);
+        //Sou obrigado a tratar a IOException ou relancar ela;
     }
 }

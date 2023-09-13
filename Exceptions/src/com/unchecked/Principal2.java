@@ -26,6 +26,7 @@ public class Principal2 {
             efetuarBaixaEstoque(produto, quantidade);
         } catch (BaixaEstoqueException e) {
             System.out.println("Erro: " + e.getMessage());
+            e.printStackTrace();
         }
 
 
@@ -35,9 +36,11 @@ public class Principal2 {
     private static void efetuarBaixaEstoque(Produto produto, int quantidade) throws BaixaEstoqueException {
         try {
             produto.removerDoEstoque(quantidade);
-            System.out.printf("%d unidades retiradas do estoque, estoque atual: %d%n", quantidade, produto.getQuantidadeEstoque());
+            System.out.printf("%d unidades retiradas do estoque, estoque atual: %d%n", quantidade,
+                    produto.getQuantidadeEstoque());
+
         } catch (ProdutoException | IllegalArgumentException e) {
-            throw new BaixaEstoqueException(e.getMessage());
+            throw new BaixaEstoqueException(e.getMessage(), e);
         }
     }
 }

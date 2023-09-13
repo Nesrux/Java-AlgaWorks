@@ -1,7 +1,7 @@
 package com.unchecked;
 
 import com.unchecked.exception.estoque.Produto;
-import com.unchecked.exception.estoque.ProdutoSemEstoqueException;
+import com.unchecked.exception.estoque.exceptions.ProdutoSemEstoqueException;
 
 public class Principal {
     public static void main(String[] args) {

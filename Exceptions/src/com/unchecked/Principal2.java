@@ -1,8 +1,8 @@
 package com.unchecked;
 
 import com.unchecked.exception.estoque.Produto;
-import com.unchecked.exception.estoque.ProdutoInativoException;
-import com.unchecked.exception.estoque.ProdutoSemEstoqueException;
+import com.unchecked.exception.estoque.exceptions.ProdutoInativoException;
+import com.unchecked.exception.estoque.exceptions.ProdutoSemEstoqueException;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
-package com.unchecked.exception.estoque;
+package com.unchecked.exception.estoque.exceptions;
 
-public class ProdutoSemEstoqueException extends Exception {
+public class ProdutoSemEstoqueException extends ProdutoException {
     public ProdutoSemEstoqueException(String message) {
         super(message);
     }

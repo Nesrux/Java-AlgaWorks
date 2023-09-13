@@ -1,5 +1,8 @@
 package com.unchecked.exception.estoque;
 
+import com.unchecked.exception.estoque.exceptions.ProdutoInativoException;
+import com.unchecked.exception.estoque.exceptions.ProdutoSemEstoqueException;
+
 import java.util.Objects;
 
 public class Produto {

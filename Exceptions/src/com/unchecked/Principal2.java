@@ -25,22 +25,9 @@ public class Principal2 {
         try {
             efetuarBaixaEstoque(produto, quantidade);
         } catch (BaixaEstoqueException e) {
-            if (produto.isInanivo()) {
-                System.out.println("o produto esta inativo, deseja ativalo ? true : false");
-                if (sc.nextBoolean()) {
-                    produto.ativar();
-                    comprar(produto);
-                }
-                if (produto.getQuantidadeEstoque() - quantidade < 0) {
-                    System.out.println("Não foi possivel realizar esta operação, deseja tentar novamente ?");
-                    if (sc.nextBoolean()) {
-                        comprar(produto);
-                    }
-                }
-            }
-        } catch (IllegalArgumentException ila) {
-            System.out.println(ila.getMessage());
+            System.out.println("Erro: " + e.getMessage());
         }
+
 
         sc.close();
     }

@@ -7,6 +7,6 @@ public class ProdutoSemEstoqueException extends ProdutoException {
 
     public ProdutoSemEstoqueException(int qtda) {
         this(String.format("Não é possivel realizar esta operação, pois o estoque deste produto ficara negativo" +
-                "atualmente no estoque tem %d", qtda));
+                " atualmente no estoque existe %d unidades desse produto", qtda));
     }
 }

@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Principal2 {
     public static void main(String[] args) {
         Produto produto = new Produto("Cadeira gamer");
-        //   produto.ativar();
+        produto.ativar();
         produto.setQuantidadeEstoque(10);
 
         comprar(produto);
@@ -31,13 +31,13 @@ public class Principal2 {
                     produto.ativar();
                     comprar(produto);
                 }
+                if (produto.getQuantidadeEstoque() - quantidade < 0) {
+                    System.out.println("Não foi possivel realizar esta operação, deseja tentar novamente ?");
+                    if (sc.nextBoolean()) {
+                        comprar(produto);
+                    }
+                }
             }
-            System.out.println("o produto esta sem estoque, deseja fazer outra operação ?");
-            if (sc.nextBoolean()) {
-                comprar(produto);
-            }
-            throw new RuntimeException(e.getMessage());
-
         } catch (IllegalArgumentException ila) {
             System.out.println(ila.getMessage());
         }

@@ -1,6 +1,7 @@
 package com.unchecked;
 
 import com.unchecked.exception.estoque.Produto;
+import com.unchecked.exception.estoque.exceptions.ProdutoInativoException;
 import com.unchecked.exception.estoque.exceptions.ProdutoSemEstoqueException;
 
 public class Principal {
@@ -10,7 +11,7 @@ public class Principal {
         produto.ativar();
         try {
             produto.removerDoEstoque(10);
-        } catch (ProdutoSemEstoqueException e) {
+        } catch (ProdutoSemEstoqueException | ProdutoInativoException e) {
             throw new RuntimeException(e);
         }
 

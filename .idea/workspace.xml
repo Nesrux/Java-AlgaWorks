@@ -10,13 +10,12 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Exceptions aula 11">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Exceptions aula 12">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exceptions/src/com/unchecked/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/com/unchecked/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exceptions/src/com/unchecked/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/com/unchecked/Principal2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exceptions/src/com/unchecked/exception/estoque/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/com/unchecked/exception/estoque/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exceptions/src/com/unchecked/exception/estoque/ProdutoInativoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/com/unchecked/exception/estoque/exceptions/ProdutoInativoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exceptions/src/com/unchecked/exception/estoque/ProdutoSemEstoqueException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/com/unchecked/exception/estoque/exceptions/ProdutoSemEstoqueException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exceptions/src/com/unchecked/exception/estoque/exceptions/ProdutoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/com/unchecked/exception/estoque/exceptions/ProdutoException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -328,14 +327,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00144" summary="Boas praticas com interfaces aula 02">
-      <option name="closed" value="true" />
-      <created>1694201109855</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1694201109855</updated>
-    </task>
     <task id="LOCAL-00145" summary="Boas praticas com interfaces aula 02">
       <option name="closed" value="true" />
       <created>1694201377160</created>
@@ -520,7 +511,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694556050484</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="Exceptions aula 12">
+      <option name="closed" value="true" />
+      <created>1694637932079</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1694637932079</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -578,7 +577,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aula de interfaces 03" />
     <MESSAGE value="Aula de interfaces 04" />
     <MESSAGE value="Aula de interfaces 05 (Projeto financeira)" />
     <MESSAGE value="Aula de interfaces 06-07" />
@@ -603,7 +601,8 @@
     <MESSAGE value="Exceptions aula 09" />
     <MESSAGE value="Exceptions aula 10" />
     <MESSAGE value="Exceptions aula 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exceptions aula 11" />
+    <MESSAGE value="Exceptions aula 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exceptions aula 12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

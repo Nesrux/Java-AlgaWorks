@@ -2,7 +2,7 @@ package com.desafio.exception.banco;
 
 public class ContaCorrente {
 
-    private String numero;
+    private final String numero;
     private double saldo;
     private boolean ativa;
 
@@ -36,18 +36,16 @@ public class ContaCorrente {
 
     public boolean sacar(double valor) {
         if (valor <= 0) {
-            System.out.println("Valor de saque deve ser maior que 0");
-            return false;
+            throw new IllegalArgumentException("Valor de saque deve ser maior que 0");
         }
 
-        if (valor > this.saldo) {
-            System.out.println("Conta sem saldo");
-            return false;
+        if (valor > getSaldo()) {
+            throw new IllegalStateException("Não é possivel realizar essa operação, pois a conta nao pode ter" +
+                    " dinheiro negativo");
         }
 
         if (isInativa()) {
-            System.out.println("Conta inativa");
-            return false;
+            throw new IllegalStateException("Conta precisa estar ativa para realizar essa operação");
         }
 
         this.saldo -= valor;
@@ -56,13 +54,11 @@ public class ContaCorrente {
 
     public boolean depositar(double valor) {
         if (valor <= 0) {
-            System.out.println("Valor de depósito deve ser maior que 0");
-            return false;
+            throw new IllegalArgumentException("Valor de saque deve ser maior que 0");
         }
 
         if (isInativa()) {
-            System.out.println("Conta inativa");
-            return false;
+            throw new IllegalStateException("Conta precisa estar ativa para realizar essa operação");
         }
 
         this.saldo += valor;

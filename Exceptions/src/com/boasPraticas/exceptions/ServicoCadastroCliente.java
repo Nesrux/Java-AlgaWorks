@@ -4,7 +4,7 @@ public class ServicoCadastroCliente {
 
     public Cliente cadastrar(String nome, int idade) {
         if (idade < 18) {
-            return null;
+            throw new IllegalStateException("O cliente não pode ter idade menor que 18 anos");
         }
 
         return new Cliente(nome, idade);

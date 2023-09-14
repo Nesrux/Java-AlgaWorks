@@ -5,15 +5,14 @@
   </component>
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
-      <module name="Exceptions" />
+      <module name="Desafio_exceptions" />
       <module name="java_EJA" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Exceptions aula 19">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exceptions/src/com/boasPraticas/exceptions/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/com/boasPraticas/exceptions/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exceptions/src/com/boasPraticas/exceptions/ServicoCadastroCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/com/boasPraticas/exceptions/ServicoCadastroCliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +81,7 @@
       <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\Desafio_Interfaces\src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.desafio.exception.banco" />
       <recent name="aula02" />
       <recent name="aula01" />
     </key>
@@ -339,14 +339,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00154" summary="Exceptions aula 04">
-      <option name="closed" value="true" />
-      <created>1694468420936</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1694468420936</updated>
-    </task>
     <task id="LOCAL-00155" summary="Exceptions aula 04">
       <option name="closed" value="true" />
       <created>1694469067029</created>
@@ -531,7 +523,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694726959440</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="Exceptions aula 19">
+      <option name="closed" value="true" />
+      <created>1694727230173</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1694727230173</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -544,6 +544,7 @@
     <module name="Desafio_Heranca" />
     <module name="Desafio_Interfaces" />
     <module name="Desafio_polimorfismo" />
+    <module name="Exceptions" />
     <module name="Heranca" />
     <module name="Interfaces" />
     <module name="Interfaces_Financeira" />

@@ -1,5 +1,8 @@
 package com.desafio.exception.banco;
 
+import com.desafio.exception.banco.exceptions.ContaInativaException;
+import com.desafio.exception.banco.exceptions.SaqueException;
+
 public class ContaCorrente {
 
     private final String numero;
@@ -40,42 +43,39 @@ public class ContaCorrente {
         }
 
         if (valor > getSaldo()) {
-            throw new IllegalStateException("Não é possivel realizar essa operação, pois a conta nao pode ter" +
+            throw new SaqueException("Não é possivel realizar essa operação, pois a conta nao pode ter" +
                     " dinheiro negativo");
         }
 
         if (isInativa()) {
-            throw new IllegalStateException("Conta precisa estar ativa para realizar essa operação");
+            throw new ContaInativaException("Conta precisa estar ativa para realizar essa operação");
         }
 
         this.saldo -= valor;
         return true;
     }
 
-    public boolean depositar(double valor) {
+    public void depositar(double valor) {
         if (valor <= 0) {
             throw new IllegalArgumentException("Valor de saque deve ser maior que 0");
         }
 
         if (isInativa()) {
-            throw new IllegalStateException("Conta precisa estar ativa para realizar essa operação");
+            throw new ContaInativaException("Conta precisa estar ativa para realizar essa operação");
         }
 
         this.saldo += valor;
-        return true;
     }
 
-    public boolean transferir(ContaCorrente contaDestino, double valor) {
+    public void transferir(ContaCorrente contaDestino, double valor) {
         if (contaDestino.isInativa()) {
-            throw new IllegalArgumentException("Conta desdino precisa estar ativa");
+            throw new ContaInativaException("Conta destino precisa estar ativa");
         }
 
         if (sacar(valor)) {
             contaDestino.depositar(valor);
-            return true;
         }
 
-        return false;
     }
 
 }

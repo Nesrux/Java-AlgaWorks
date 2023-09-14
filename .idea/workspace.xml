@@ -12,6 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio exceptions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio_exceptions/src/com/desafio/exception/banco/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_exceptions/src/com/desafio/exception/banco/ContaCorrente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,14 +335,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00158" summary="Exceptions aula 06">
-      <option name="closed" value="true" />
-      <created>1694473442382</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1694473442382</updated>
-    </task>
     <task id="LOCAL-00159" summary="Exceptions aula 06">
       <option name="closed" value="true" />
       <created>1694473473766</created>
@@ -526,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694728758379</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="Desafio exceptions">
+      <option name="closed" value="true" />
+      <created>1694729076807</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1694729076807</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="UnknownFeatures">

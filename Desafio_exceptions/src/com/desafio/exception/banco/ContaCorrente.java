@@ -67,8 +67,7 @@ public class ContaCorrente {
 
     public boolean transferir(ContaCorrente contaDestino, double valor) {
         if (contaDestino.isInativa()) {
-            System.out.println("Conta de destino está inativa");
-            return false;
+            throw new IllegalArgumentException("Conta desdino precisa estar ativa");
         }
 
         if (sacar(valor)) {

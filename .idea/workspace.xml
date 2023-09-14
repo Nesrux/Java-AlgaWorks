@@ -10,10 +10,8 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Exceptions aula 13">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Exceptions aula 14">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exceptions/src/com/unchecked/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/com/unchecked/Principal2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exceptions/src/com/unchecked/exception/estoque/exceptions/BaixaEstoqueException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/src/com/unchecked/exception/estoque/exceptions/BaixaEstoqueException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -325,14 +323,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00149" summary="Exceptions aula 02">
-      <option name="closed" value="true" />
-      <created>1694274902703</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1694274902703</updated>
-    </task>
     <task id="LOCAL-00150" summary="Exceptions aula 02">
       <option name="closed" value="true" />
       <created>1694276524103</created>
@@ -517,7 +507,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694642916733</updated>
     </task>
-    <option name="localTasksCounter" value="173" />
+    <task id="LOCAL-00173" summary="Exceptions aula 14">
+      <option name="closed" value="true" />
+      <created>1694643884526</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1694643884526</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -575,7 +573,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aula de interfaces 05 (Projeto financeira)" />
     <MESSAGE value="Aula de interfaces 06-07" />
     <MESSAGE value="Aula de interfaces 07" />
     <MESSAGE value="Aula de interfaces 08" />
@@ -600,7 +597,8 @@
     <MESSAGE value="Exceptions aula 11" />
     <MESSAGE value="Exceptions aula 12" />
     <MESSAGE value="Exceptions aula 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exceptions aula 13" />
+    <MESSAGE value="Exceptions aula 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exceptions aula 14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

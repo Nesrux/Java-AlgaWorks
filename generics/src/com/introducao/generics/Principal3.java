@@ -18,7 +18,9 @@ public class Principal3 {
         };
 
         Funcionario funcionarioEncontrado = Pesquisador.obterPorNome(funcionarios, "cleiton");
+        System.out.println(funcionarioEncontrado);
 
-        Cliente clienteEncontrado = Pesquisador.obterPorNome(clientes, "posto simas turbo");
+        Cliente clienteEncontrado = Pesquisador.obterPorNome(clientes, "posto limamei");
+        System.out.println(clienteEncontrado);
     }
 }

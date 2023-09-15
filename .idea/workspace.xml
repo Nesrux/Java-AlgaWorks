@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="generics aula 03">
-      <change beforePath="$PROJECT_DIR$/generics/src/com/introducao/generics/crm/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/introducao/generics/crm/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generics/src/com/introducao/generics/Principal3.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/introducao/generics/Principal3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,14 +334,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00166" summary="Exceptions aula 10">
-      <option name="closed" value="true" />
-      <created>1694549909875</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1694549909875</updated>
-    </task>
     <task id="LOCAL-00167" summary="Exceptions aula 11">
       <option name="closed" value="true" />
       <created>1694556050484</created>
@@ -526,7 +518,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694816736801</updated>
     </task>
-    <option name="localTasksCounter" value="190" />
+    <task id="LOCAL-00190" summary="generics aula 03">
+      <option name="closed" value="true" />
+      <created>1694817126681</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1694817126681</updated>
+    </task>
+    <option name="localTasksCounter" value="191" />
     <servers />
   </component>
   <component name="UnknownFeatures">

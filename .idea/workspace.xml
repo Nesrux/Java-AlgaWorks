@@ -13,7 +13,7 @@
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="generics aula 02">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generics/src/com/introducao/generics/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/introducao/generics/Principal2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generics/src/com/introducao/generics/crm/com/introducao/Sorteador.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/introducao/generics/crm/com/introducao/Sorteador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generics/src/com/introducao/generics/crm/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/introducao/generics/crm/Cliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,14 +336,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00164" summary="Exceptions aula 09">
-      <option name="closed" value="true" />
-      <created>1694548173647</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1694548173647</updated>
-    </task>
     <task id="LOCAL-00165" summary="Exceptions aula 09">
       <option name="closed" value="true" />
       <created>1694548278248</created>
@@ -528,7 +520,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694811479323</updated>
     </task>
-    <option name="localTasksCounter" value="188" />
+    <task id="LOCAL-00188" summary="generics aula 02">
+      <option name="closed" value="true" />
+      <created>1694811843702</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1694811843702</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="UnknownFeatures">

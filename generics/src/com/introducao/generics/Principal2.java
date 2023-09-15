@@ -14,7 +14,7 @@ public class Principal2 {
 
         String[] nomes = {"joao", "marcos", "lima", "maria"};
 
-        String nomeSorteado = Sorteador.<String> sortear(nomes);
+        String nomeSorteado = Sorteador.sortear(nomes);
         Cliente clienteSorteado = Sorteador.<Cliente>sortear(clientes);
 
         System.out.println(nomeSorteado);

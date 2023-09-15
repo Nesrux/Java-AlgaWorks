@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
-
+        //Gererics esta tipando essa array list com o tipo cliente
         ArrayList<Cliente> clientest = new ArrayList<>();
 
         clientest.add(new Cliente("joao", 1800));

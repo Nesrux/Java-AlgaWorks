@@ -335,14 +335,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00161" summary="Exceptions aula 08">
-      <option name="closed" value="true" />
-      <created>1694536007793</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1694536007793</updated>
-    </task>
     <task id="LOCAL-00162" summary="Exceptions aula 08">
       <option name="closed" value="true" />
       <created>1694536944053</created>
@@ -527,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694800685690</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="generics aula 01">
+      <option name="closed" value="true" />
+      <created>1694801474159</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1694801474159</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="UnknownFeatures">

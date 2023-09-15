@@ -10,9 +10,9 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio exceptions {Completo}">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="generics aula 01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generics/src/com/introducao/generics/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/introducao/generics/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,14 +335,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00160" summary="Exceptions aula 08">
-      <option name="closed" value="true" />
-      <created>1694535567081</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1694535567081</updated>
-    </task>
     <task id="LOCAL-00161" summary="Exceptions aula 08">
       <option name="closed" value="true" />
       <created>1694536007793</created>
@@ -527,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694729271230</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="generics aula 01">
+      <option name="closed" value="true" />
+      <created>1694800685689</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1694800685690</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -587,7 +587,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aula de interfaces 10" />
     <MESSAGE value="Aula de interfaces 11-12" />
     <MESSAGE value="Aula de interfaces 12" />
     <MESSAGE value="Aula de interfaces 13" />
@@ -612,7 +611,8 @@
     <MESSAGE value="Exceptions aula 19" />
     <MESSAGE value="Desafio exceptions" />
     <MESSAGE value="Desafio exceptions {Completo}" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio exceptions {Completo}" />
+    <MESSAGE value="generics aula 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="generics aula 01" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

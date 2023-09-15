@@ -12,9 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="generics aula 03">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generics/src/com/introducao/generics/Principal3.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/introducao/generics/Principal3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generics/src/com/introducao/generics/crm/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/introducao/generics/crm/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generics/src/com/introducao/generics/crm/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/introducao/generics/crm/Funcionario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generics/src/com/introducao/generics/crm/Pesquisador.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/introducao/generics/crm/Pesquisador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -338,14 +335,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00168" summary="Exceptions aula 12">
-      <option name="closed" value="true" />
-      <created>1694637932079</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1694637932079</updated>
-    </task>
     <task id="LOCAL-00169" summary="Exceptions aula 13">
       <option name="closed" value="true" />
       <created>1694642047077</created>
@@ -530,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694817346650</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="generics aula 03">
+      <option name="closed" value="true" />
+      <created>1694817923179</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1694817923179</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="UnknownFeatures">

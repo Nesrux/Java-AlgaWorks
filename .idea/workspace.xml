@@ -10,9 +10,8 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="generics aula 01">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="generics aula 02">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generics/src/com/introducao/generics/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/introducao/generics/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,7 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Principal">
+  <component name="RunManager" selected="Application.Principal2">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.introducao.generics.Principal" />
       <module name="generics" />
@@ -121,19 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Principal3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Principal3" />
-      <module name="Desafio_exceptions" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.boasPraticas.exceptions.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.boasPraticas.exceptions.Principal" />
-      <module name="Exceptions" />
+    <configuration name="Principal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.introducao.generics.Principal2" />
+      <module name="generics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.boasPraticas.exceptions.*" />
+          <option name="PATTERN" value="com.introducao.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,13 +133,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Principal3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Principal3" />
+      <module name="Desafio_exceptions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal2" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Principal3" />
         <item itemvalue="Application.Principal2 (1)" />
         <item itemvalue="Application.Principal1" />
-        <item itemvalue="Application.com.boasPraticas.exceptions.Principal" />
       </list>
     </recent_temporary>
   </component>
@@ -335,14 +334,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00162" summary="Exceptions aula 08">
-      <option name="closed" value="true" />
-      <created>1694536944053</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1694536944053</updated>
-    </task>
     <task id="LOCAL-00163" summary="Exceptions aula 09">
       <option name="closed" value="true" />
       <created>1694537407744</created>
@@ -527,7 +518,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694801474159</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="generics aula 02">
+      <option name="closed" value="true" />
+      <created>1694808397849</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1694808397849</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -587,7 +586,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aula de interfaces 11-12" />
     <MESSAGE value="Aula de interfaces 12" />
     <MESSAGE value="Aula de interfaces 13" />
     <MESSAGE value="Aula de interfaces 14" />
@@ -612,7 +610,8 @@
     <MESSAGE value="Desafio exceptions" />
     <MESSAGE value="Desafio exceptions {Completo}" />
     <MESSAGE value="generics aula 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="generics aula 01" />
+    <MESSAGE value="generics aula 02" />
+    <option name="LAST_COMMIT_MESSAGE" value="generics aula 02" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

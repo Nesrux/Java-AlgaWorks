@@ -7,12 +7,12 @@ import java.util.Random;
 public class Sorteador {
     private static final Random RANDON = new Random();
 
-    public static Cliente sortear(Cliente[] clientes) {
-        if (clientes.length == 0) {
+    public static <T> T sortear(T[] objetos) {
+        if (objetos.length == 0) {
             throw new IllegalArgumentException("Minimo de 1 cliente");
         }
-        int posicao = RANDON.nextInt(clientes.length);
+        int posicao = RANDON.nextInt(objetos.length);
 
-        return clientes[posicao];
+        return objetos[posicao];
     }
 }

@@ -12,6 +12,12 @@ public class Principal2 {
                 new Cliente("Jalim rabei", 10_000)
         };
 
-        Cliente clienteSorteado = Sorteador.sortear(clientes);
+        String[] nomes = {"joao", "marcos", "lima", "maria"};
+
+        String nomeSorteado = Sorteador.<String> sortear(nomes);
+        Cliente clienteSorteado = Sorteador.<Cliente>sortear(clientes);
+
+        System.out.println(nomeSorteado);
+        System.out.println(clienteSorteado);
     }
 }

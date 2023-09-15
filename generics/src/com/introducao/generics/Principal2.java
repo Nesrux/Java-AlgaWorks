@@ -18,6 +18,6 @@ public class Principal2 {
         Cliente clienteSorteado = Sorteador.<Cliente>sortear(clientes);
 
         System.out.println(nomeSorteado);
-        System.out.println(clienteSorteado);
+        System.out.println(clienteSorteado.getRazaoSocial());
     }
 }

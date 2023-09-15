@@ -1,7 +1,5 @@
 package com.introducao.generics.crm.com.introducao;
 
-import com.introducao.generics.crm.Cliente;
-
 import java.util.Random;
 
 public class Sorteador {

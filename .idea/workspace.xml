@@ -11,7 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="generics aula 03">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generics/src/com/introducao/generics/Principal3.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/introducao/generics/Principal3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generics/src/com/introducao/generics/crm/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/introducao/generics/crm/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generics/src/com/introducao/generics/crm/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/introducao/generics/crm/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generics/src/com/introducao/generics/crm/Pesquisador.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/introducao/generics/crm/Pesquisador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -334,14 +338,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00167" summary="Exceptions aula 11">
-      <option name="closed" value="true" />
-      <created>1694556050484</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1694556050484</updated>
-    </task>
     <task id="LOCAL-00168" summary="Exceptions aula 12">
       <option name="closed" value="true" />
       <created>1694637932079</created>
@@ -526,7 +522,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694817126681</updated>
     </task>
-    <option name="localTasksCounter" value="191" />
+    <task id="LOCAL-00191" summary="generics aula 03">
+      <option name="closed" value="true" />
+      <created>1694817346650</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1694817346650</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="UnknownFeatures">

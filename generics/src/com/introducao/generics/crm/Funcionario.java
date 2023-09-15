@@ -1,5 +1,7 @@
 package com.introducao.generics.crm;
 
+import java.util.Objects;
+
 public class Funcionario {
     private String nome;
     private int idade;
@@ -25,4 +27,24 @@ public class Funcionario {
         this.idade = idade;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Funcionario that = (Funcionario) o;
+        return Objects.equals(getNome(), that.getNome());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getNome());
+    }
+
+    @Override
+    public String toString() {
+        return "Funcionario{" +
+                "nome='" + nome + '\'' +
+                ", idade=" + idade +
+                '}';
+    }
 }

@@ -12,8 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="generics aula 04">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/estruturasdedados/Pilha.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/estruturasdedados/Pilha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/estruturasdedados/PilhaVaziaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/estruturasdedados/PilhaVaziaException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/loja/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/loja/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Interfaces/src/com/nesrux/pagamento/Beneficiario.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/estruturasdedados/Pilha.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/loja/Produto.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -342,14 +345,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00172" summary="Exceptions aula 13">
-      <option name="closed" value="true" />
-      <created>1694642916733</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1694642916733</updated>
-    </task>
     <task id="LOCAL-00173" summary="Exceptions aula 14">
       <option name="closed" value="true" />
       <created>1694643884526</created>
@@ -534,7 +529,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694878151925</updated>
     </task>
-    <option name="localTasksCounter" value="196" />
+    <task id="LOCAL-00196" summary="generics aula 04">
+      <option name="closed" value="true" />
+      <created>1694878465718</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1694878465718</updated>
+    </task>
+    <option name="localTasksCounter" value="197" />
     <servers />
   </component>
   <component name="UnknownFeatures">

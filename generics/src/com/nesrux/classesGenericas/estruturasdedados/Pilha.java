@@ -6,9 +6,6 @@ public class Pilha {
 
     private Object[] itens;
 
-    public Pilha(Object[] itens) {
-        this.itens = itens;
-    }
 
     public void colocar(Object item) {
         itens = Arrays.copyOf(itens, itens.length + 1);
@@ -19,5 +16,8 @@ public class Pilha {
         if (itens.length == 0) {
             throw new PilhaVaziaException("Pilha sem itens");
         }
+        Object item = itens[itens.length - 1];
+        itens = Arrays.copyOf(itens, itens.length - 1);
+        return item;
     }
 }

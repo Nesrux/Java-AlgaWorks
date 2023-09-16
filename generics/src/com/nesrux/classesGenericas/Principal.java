@@ -15,14 +15,21 @@ public class Principal {
         pilha.colocar(new Produto("Macarrão"));
 
         retirarTodos(pilha);
+
+        Colecao<String> nomes = new Pilha<>();
+        nomes.colocar("Gerson");
+        nomes.colocar("Elma maria");
+        nomes.colocar("two paypal");
+
+        retirarTodos(nomes);
     }
 
-    private static void retirarTodos(Colecao<Produto> produtos) {
+    private static void retirarTodos(Colecao<?> objetos) {
         try {
             int i = 1;
             while (true) {
-                Produto produto = produtos.retirar();
-                System.out.printf("%d, %s%n", i, produto.getDescricao());
+                Object objeto = objetos.retirar();
+                System.out.printf("%d, %s%n", i, objeto);
                 i++;
             }
         } catch (ColecaoVaziaException e) {

@@ -13,7 +13,7 @@
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="generics aula 05 (interfaces genéricas)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/estruturasdedados/Fila.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/estruturasdedados/Fila.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/loja/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/loja/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -352,14 +352,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00178" summary="Exceptions aula 19">
-      <option name="closed" value="true" />
-      <created>1694727230173</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1694727230173</updated>
-    </task>
     <task id="LOCAL-00179" summary="Desafio exceptions">
       <option name="closed" value="true" />
       <created>1694728002197</created>
@@ -544,7 +536,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694882015826</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="generics aula 05 (interfaces genéricas)">
+      <option name="closed" value="true" />
+      <created>1694883687946</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1694883687946</updated>
+    </task>
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -646,6 +646,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/Principal.java</url>
+          <line>8</line>
+          <properties class="com.nesrux.classesGenericas.Principal" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Arrays/src/aula11/principal.java</url>

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/BoasPraticas_interfaces/BoasPraticas_interfaces.iml" filepath="$PROJECT_DIR$/BoasPraticas_interfaces/BoasPraticas_interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Desafio_Generics/Desafio_Generics.iml" filepath="$PROJECT_DIR$/Desafio_Generics/Desafio_Generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/Desafio_Heranca/Desafio_Heranca.iml" filepath="$PROJECT_DIR$/Desafio_Heranca/Desafio_Heranca.iml" />
       <module fileurl="file://$PROJECT_DIR$/Desafio_Interfaces/Desafio_Interfaces.iml" filepath="$PROJECT_DIR$/Desafio_Interfaces/Desafio_Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/Desafio_exceptions/Desafio_exceptions.iml" filepath="$PROJECT_DIR$/Desafio_exceptions/Desafio_exceptions.iml" />

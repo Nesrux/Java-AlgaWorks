@@ -5,7 +5,7 @@ import com.nesrux.classesGenericas.loja.Produto;
 
 public class Principal {
     public static void main(String[] args) {
-        Pilha pilha = new Pilha();
+        Pilha<Produto> pilha = new Pilha<>();
 
         pilha.colocar(new Produto("Arroz"));
         pilha.colocar(new Produto("feijão"));

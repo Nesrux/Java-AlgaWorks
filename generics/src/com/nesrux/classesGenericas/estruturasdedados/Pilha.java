@@ -6,9 +6,9 @@ public class Pilha<T> {
 
     private T[] itens;
 
-     public Pilha(){
-         this.itens = new T[];
-     }
+    public Pilha() {
+        this.itens = (T[]) new Object[0];
+    }
 
 
     public void colocar(T item) {

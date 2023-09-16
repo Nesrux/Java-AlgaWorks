@@ -18,7 +18,7 @@ public class Pilha<T> {
 
     public T retirar() {
         if (itens.length == 0) {
-            throw new PilhaVaziaException("Pilha sem itens");
+            throw new ColecaoVaziaException("Pilha sem itens");
         }
         T item = itens[itens.length - 1];
         itens = Arrays.copyOf(itens, itens.length - 1);

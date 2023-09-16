@@ -1,12 +1,13 @@
 package com.nesrux.classesGenericas;
 
+import com.nesrux.classesGenericas.estruturasdedados.Colecao;
 import com.nesrux.classesGenericas.estruturasdedados.ColecaoVaziaException;
 import com.nesrux.classesGenericas.estruturasdedados.Pilha;
 import com.nesrux.classesGenericas.loja.Produto;
 
 public class Principal {
     public static void main(String[] args) {
-        Pilha<Produto> pilha = new Pilha<>();
+        Colecao<Produto> pilha = new Pilha<>();
 
         pilha.colocar(new Produto("Arroz"));
         pilha.colocar(new Produto("feijão"));
@@ -16,7 +17,7 @@ public class Principal {
         retirarTodos(pilha);
     }
 
-    private static void retirarTodos(Pilha<Produto> produtos) {
+    private static void retirarTodos(Colecao<Produto> produtos) {
         try {
             int i = 1;
             while (true) {

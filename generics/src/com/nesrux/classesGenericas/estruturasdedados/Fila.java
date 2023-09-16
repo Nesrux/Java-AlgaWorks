@@ -2,7 +2,7 @@ package com.nesrux.classesGenericas.estruturasdedados;
 
 import java.util.Arrays;
 
-public class Fila<T> {
+public class Fila<T> implements Colecao<T> {
     private T[] itens;
 
     public Fila() {

@@ -16,7 +16,7 @@ public class Principal {
         imprimirEstoque(estoqueCarros);
     }
 
-    private static void imprimirEstoque(GerenciadorEstoque gerenciadorEstoque) {
+    private static void imprimirEstoque(GerenciadorEstoque<?> gerenciadorEstoque) {
         System.out.println("Estoque: " + gerenciadorEstoque.getQuantidadeTotal());
     }
 

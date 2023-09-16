@@ -10,10 +10,9 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="generics aula 05 (interfaces genéricas)">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="generics aula 06 (Upper bounded wildcards)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/loja/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/loja/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/Principal2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -352,14 +351,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00179" summary="Desafio exceptions">
-      <option name="closed" value="true" />
-      <created>1694728002197</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
-      <option name="project" value="LOCAL" />
-      <updated>1694728002197</updated>
-    </task>
     <task id="LOCAL-00180" summary="Desafio exceptions">
       <option name="closed" value="true" />
       <created>1694728594912</created>
@@ -544,7 +535,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694883687946</updated>
     </task>
-    <option name="localTasksCounter" value="203" />
+    <task id="LOCAL-00203" summary="generics aula 06 (Upper bounded wildcards)">
+      <option name="closed" value="true" />
+      <created>1694885391309</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1694885391309</updated>
+    </task>
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -604,7 +603,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Desafio interfaces (Completo)" />
     <MESSAGE value="Boas praticas com interfaces aula 01" />
     <MESSAGE value="Boas praticas com interfaces aula 02" />
     <MESSAGE value="Exceptions aula 02" />
@@ -629,7 +627,8 @@
     <MESSAGE value="generics aula 04" />
     <MESSAGE value="generics aula 04 (classes genéricas)" />
     <MESSAGE value="generics aula 05 (interfaces genéricas)" />
-    <option name="LAST_COMMIT_MESSAGE" value="generics aula 05 (interfaces genéricas)" />
+    <MESSAGE value="generics aula 06 (Upper bounded wildcards)" />
+    <option name="LAST_COMMIT_MESSAGE" value="generics aula 06 (Upper bounded wildcards)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

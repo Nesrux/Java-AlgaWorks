@@ -8,10 +8,11 @@ public class Principal2 {
         numeros.add(10d);
         numeros.add(25d);
         numeros.add(15d);
+        Double media = calcularMedia(numeros);
 
     }
 
-    //uper bon
+    //Upper bounded wildcards:  ? extends number
     private static double calcularMedia(ArrayList<? extends Number> numeros) {
         double total = 0;
 

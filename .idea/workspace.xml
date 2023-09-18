@@ -5,13 +5,14 @@
   </component>
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
-      <module name="Desafio_Generics" />
+      <module name="collections_api" />
       <module name="java_EJA" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio generics">
-      <change beforePath="$PROJECT_DIR$/Desafio_Generics/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Generics/src/Principal.java" afterDir="false" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio generics completo">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +82,7 @@
       <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\Arrays\src\aula06" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\collections_api\src" />
       <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\Desafio_Generics\src" />
       <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\Desafio_Interfaces\src" />
     </key>
@@ -351,14 +353,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00184" summary="generics aula 01">
-      <option name="closed" value="true" />
-      <created>1694800685689</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1694800685690</updated>
-    </task>
     <task id="LOCAL-00185" summary="generics aula 01">
       <option name="closed" value="true" />
       <created>1694801474159</created>
@@ -543,7 +537,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694893816621</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="Desafio generics completo">
+      <option name="closed" value="true" />
+      <created>1694893891475</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1694893891475</updated>
+    </task>
+    <option name="localTasksCounter" value="209" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -553,6 +555,7 @@
   <component name="UnloadedModulesList">
     <module name="Arrays" />
     <module name="BoasPraticas_interfaces" />
+    <module name="Desafio_Generics" />
     <module name="Desafio_Heranca" />
     <module name="Desafio_Interfaces" />
     <module name="Desafio_exceptions" />
@@ -604,7 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Boas praticas com interfaces aula 02" />
     <MESSAGE value="Exceptions aula 02" />
     <MESSAGE value="Exceptions aula 03" />
     <MESSAGE value="Exceptions aula 04" />
@@ -629,7 +631,8 @@
     <MESSAGE value="generics aula 05 (interfaces genéricas)" />
     <MESSAGE value="generics aula 06 (Upper bounded wildcards)" />
     <MESSAGE value="Desafio generics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio generics" />
+    <MESSAGE value="Desafio generics completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio generics completo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

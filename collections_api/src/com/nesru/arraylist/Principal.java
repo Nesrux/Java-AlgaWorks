@@ -11,16 +11,19 @@ public class Principal {
         cadastro.adicionar("Lambimia hoteis", "Rio de fevereiro", 80);
         cadastro.adicionar("tchurusbango thurusbago", "Jacaré pagua", 20);
         cadastro.adicionar("thunfly hosteis", "Araçapuca ta terra", 20);
-        cadastro.adicionar("thunfly hosteis", "Araçapuca ta terra", 20);
 
         // System.out.println(cadastro.obterTodos());
         //Uma outra forma de fazer a mesma coisa
         // cadastro.obterTodos().forEach(System.out::println);
-
         //  Hotel = (Hotel) cadastro.obterTodos().get(1);//System.out.println(hotel);
+        //imprimirHoteis(hoteis);
+
 
         ArrayList<Hotel> hoteis = cadastro.obterTodos();
-        imprimirHoteis(hoteis);
+        int indice = hoteis.indexOf(new Hotel("Lambimia hoteis", "Rio de fevereiro", 80));
+        //Caso não exista um hotel com esse indice, ele vai retornar -1
+
+        System.out.println(indice);
     }
 
     private static void imprimirHoteis(ArrayList<Hotel> hoteis) {

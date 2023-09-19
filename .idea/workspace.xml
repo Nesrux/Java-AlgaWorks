@@ -11,8 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Collections api (arrayList)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections_api/src/com/nesru/arraylist/CadastroHotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections_api/src/com/nesru/arraylist/CadastroHotel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/collections_api/src/com/nesru/arraylist/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections_api/src/com/nesru/arraylist/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -358,22 +356,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00191" summary="generics aula 03">
-      <option name="closed" value="true" />
-      <created>1694817346650</created>
-      <option name="number" value="00191" />
-      <option name="presentableId" value="LOCAL-00191" />
-      <option name="project" value="LOCAL" />
-      <updated>1694817346650</updated>
-    </task>
-    <task id="LOCAL-00192" summary="generics aula 03">
-      <option name="closed" value="true" />
-      <created>1694817923179</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1694817923179</updated>
-    </task>
     <task id="LOCAL-00193" summary="generics aula 03">
       <option name="closed" value="true" />
       <created>1694818414665</created>
@@ -550,7 +532,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695161035495</updated>
     </task>
-    <option name="localTasksCounter" value="215" />
+    <task id="LOCAL-00215" summary="Collections api (arrayList)">
+      <option name="closed" value="true" />
+      <created>1695163203091</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1695163203091</updated>
+    </task>
+    <task id="LOCAL-00216" summary="Collections api (arrayList)">
+      <option name="closed" value="true" />
+      <created>1695163389540</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1695163389540</updated>
+    </task>
+    <option name="localTasksCounter" value="217" />
     <servers />
   </component>
   <component name="UnknownFeatures">

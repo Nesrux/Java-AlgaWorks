@@ -1,5 +1,7 @@
 package com.nesru.arraylist;
 
+import java.util.ArrayList;
+
 public class Principal {
     public static void main(String[] args) {
         CadastroHotel cadastro = new CadastroHotel();
@@ -11,11 +13,20 @@ public class Principal {
         cadastro.adicionar("thunfly hosteis", "Araçapuca ta terra", 20);
 
 
-        //  System.out.println(cadastro.obterTodos());
+        // System.out.println(cadastro.obterTodos());
         //Uma outra forma de fazer a mesma coisa
         //cadastro.obterTodos().forEach(System.out::println);
 
-        Hotel hotel = (Hotel) cadastro.obterTodos().get(1);
-        System.out.println(hotel);
+        //  Hotel hotel = (Hotel) cadastro.obterTodos().get(1);//System.out.println(hotel);
+
+        ArrayList hoteis = cadastro.obterTodos();
+        imprimirHoteis(hoteis);
+    }
+
+    private static void imprimirHoteis(ArrayList hoteis) {
+        for (int i = 0; i < hoteis.size(); i++) {
+            Hotel hotel = (Hotel) hoteis.get(i);
+            System.out.println(hotel.getNome());
+        }
     }
 }

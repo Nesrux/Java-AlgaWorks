@@ -26,7 +26,8 @@ public class Principal {
     private static void imprimirHoteis(ArrayList hoteis) {
         for (int i = 0; i < hoteis.size(); i++) {
             Hotel hotel = (Hotel) hoteis.get(i);
-            System.out.println(hotel.getNome());
+            System.out.printf("%s (%s) -> %.2f%n", hotel.getNome(),
+                    hotel.getCidade(), hotel.getPrecoDiaria());
         }
     }
 }

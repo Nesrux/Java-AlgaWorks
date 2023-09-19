@@ -12,6 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Collections api (arrayList)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collections_api/src/com/nesru/arraylist/CadastroHotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections_api/src/com/nesru/arraylist/CadastroHotel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/collections_api/src/com/nesru/arraylist/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections_api/src/com/nesru/arraylist/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +33,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Interfaces/src/com/nesrux/pagamento/Beneficiario.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/collections_api/src/com/nesru/arraylist/Principal.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/collections_api/src/com/nesru/arraylist/Principal.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/Principal.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/estruturasdedados/Fila.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/estruturasdedados/Pilha.java" root0="SKIP_INSPECTION" />
@@ -76,6 +77,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.nesru.arraylist" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\encapsulamento\src\aula07" />
       <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\Arrays\src\aula09" />
@@ -354,14 +358,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00190" summary="generics aula 03">
-      <option name="closed" value="true" />
-      <created>1694817126681</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1694817126681</updated>
-    </task>
     <task id="LOCAL-00191" summary="generics aula 03">
       <option name="closed" value="true" />
       <created>1694817346650</created>
@@ -546,7 +542,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695160324030</updated>
     </task>
-    <option name="localTasksCounter" value="214" />
+    <task id="LOCAL-00214" summary="Collections api (arrayList)">
+      <option name="closed" value="true" />
+      <created>1695161035495</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1695161035495</updated>
+    </task>
+    <option name="localTasksCounter" value="215" />
     <servers />
   </component>
   <component name="UnknownFeatures">

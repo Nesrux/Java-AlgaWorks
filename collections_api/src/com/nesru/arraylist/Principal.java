@@ -11,6 +11,7 @@ public class Principal {
         cadastro.adicionar("Lambimia hoteis", "Rio de fevereiro", 80);
         cadastro.adicionar("tchurusbango thurusbago", "Jacaré pagua", 20);
         cadastro.adicionar("thunfly hosteis", "Araçapuca ta terra", 20);
+        cadastro.adicionar("thunfly hosteis", "Araçapuca ta terra", 20);
 
         // System.out.println(cadastro.obterTodos());
         //Uma outra forma de fazer a mesma coisa

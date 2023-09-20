@@ -36,6 +36,8 @@ public class Principal {
 
         cadastro.removerPorCidade("Jacaré pagua");
 
+        cadastro.remover(new Hotel("TESTE2", "TESTE2", 0));
+
         imprimirHoteis(cadastro.obterTodos());
     }
 

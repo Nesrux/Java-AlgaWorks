@@ -24,8 +24,18 @@ public class CadastroHotel {
             Hotel hotel = hoteis.get(i);
             if (hotel.getCidade().equals(nomeCidade)) {
                 hoteis.remove(i);
+                i--;
             }
         }
+    }
+
+    public void remover(Hotel hotel) {
+        boolean removido = hoteis.remove(hotel);
+        if (!removido) {
+            throw new IllegalStateException(String.format("O hotel de nome %s," +
+                    " não esta nesta lista, e por isso nao foi removido", hotel.getNome()));
+        }
+
     }
 
 }

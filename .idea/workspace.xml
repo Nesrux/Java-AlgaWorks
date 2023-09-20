@@ -358,14 +358,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00194" summary="generics aula 03">
-      <option name="closed" value="true" />
-      <created>1694818620767</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1694818620767</updated>
-    </task>
     <task id="LOCAL-00195" summary="generics aula 04">
       <option name="closed" value="true" />
       <created>1694878151925</created>
@@ -550,7 +542,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695166347605</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="Collections api (arrayList)">
+      <option name="closed" value="true" />
+      <created>1695243752628</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1695243752628</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="UnknownFeatures">

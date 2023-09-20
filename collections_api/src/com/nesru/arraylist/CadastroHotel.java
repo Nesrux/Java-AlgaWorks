@@ -19,5 +19,13 @@ public class CadastroHotel {
         return hoteis;
     }
 
+    public void removerPorCidade(String nomeCidade) {
+        for (int i = 0; i < hoteis.size(); i++) {
+            Hotel hotel = hoteis.get(i);
+            if (hotel.getCidade().equals(nomeCidade)) {
+                hoteis.remove(i);
+            }
+        }
+    }
 
 }

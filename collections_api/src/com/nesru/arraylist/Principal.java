@@ -20,10 +20,23 @@ public class Principal {
 
 
         ArrayList<Hotel> hoteis = cadastro.obterTodos();
-        int indice = hoteis.indexOf(new Hotel("Lambimia hoteis", "Rio de fevereiro", 80));
-        //Caso não exista um hotel com esse indice, ele vai retornar -1
 
+        //Caso não exista um hotel com esse indice, ele vai retornar -1
+        int indice = hoteis.indexOf(new Hotel("Lambimia hoteis", "Rio de fevereiro", 80));
         System.out.println(indice);
+
+        //O método set remove o objeto que esta no indice declarado
+        //e depois adiciona o novo objeto do segundo argumento
+        hoteis.set(0, new Hotel("TESTE", "TESTE", 5));
+
+        /*o método add por sua vez faz algo parecido, ele adiciona objeto no indice delcarado
+         * mas nao subistitui, ele avança o objeto que ja estava na lista uma casa para frente
+         * se essa estiver sendo utilizada, ele avança todos os objetos sequentets*/
+        hoteis.add(3, new Hotel("TESTE2", "TESTE2", 0));
+
+        cadastro.removerPorCidade("Jacaré pagua");
+
+        imprimirHoteis(cadastro.obterTodos());
     }
 
     private static void imprimirHoteis(ArrayList<Hotel> hoteis) {

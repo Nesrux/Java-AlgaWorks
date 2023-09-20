@@ -20,13 +20,17 @@ public class CadastroHotel {
     }
 
     public void removerPorCidade(String nomeCidade) {
+        ArrayList<Hotel> HoteisParaRemocao = new ArrayList<>();
         for (int i = 0; i < hoteis.size(); i++) {
             Hotel hotel = hoteis.get(i);
             if (hotel.getCidade().equals(nomeCidade)) {
-                hoteis.remove(i);
-                i--;
+                HoteisParaRemocao.add(hotel);
+                //    hoteis.remove(i);
+                //    i--;
             }
+
         }
+        hoteis.removeAll(HoteisParaRemocao);
     }
 
     public void remover(Hotel hotel) {

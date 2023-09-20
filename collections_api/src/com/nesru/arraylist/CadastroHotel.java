@@ -32,7 +32,7 @@ public class CadastroHotel {
     public void remover(Hotel hotel) {
         boolean removido = hoteis.remove(hotel);
         if (!removido) {
-            throw new IllegalStateException(String.format("O hotel de nome %s," +
+            throw new HotelNaoEncontradoException(String.format("O hotel de nome %s," +
                     " não esta nesta lista, e por isso nao foi removido", hotel.getNome()));
         }
 

@@ -42,4 +42,8 @@ public class CadastroHotel {
 
     }
 
+    public void removerTodos() {
+        this.hoteis.clear();
+    }
+
 }

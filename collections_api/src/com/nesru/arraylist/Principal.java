@@ -38,7 +38,7 @@ public class Principal {
         //cadastro.removerPorCidade("Jacaré pagua");
 
         cadastro.remover(new Hotel("TESTE2", "TESTE2", 0));
-        cadastro.removerTodos();
+        //   cadastro.removerTodos();
 
         imprimirHoteis(cadastro.obterTodos());
     }
@@ -47,12 +47,14 @@ public class Principal {
         //Iterator é uma classe de util para fazer iterações
         //em collections
         Iterator<Hotel> hotelIterator = hoteis.iterator();
-
-
-        for (int i = 0; i < hoteis.size(); i++) {
-            Hotel hotel = hoteis.get(i);
-            System.out.printf("%s (%s) -> %.2f%n", hotel.getNome(),
-                    hotel.getCidade(), hotel.getPrecoDiaria());
+        while (hotelIterator.hasNext()) {
+            System.out.println(hotelIterator.next());
         }
+
+//        for (int i = 0; i < hoteis.size(); i++) {
+//            Hotel hotel = hoteis.get(i);
+//            System.out.printf("%s (%s) -> %.2f%n", hotel.getNome(),
+//                    hotel.getCidade(), hotel.getPrecoDiaria());
+//        }
     }
 }

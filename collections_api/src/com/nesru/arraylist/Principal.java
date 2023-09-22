@@ -1,7 +1,7 @@
 package com.nesru.arraylist;
 
 import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.ListIterator;
 
 public class Principal {
     public static void main(String[] args) {
@@ -37,7 +37,7 @@ public class Principal {
 
         //cadastro.removerPorCidade("Jacaré pagua");
 
-        cadastro.remover(new Hotel("TESTE2", "TESTE2", 0));
+        // cadastro.remover(new Hotel("TESTE2", "TESTE2", 0));
         //   cadastro.removerTodos();
 
         imprimirHoteis(cadastro.obterTodos());
@@ -46,15 +46,14 @@ public class Principal {
     private static void imprimirHoteis(ArrayList<Hotel> hoteis) {
         //Iterator é uma classe de util para fazer iterações
         //em collections
-        Iterator<Hotel> hotelIterator = hoteis.iterator();
-        while (hotelIterator.hasNext()) {
+        //anotar explicação depois
+        ListIterator<Hotel> hotelIterator = hoteis.listIterator(hoteis.size());
+
+        hoteis.forEach(System.out::println);
+
+        while (hotelIterator.hasPrevious()) {
             System.out.println(hotelIterator.next());
         }
 
-//        for (int i = 0; i < hoteis.size(); i++) {
-//            Hotel hotel = hoteis.get(i);
-//            System.out.printf("%s (%s) -> %.2f%n", hotel.getNome(),
-//                    hotel.getCidade(), hotel.getPrecoDiaria());
-//        }
     }
 }

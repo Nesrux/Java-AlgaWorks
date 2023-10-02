@@ -1,7 +1,6 @@
 package com.nesru.arraylist;
 
 import java.util.ArrayList;
-import java.util.ListIterator;
 
 public class Principal {
     public static void main(String[] args) {
@@ -47,12 +46,10 @@ public class Principal {
         //Iterator é uma classe de util para fazer iterações
         //em collections
         //anotar explicação depois
-        ListIterator<Hotel> hotelIterator = hoteis.listIterator(hoteis.size());
-
-        hoteis.forEach(System.out::println);
-
-        while (hotelIterator.hasPrevious()) {
-            System.out.println(hotelIterator.next());
+        //ListIterator<Hotel> hotelIterator = hoteis.listIterator(hoteis.size());
+        //hoteis.forEach(System.out::println);
+        for (Hotel hotel : hoteis) {
+            System.out.println(hotel.getNome());
         }
 
     }

@@ -8,6 +8,5 @@ public class Principal {
         while (iteratorSort.hasNext()) {
             System.out.println(iteratorSort.next());
         }
-
     }
 }

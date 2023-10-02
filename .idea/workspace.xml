@@ -13,6 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Collections api (iterator, itarable)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collections_Megasena/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections_Megasena/src/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/collections_Megasena/src/SorteadorIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections_Megasena/src/SorteadorIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -307,14 +308,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00203" summary="generics aula 06 (Upper bounded wildcards)">
-      <option name="closed" value="true" />
-      <created>1694885391309</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1694885391309</updated>
-    </task>
     <task id="LOCAL-00204" summary="generics aula 06 (Upper bounded wildcards)">
       <option name="closed" value="true" />
       <created>1694885456386</created>
@@ -499,7 +492,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696280983899</updated>
     </task>
-    <option name="localTasksCounter" value="227" />
+    <task id="LOCAL-00227" summary="Collections api (iterator, itarable)">
+      <option name="closed" value="true" />
+      <created>1696281203493</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1696281203493</updated>
+    </task>
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -627,11 +628,6 @@
           <url>file://$PROJECT_DIR$/Exceptions/src/com/checked/exceptions/Principal.java</url>
           <line>8</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/collections_Megasena/src/Principal.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

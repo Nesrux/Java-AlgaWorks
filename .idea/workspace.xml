@@ -11,10 +11,7 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Collections api (iterator, itarable)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections_Megasena/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections_Megasena/src/Principal.java" afterDir="false" />
-    </list>
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Collections api" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -320,14 +317,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00205" summary="Desafio generics">
-      <option name="closed" value="true" />
-      <created>1694893216106</created>
-      <option name="number" value="00205" />
-      <option name="presentableId" value="LOCAL-00205" />
-      <option name="project" value="LOCAL" />
-      <updated>1694893216106</updated>
-    </task>
     <task id="LOCAL-00206" summary="Desafio generics">
       <option name="closed" value="true" />
       <created>1694893300383</created>
@@ -512,7 +501,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696281541496</updated>
     </task>
-    <option name="localTasksCounter" value="229" />
+    <task id="LOCAL-00229" summary="Collections api">
+      <option name="closed" value="true" />
+      <created>1696538946403</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1696538946403</updated>
+    </task>
+    <option name="localTasksCounter" value="230" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -574,7 +571,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exceptions aula 05" />
     <MESSAGE value="Exceptions aula 06" />
     <MESSAGE value="Exceptions aula 08" />
     <MESSAGE value="Exceptions aula 09" />
@@ -599,7 +595,8 @@
     <MESSAGE value="Collections api (arrayList)" />
     <MESSAGE value="Collections api (List)" />
     <MESSAGE value="Collections api (iterator, itarable)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collections api (iterator, itarable)" />
+    <MESSAGE value="Collections api" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collections api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

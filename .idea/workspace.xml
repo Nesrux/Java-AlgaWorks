@@ -5,14 +5,15 @@
   </component>
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
-      <module name="collections_ArrayList" />
-      <module name="collections_Megasena" />
+      <module name="Enumeracoes" />
       <module name="java_EJA" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Collections api">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Enumeracoes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enumeracoes/src/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/Enumeracoes/src/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enumeracoes/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Enumeracoes/src/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +112,7 @@
   <component name="RunManager">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Principal" />
-      <module name="collections_Megasena" />
+      <module name="Enumeracoes" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -306,14 +307,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00207" summary="Desafio generics">
-      <option name="closed" value="true" />
-      <created>1694893816621</created>
-      <option name="number" value="00207" />
-      <option name="presentableId" value="LOCAL-00207" />
-      <option name="project" value="LOCAL" />
-      <updated>1694893816621</updated>
-    </task>
     <task id="LOCAL-00208" summary="Desafio generics completo">
       <option name="closed" value="true" />
       <created>1694893891475</created>
@@ -498,7 +491,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696539708755</updated>
     </task>
-    <option name="localTasksCounter" value="231" />
+    <task id="LOCAL-00231" summary="Enumeracoes">
+      <option name="closed" value="true" />
+      <created>1696601404850</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1696601404850</updated>
+    </task>
+    <option name="localTasksCounter" value="232" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -562,7 +563,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exceptions aula 06" />
     <MESSAGE value="Exceptions aula 08" />
     <MESSAGE value="Exceptions aula 09" />
     <MESSAGE value="Exceptions aula 10" />
@@ -587,7 +587,8 @@
     <MESSAGE value="Collections api (List)" />
     <MESSAGE value="Collections api (iterator, itarable)" />
     <MESSAGE value="Collections api" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collections api" />
+    <MESSAGE value="Enumeracoes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enumeracoes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

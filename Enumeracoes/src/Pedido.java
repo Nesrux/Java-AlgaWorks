@@ -11,6 +11,18 @@ public class Pedido {
 
     //public void setStatus(StatusPedido status) {this.status = status;}
 
+    public Double getValor() {
+        return valor;
+    }
+
+    public void setValor(Double valor) {
+        this.valor = valor;
+    }
+
+    public void entregar() {
+        this.status = StatusPedido.EMITIDO;
+    }
+
     public String getNomeCliente() {
         return nomeCliente;
     }
@@ -32,11 +44,7 @@ public class Pedido {
     }
 
     public void cancelar() {
-        if (StatusPedido.RASCUNHO.equals(getStatus()) ||
-                StatusPedido.EMITIDO.equals(getStatus()) && this.valor < 100) {
-            this.status = StatusPedido.CANCELADO;
-        }
-        throw new IllegalStateException("Pedido Não pode ser cancelado");
+        status.podeMudarParaCancelado(getValor());
     }
 
 }

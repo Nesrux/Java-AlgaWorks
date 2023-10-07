@@ -1,13 +1,10 @@
 public class NotaFiscal {
 
-    public static final int STATUS_NAO_EMITIDA = 0;
-    public static final int STATUS_EMITIDA = 1;
-    public static final int STATUS_CANCELADA = 2;
 
     private final Integer numero;
     private final String descricao;
     private final double valor;
-    private int status = STATUS_NAO_EMITIDA;
+    private Status status = Status.NAO_EMITIDA;
 
     public NotaFiscal(Integer numero, String descricao, double valor) {
         this.numero = numero;
@@ -27,7 +24,7 @@ public class NotaFiscal {
         return valor;
     }
 
-    public int getStatus() {
+    public Status getStatus() {
         return status;
     }
 

@@ -6,12 +6,14 @@
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
       <module name="Enumeracoes" />
+      <module name="Desafio_enumeracoes" />
       <module name="java_EJA" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Enumeracoes">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Enumeracoes (desafio)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio_enumeracoes/src/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_enumeracoes/src/NotaFiscal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,22 +309,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00216" summary="Collections api (arrayList)">
-      <option name="closed" value="true" />
-      <created>1695163389540</created>
-      <option name="number" value="00216" />
-      <option name="presentableId" value="LOCAL-00216" />
-      <option name="project" value="LOCAL" />
-      <updated>1695163389540</updated>
-    </task>
-    <task id="LOCAL-00217" summary="Collections api (arrayList)">
-      <option name="closed" value="true" />
-      <created>1695166347605</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1695166347605</updated>
-    </task>
     <task id="LOCAL-00218" summary="Collections api (arrayList)">
       <option name="closed" value="true" />
       <created>1695243752628</created>
@@ -499,7 +485,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696689247382</updated>
     </task>
-    <option name="localTasksCounter" value="240" />
+    <task id="LOCAL-00240" summary="Enumeracoes">
+      <option name="closed" value="true" />
+      <created>1696690283945</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1696690283945</updated>
+    </task>
+    <task id="LOCAL-00241" summary="Enumeracoes (desafio)">
+      <option name="closed" value="true" />
+      <created>1696690296431</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1696690296431</updated>
+    </task>
+    <option name="localTasksCounter" value="242" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -563,7 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exceptions aula 08" />
     <MESSAGE value="Exceptions aula 09" />
     <MESSAGE value="Exceptions aula 10" />
     <MESSAGE value="Exceptions aula 11" />
@@ -588,7 +589,8 @@
     <MESSAGE value="Collections api (iterator, itarable)" />
     <MESSAGE value="Collections api" />
     <MESSAGE value="Enumeracoes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enumeracoes" />
+    <MESSAGE value="Enumeracoes (desafio)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enumeracoes (desafio)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

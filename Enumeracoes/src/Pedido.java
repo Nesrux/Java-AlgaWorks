@@ -11,6 +11,10 @@ public class Pedido {
 
     //public void setStatus(StatusPedido status) {this.status = status;}
 
+    public void setStatus(StatusPedido status) {
+        this.status = status;
+    }
+
     public Double getValor() {
         return valor;
     }

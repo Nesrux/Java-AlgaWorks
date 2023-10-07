@@ -1,11 +1,52 @@
 public enum StatusPedido {
-    RASCUNHO,
-    ENTREGUE,
-    CANCELADO,
-    EMITIDO(12),
-    FATURADO(10),
-    SEPARADO(5),
-    DESPACHADO(2);
+    RASCUNHO {
+        @Override
+        public boolean podeMudarParaCancelado(double valorPedido) {
+            return true;
+        }
+    },
+    ENTREGUE {
+        @Override
+        public boolean podeMudarParaCancelado(double valorPedido) {
+            return false;
+        }
+    },
+    CANCELADO {
+        @Override
+        public boolean podeMudarParaCancelado(double valorPedido) {
+            return false;
+        }
+    },
+    EM_ANALISE {
+        @Override
+        public boolean podeMudarParaCancelado(double valorPedido) {
+            return valorPedido < 100;
+        }
+    },
+    EMITIDO(12) {
+        @Override
+        public boolean podeMudarParaCancelado(double valorPedido) {
+            return valorPedido < 100;
+        }
+    },
+    FATURADO(10){
+        @Override
+        public boolean podeMudarParaCancelado(double valorPedido) {
+            return false;
+        }
+    },
+    SEPARADO(5){
+        @Override
+        public boolean podeMudarParaCancelado(double valorPedido) {
+            return false;
+        }
+    },
+    DESPACHADO(2){
+        @Override
+        public boolean podeMudarParaCancelado(double valorPedido) {
+            return false;
+        }
+    };
 
     private Integer tempoEmHoras;
 
@@ -20,8 +61,5 @@ public enum StatusPedido {
         return tempoEmHoras;
     }
 
-    public boolean podeMudarParaCancelado(double valorPedido) {
-        return StatusPedido.RASCUNHO.equals(this) ||
-                StatusPedido.EMITIDO.equals(this) && valorPedido < 100;
-    }
+    public abstract boolean podeMudarParaCancelado(double valorPedido);
 }

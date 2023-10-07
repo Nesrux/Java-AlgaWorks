@@ -28,33 +28,30 @@ public class NotaFiscal {
         return status;
     }
 
+    private void setStatus(Status status) {
+        this.status = status;
+    }
+
     public void cancelar() {
-        if ((status == STATUS_EMITIDA && getValor() >= 1_000)
-                || status == STATUS_CANCELADA) {
+        if ((Status.EMITIDA.equals(getStatus()) && getValor() >= 1_000)
+                || Status.CANCELADA.equals(getStatus())) {
             throw new IllegalStateException("Não foi possível cancelar a nota fiscal");
         }
 
-        status = STATUS_CANCELADA;
+        setStatus(Status.CANCELADA);
     }
 
     public void emitir() {
-        if (status == STATUS_EMITIDA || status == STATUS_CANCELADA) {
+        if (Status.EMITIDA.equals(getStatus()) || Status.CANCELADA.equals(getStatus())) {
             throw new IllegalStateException("Não foi possível emitir a nota fiscal");
         }
 
-        status = STATUS_EMITIDA;
+        setStatus(Status.EMITIDA);
     }
 
     public String getDescricaoCompleta() {
-        String descricaoStatus = switch (status) {
-            case STATUS_NAO_EMITIDA -> "Não emitida";
-            case STATUS_EMITIDA -> "Emitida";
-            case STATUS_CANCELADA -> "Cancelada";
-            default -> throw new RuntimeException("Status não tratado");
-        };
-
         return String.format("Nota fiscal #%d (%s) no valor de R$%.2f está %s",
-                getNumero(), getDescricao(), getValor(), descricaoStatus);
+                getNumero(), getDescricao(), getValor(), getStatus());
     }
 
 }

@@ -12,8 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Enumeracoes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enumeracoes/src/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/Enumeracoes/src/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enumeracoes/src/StatusPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/Enumeracoes/src/StatusPedido.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,14 +307,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00215" summary="Collections api (arrayList)">
-      <option name="closed" value="true" />
-      <created>1695163203091</created>
-      <option name="number" value="00215" />
-      <option name="presentableId" value="LOCAL-00215" />
-      <option name="project" value="LOCAL" />
-      <updated>1695163203091</updated>
-    </task>
     <task id="LOCAL-00216" summary="Collections api (arrayList)">
       <option name="closed" value="true" />
       <created>1695163389540</created>
@@ -501,7 +491,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696636236830</updated>
     </task>
-    <option name="localTasksCounter" value="239" />
+    <task id="LOCAL-00239" summary="Enumeracoes">
+      <option name="closed" value="true" />
+      <created>1696689247382</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1696689247382</updated>
+    </task>
+    <option name="localTasksCounter" value="240" />
     <servers />
   </component>
   <component name="UnknownFeatures">

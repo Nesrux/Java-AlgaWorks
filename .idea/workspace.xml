@@ -10,8 +10,9 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Strings(validaçoes e metodos)">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Strings(indexof e substring)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings/src/extracao/EstracaoNome.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/src/extracao/EstracaoNome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,14 +373,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00225" summary="Collections api (List)">
-      <option name="closed" value="true" />
-      <created>1696280519869</created>
-      <option name="number" value="00225" />
-      <option name="presentableId" value="LOCAL-00225" />
-      <option name="project" value="LOCAL" />
-      <updated>1696280519869</updated>
-    </task>
     <task id="LOCAL-00226" summary="Collections api (iterator, itarable)">
       <option name="closed" value="true" />
       <created>1696280983899</created>
@@ -564,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696777066655</updated>
     </task>
-    <option name="localTasksCounter" value="249" />
+    <task id="LOCAL-00249" summary="Strings(indexof e substring)">
+      <option name="closed" value="true" />
+      <created>1696779268506</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1696779268506</updated>
+    </task>
+    <option name="localTasksCounter" value="250" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -630,7 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exceptions aula 11" />
     <MESSAGE value="Exceptions aula 12" />
     <MESSAGE value="Exceptions aula 13" />
     <MESSAGE value="Exceptions aula 14" />
@@ -655,7 +655,8 @@
     <MESSAGE value="Enumeracoes (desafio)" />
     <MESSAGE value="Strings" />
     <MESSAGE value="Strings(validaçoes e metodos)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strings(validaçoes e metodos)" />
+    <MESSAGE value="Strings(indexof e substring)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strings(indexof e substring)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

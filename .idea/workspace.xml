@@ -12,9 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Strings(validaçoes e metodos)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strings/src/validacoes/strings/Contains.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/src/validacoes/strings/Contains.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strings/src/validacoes/strings/EndsWith.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/src/validacoes/strings/EndsWith.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strings/src/validacoes/strings/StarsWith.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/src/validacoes/strings/StarsWith.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +112,7 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Contains">
+  <component name="RunManager" selected="Application.EstracaoNome">
     <configuration name="Contains" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="validacoes.strings.Contains" />
       <module name="Strings" />
@@ -142,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualsIgnoreCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="validacoes.strings.EqualsIgnoreCase" />
+    <configuration name="EstracaoNome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extracao.EstracaoNome" />
       <module name="Strings" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="validacoes.strings.*" />
+          <option name="PATTERN" value="extracao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EstracaoNome" />
         <item itemvalue="Application.Contains" />
         <item itemvalue="Application.EndsWith" />
         <item itemvalue="Application.StarsWith" />
         <item itemvalue="Application.IsBlank" />
-        <item itemvalue="Application.EqualsIgnoreCase" />
       </list>
     </recent_temporary>
   </component>
@@ -375,14 +372,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00224" summary="Collections api (arrayList)">
-      <option name="closed" value="true" />
-      <created>1695418938339</created>
-      <option name="number" value="00224" />
-      <option name="presentableId" value="LOCAL-00224" />
-      <option name="project" value="LOCAL" />
-      <updated>1695418938340</updated>
-    </task>
     <task id="LOCAL-00225" summary="Collections api (List)">
       <option name="closed" value="true" />
       <created>1696280519869</created>
@@ -567,7 +556,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696776741519</updated>
     </task>
-    <option name="localTasksCounter" value="248" />
+    <task id="LOCAL-00248" summary="Strings(validaçoes e metodos)">
+      <option name="closed" value="true" />
+      <created>1696777066655</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1696777066655</updated>
+    </task>
+    <option name="localTasksCounter" value="249" />
     <servers />
   </component>
   <component name="UnknownFeatures">

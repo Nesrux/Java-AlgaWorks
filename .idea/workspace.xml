@@ -12,7 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Strings(validaçoes e metodos)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strings/src/validacoes/strings/EqualsIgnoreCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/src/validacoes/strings/EqualsIgnoreCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings/src/validacoes/strings/IsBlank.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/src/validacoes/strings/IsBlank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings/src/validacoes/strings/IsEmpty.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/src/validacoes/strings/IsEmpty.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +114,7 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EqualsIgnoreCase">
+  <component name="RunManager" selected="Application.IsBlank">
     <configuration name="EqualsIgnoreCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="validacoes.strings.EqualsIgnoreCase" />
       <module name="Strings" />
@@ -134,8 +135,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IsBlank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="validacoes.strings.IsBlank" />
+      <module name="Strings" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="validacoes.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsBlank" />
         <item itemvalue="Application.EqualsIgnoreCase" />
         <item itemvalue="Application.IgualdadeString" />
       </list>
@@ -325,14 +340,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00222" summary="Collections api (arrayList)">
-      <option name="closed" value="true" />
-      <created>1695337418102</created>
-      <option name="number" value="00222" />
-      <option name="presentableId" value="LOCAL-00222" />
-      <option name="project" value="LOCAL" />
-      <updated>1695337418102</updated>
-    </task>
     <task id="LOCAL-00223" summary="Collections api (arrayList)">
       <option name="closed" value="true" />
       <created>1695337650026</created>
@@ -517,7 +524,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696776330144</updated>
     </task>
-    <option name="localTasksCounter" value="246" />
+    <task id="LOCAL-00246" summary="Strings(validaçoes e metodos)">
+      <option name="closed" value="true" />
+      <created>1696776516794</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1696776516794</updated>
+    </task>
+    <option name="localTasksCounter" value="247" />
     <servers />
   </component>
   <component name="UnknownFeatures">

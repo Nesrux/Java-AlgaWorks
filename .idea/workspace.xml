@@ -5,15 +5,14 @@
   </component>
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
-      <module name="Enumeracoes" />
-      <module name="Desafio_enumeracoes" />
+      <module name="Strings" />
       <module name="java_EJA" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Enumeracoes (desafio)">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio_enumeracoes/src/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_enumeracoes/src/NotaFiscal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,6 +35,7 @@
     <setting file="file://$PROJECT_DIR$/Desafio_enumeracoes/src/NotaFiscal.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Enumeracoes/src/StatusPedido.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Interfaces/src/com/nesrux/pagamento/Beneficiario.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Strings/src/IgualdadeString.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/collections_api/src/com/nesru/arraylist/Principal.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/Principal.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/estruturasdedados/Fila.java" root0="SKIP_INSPECTION" />
@@ -113,16 +113,16 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Principal" />
-      <module name="Enumeracoes" />
+    <configuration name="IgualdadeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IgualdadeString" />
+      <module name="Strings" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Principal" />
+        <item itemvalue="Application.IgualdadeString" />
       </list>
     </recent_temporary>
   </component>
@@ -310,14 +310,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00219" summary="Collections api (arrayList)">
-      <option name="closed" value="true" />
-      <created>1695244064375</created>
-      <option name="number" value="00219" />
-      <option name="presentableId" value="LOCAL-00219" />
-      <option name="project" value="LOCAL" />
-      <updated>1695244064375</updated>
-    </task>
     <task id="LOCAL-00220" summary="Collections api (arrayList)">
       <option name="closed" value="true" />
       <created>1695244197894</created>
@@ -502,7 +494,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696690408817</updated>
     </task>
-    <option name="localTasksCounter" value="243" />
+    <task id="LOCAL-00243" summary="Enumeracoes (desafio)">
+      <option name="closed" value="true" />
+      <created>1696690706233</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1696690706249</updated>
+    </task>
+    <option name="localTasksCounter" value="244" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -515,8 +515,10 @@
     <module name="Desafio_Generics" />
     <module name="Desafio_Heranca" />
     <module name="Desafio_Interfaces" />
+    <module name="Desafio_enumeracoes" />
     <module name="Desafio_exceptions" />
     <module name="Desafio_polimorfismo" />
+    <module name="Enumeracoes" />
     <module name="Exceptions" />
     <module name="Heranca" />
     <module name="Interfaces" />

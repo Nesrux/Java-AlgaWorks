@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interfaces_Financeira/Interfaces_Financeira.iml" filepath="$PROJECT_DIR$/Interfaces_Financeira/Interfaces_Financeira.iml" />
       <module fileurl="file://$PROJECT_DIR$/Polimorfismo/Polimorfismo.iml" filepath="$PROJECT_DIR$/Polimorfismo/Polimorfismo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/collections_api/collections_ArrayList.iml" filepath="$PROJECT_DIR$/collections_api/collections_ArrayList.iml" />
       <module fileurl="file://$PROJECT_DIR$/collections_Megasena/collections_Megasena.iml" filepath="$PROJECT_DIR$/collections_Megasena/collections_Megasena.iml" />
       <module fileurl="file://$PROJECT_DIR$/encapsulamento/encapsulamento.iml" filepath="$PROJECT_DIR$/encapsulamento/encapsulamento.iml" />

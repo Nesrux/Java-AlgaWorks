@@ -373,14 +373,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00226" summary="Collections api (iterator, itarable)">
-      <option name="closed" value="true" />
-      <created>1696280983899</created>
-      <option name="number" value="00226" />
-      <option name="presentableId" value="LOCAL-00226" />
-      <option name="project" value="LOCAL" />
-      <updated>1696280983899</updated>
-    </task>
     <task id="LOCAL-00227" summary="Collections api (iterator, itarable)">
       <option name="closed" value="true" />
       <created>1696281203493</created>
@@ -565,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696779268506</updated>
     </task>
-    <option name="localTasksCounter" value="250" />
+    <task id="LOCAL-00250" summary="Strings(indexof e substring)">
+      <option name="closed" value="true" />
+      <created>1696779796515</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1696779796515</updated>
+    </task>
+    <option name="localTasksCounter" value="251" />
     <servers />
   </component>
   <component name="UnknownFeatures">

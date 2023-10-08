@@ -12,6 +12,7 @@ public class EstracaoNome {
 
         //Ambos funcionam exatamente igual, porém i obtersobrenome possui uma validção
         System.out.println(obterSobrenome(nome));
+        System.out.println(obterSegundoNome(nome));
     }
 
     public static String obterSobrenome(String nome) {
@@ -20,5 +21,14 @@ public class EstracaoNome {
             throw new RuntimeException("O nome não possui um sobrenome");
         }
         return nome.substring(posicao);
+    }
+
+    public static String obterSegundoNome(String nome) {
+        int posicaoInicial = nome.indexOf(" ");
+        int posicaoFinal = nome.indexOf(" ", posicaoInicial + 1);
+        if (posicaoInicial < 0 || posicaoFinal <= posicaoInicial) {
+            throw new RuntimeException("O nome não possui um sobrenome");
+        }
+        return nome.substring(posicaoInicial, posicaoFinal);
     }
 }

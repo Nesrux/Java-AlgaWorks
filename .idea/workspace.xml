@@ -10,7 +10,10 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Strings" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Strings(validaçoes e metodos)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings/src/validacoes/strings/EqualsIgnoreCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/src/validacoes/strings/EqualsIgnoreCase.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +36,7 @@
     <setting file="file://$PROJECT_DIR$/Enumeracoes/src/StatusPedido.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Interfaces/src/com/nesrux/pagamento/Beneficiario.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Strings/src/IgualdadeString.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Strings/src/validacoes/strings/EqualsIgnoreCase.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/collections_api/src/com/nesru/arraylist/Principal.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/Principal.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/generics/src/com/nesrux/classesGenericas/estruturasdedados/Fila.java" root0="SKIP_INSPECTION" />
@@ -109,7 +113,20 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.EqualsIgnoreCase">
+    <configuration name="EqualsIgnoreCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="validacoes.strings.EqualsIgnoreCase" />
+      <module name="Strings" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="validacoes.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IgualdadeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IgualdadeString" />
       <module name="Strings" />
@@ -119,6 +136,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EqualsIgnoreCase" />
         <item itemvalue="Application.IgualdadeString" />
       </list>
     </recent_temporary>
@@ -307,14 +325,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00221" summary="Collections api (arrayList)">
-      <option name="closed" value="true" />
-      <created>1695244619769</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
-      <option name="project" value="LOCAL" />
-      <updated>1695244619769</updated>
-    </task>
     <task id="LOCAL-00222" summary="Collections api (arrayList)">
       <option name="closed" value="true" />
       <created>1695337418102</created>
@@ -499,7 +509,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696775711064</updated>
     </task>
-    <option name="localTasksCounter" value="245" />
+    <task id="LOCAL-00245" summary="Strings(validaçoes e metodos)">
+      <option name="closed" value="true" />
+      <created>1696776330144</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1696776330144</updated>
+    </task>
+    <option name="localTasksCounter" value="246" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -565,7 +583,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exceptions aula 10" />
     <MESSAGE value="Exceptions aula 11" />
     <MESSAGE value="Exceptions aula 12" />
     <MESSAGE value="Exceptions aula 13" />
@@ -590,7 +607,8 @@
     <MESSAGE value="Enumeracoes" />
     <MESSAGE value="Enumeracoes (desafio)" />
     <MESSAGE value="Strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strings" />
+    <MESSAGE value="Strings(validaçoes e metodos)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strings(validaçoes e metodos)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

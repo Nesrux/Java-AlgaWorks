@@ -11,6 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Strings(transformações de string)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings/src/transformacoes/Strings/Replace.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/src/transformacoes/Strings/Replace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Strings/src/transformacoes/Strings/Strip.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/src/transformacoes/Strings/Strip.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +114,7 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Strip">
+  <component name="RunManager" selected="Application.Replace">
     <configuration name="Contains" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="validacoes.strings.Contains" />
       <module name="Strings" />
@@ -152,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StarsWith" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="validacoes.strings.StarsWith" />
+    <configuration name="Replace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="transformacoes.Strings.Replace" />
       <module name="Strings" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="validacoes.strings.*" />
+          <option name="PATTERN" value="transformacoes.Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Replace" />
         <item itemvalue="Application.Strip" />
         <item itemvalue="Application.EstracaoNome" />
         <item itemvalue="Application.Contains" />
         <item itemvalue="Application.EndsWith" />
-        <item itemvalue="Application.StarsWith" />
       </list>
     </recent_temporary>
   </component>
@@ -372,14 +374,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00232" summary="Enumeracoes">
-      <option name="closed" value="true" />
-      <created>1696605124400</created>
-      <option name="number" value="00232" />
-      <option name="presentableId" value="LOCAL-00232" />
-      <option name="project" value="LOCAL" />
-      <updated>1696605124408</updated>
-    </task>
     <task id="LOCAL-00233" summary="Enumeracoes">
       <option name="closed" value="true" />
       <created>1696607916006</created>
@@ -564,7 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696881469301</updated>
     </task>
-    <option name="localTasksCounter" value="256" />
+    <task id="LOCAL-00256" summary="Strings(transformações de string)">
+      <option name="closed" value="true" />
+      <created>1696881593377</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1696881593377</updated>
+    </task>
+    <option name="localTasksCounter" value="257" />
     <servers />
   </component>
   <component name="UnknownFeatures">

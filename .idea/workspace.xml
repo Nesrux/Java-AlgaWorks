@@ -12,7 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Strings(indexof e substring)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strings/src/extracao/EstracaoNome.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/src/extracao/EstracaoNome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings/src/validacoes/strings/Contains.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/src/validacoes/strings/Contains.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -373,14 +373,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00229" summary="Collections api">
-      <option name="closed" value="true" />
-      <created>1696538946403</created>
-      <option name="number" value="00229" />
-      <option name="presentableId" value="LOCAL-00229" />
-      <option name="project" value="LOCAL" />
-      <updated>1696538946403</updated>
-    </task>
     <task id="LOCAL-00230" summary="Collections api">
       <option name="closed" value="true" />
       <created>1696539708755</created>
@@ -565,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696781954933</updated>
     </task>
-    <option name="localTasksCounter" value="253" />
+    <task id="LOCAL-00253" summary="Strings(indexof e substring)">
+      <option name="closed" value="true" />
+      <created>1696877360730</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1696877360731</updated>
+    </task>
+    <option name="localTasksCounter" value="254" />
     <servers />
   </component>
   <component name="UnknownFeatures">

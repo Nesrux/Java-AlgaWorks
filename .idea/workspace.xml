@@ -10,8 +10,8 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Strings(transformações de string)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Strings(exemplo de código usando os metodos da classe string)">
+      <change beforePath="$PROJECT_DIR$/Strings/src/exemplos/formatacao/FormatacaoNome.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/src/exemplos/formatacao/FormatacaoNome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,22 +372,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00235" summary="Enumeracoes">
-      <option name="closed" value="true" />
-      <created>1696630207796</created>
-      <option name="number" value="00235" />
-      <option name="presentableId" value="LOCAL-00235" />
-      <option name="project" value="LOCAL" />
-      <updated>1696630207796</updated>
-    </task>
-    <task id="LOCAL-00236" summary="Enumeracoes">
-      <option name="closed" value="true" />
-      <created>1696631043134</created>
-      <option name="number" value="00236" />
-      <option name="presentableId" value="LOCAL-00236" />
-      <option name="project" value="LOCAL" />
-      <updated>1696631043134</updated>
-    </task>
     <task id="LOCAL-00237" summary="Enumeracoes">
       <option name="closed" value="true" />
       <created>1696634985814</created>
@@ -564,7 +548,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696881912384</updated>
     </task>
-    <option name="localTasksCounter" value="259" />
+    <task id="LOCAL-00259" summary="Strings(exemplo de código usando os metodos da classe string)">
+      <option name="closed" value="true" />
+      <created>1696885849057</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1696885849057</updated>
+    </task>
+    <task id="LOCAL-00260" summary="Strings(exemplo de código usando os metodos da classe string)">
+      <option name="closed" value="true" />
+      <created>1696885895613</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1696885895613</updated>
+    </task>
+    <option name="localTasksCounter" value="261" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -630,7 +630,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exceptions aula 13" />
     <MESSAGE value="Exceptions aula 14" />
     <MESSAGE value="Exceptions aula 16" />
     <MESSAGE value="Exceptions aula 19" />
@@ -655,7 +654,8 @@
     <MESSAGE value="Strings(validaçoes e metodos)" />
     <MESSAGE value="Strings(indexof e substring)" />
     <MESSAGE value="Strings(transformações de string)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strings(transformações de string)" />
+    <MESSAGE value="Strings(exemplo de código usando os metodos da classe string)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strings(exemplo de código usando os metodos da classe string)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

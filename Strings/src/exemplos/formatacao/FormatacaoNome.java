@@ -7,7 +7,7 @@ public class FormatacaoNome {
     }
 
     public static String formatarNome(String nome, String... preposicoes) {
-        String novoNome = nome.strip();
+        String novoNome = nome.toUpperCase().strip();
 
         for (String preposicao : preposicoes) {
             novoNome = nome.replace(preposicao, "");

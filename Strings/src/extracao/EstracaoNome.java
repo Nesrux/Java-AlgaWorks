@@ -9,11 +9,13 @@ public class EstracaoNome {
          * do primeiro "espaço" na nome da pessoa que no caso é o indice 5
          * e depois esta retornando toda a sequencia de caracteres posteriores*/
 
-        System.out.println(nome.substring(nome.indexOf(" "))); //retorno josiana vieira de sousa
+     //   System.out.println(nome.substring(nome.indexOf(" "))); //retorno josiana vieira de sousa
         //Ambos funcionam exatamente igual, porém i obtersobrenome possui uma validção
         System.out.println(obterSobrenome(nome));
 
         System.out.println(obterSegundoNome(nome));
+
+        System.out.println(obterUltimoNome(nome));
     }
 
     public static String obterSobrenome(String nome) {
@@ -32,4 +34,12 @@ public class EstracaoNome {
         }
         return nome.substring(posicaoInicial, posicaoFinal < 0 ? nome.length() : posicaoFinal);
     }
+    public static String obterUltimoNome(String nome) {
+        int posicao = nome.lastIndexOf(" ");
+        if (posicao < 0) {
+            throw new RuntimeException("O nome não possui um sobrenome");
+        }
+        return nome.substring(posicao);
+    }
+
 }

@@ -11,7 +11,7 @@ public class FormatarCodigo {
 
     public static String preeencherEsquerda(String texto, char caracter, int tamanho) {
         if (texto.length() >= tamanho) {
-            throw new IllegalArgumentException("O texto fornecido é maior que o tamanho desejado");
+            return texto;
         }
         String caractereRepetido = String.valueOf(caracter).repeat(tamanho - texto.length());
 

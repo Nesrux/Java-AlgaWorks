@@ -3,15 +3,15 @@ package desafio.validacaoEmail;
 public class Principal {
 
     public static void main(String[] args) {
-        String[] emailsValidos = { "joao@algaworks.com", "joao_silva@algaworks.com",
+        String[] emailsValidos = {"joao@algaworks.com", "joao_silva@algaworks.com",
                 "joao.silva@algaworks.com", "joao-silva@algaworks.com",
                 "joao123@algaworks.com", "joao@algaworks123.com",
                 "joao@java.algaworks.com", "joao@alga-works.com", "joao@email.me",
                 "Joao@algaworks.com"
         };
 
-        String[] emailsInvalidos = { "", " joao@algaworks.com", "joao@algaworks.com ",
-            "joao @algaworks.com", "joao@ algaworks.com", "joao@algaworks .com",
+        String[] emailsInvalidos = {"", " joao@algaworks.com", "joao@algaworks.com ",
+                "joao @algaworks.com", "joao@ algaworks.com", "joao@algaworks .com",
                 "joao@algaworks. com", "joaoalgaworks.com", "@algaworks.com",
                 "joao@algaworks", "joao@algaworks.abcdef", "joao@alga@works.com",
                 "joao@algaworks.co1", "joao@AlgaWorks.com", "joao@algaworks.Com",

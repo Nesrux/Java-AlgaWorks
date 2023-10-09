@@ -9,8 +9,8 @@ public class FormatacaoNome {
     public static String formatarNome(String nome, String... preposicoes) {
         String novoNome = nome.strip();
 
-        for (String preposicoe : preposicoes) {
-            novoNome = nome.replace(preposicoe, "");
+        for (String preposicao : preposicoes) {
+            novoNome = nome.replace(preposicao, "");
         }
         return novoNome;
     }

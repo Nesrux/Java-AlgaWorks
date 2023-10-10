@@ -13,7 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="desafio validacao de email (Strings)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio_Strings/src/desafio/validacaoEmail/ValidadorEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Strings/src/desafio/validacaoEmail/ValidadorEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio_Strings/src/desafio/validacaoEmail/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Strings/src/desafio/validacaoEmail/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio_Strings/src/desafio/validacaoEmail/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Strings/src/desafio/validacaoEmail/Teste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +119,7 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Teste">
+  <component name="RunManager" selected="Application.Principal">
     <configuration name="FormatacaoNome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exemplos.formatacao.FormatacaoNome" />
       <module name="Strings" />
@@ -186,9 +187,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Teste" />
         <item itemvalue="Application.Teste (1)" />
-        <item itemvalue="Application.Principal" />
         <item itemvalue="Application.FormatarCodigo" />
         <item itemvalue="Application.FormatacaoNome" />
       </list>
@@ -378,22 +379,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00243" summary="Enumeracoes (desafio)">
-      <option name="closed" value="true" />
-      <created>1696690706233</created>
-      <option name="number" value="00243" />
-      <option name="presentableId" value="LOCAL-00243" />
-      <option name="project" value="LOCAL" />
-      <updated>1696690706249</updated>
-    </task>
-    <task id="LOCAL-00244" summary="Strings">
-      <option name="closed" value="true" />
-      <created>1696775711064</created>
-      <option name="number" value="00244" />
-      <option name="presentableId" value="LOCAL-00244" />
-      <option name="project" value="LOCAL" />
-      <updated>1696775711064</updated>
-    </task>
     <task id="LOCAL-00245" summary="Strings(validaçoes e metodos)">
       <option name="closed" value="true" />
       <created>1696776330144</created>
@@ -570,7 +555,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696896046069</updated>
     </task>
-    <option name="localTasksCounter" value="267" />
+    <task id="LOCAL-00267" summary="desafio validacao de email (Strings)">
+      <option name="closed" value="true" />
+      <created>1696962978532</created>
+      <option name="number" value="00267" />
+      <option name="presentableId" value="LOCAL-00267" />
+      <option name="project" value="LOCAL" />
+      <updated>1696962978532</updated>
+    </task>
+    <task id="LOCAL-00268" summary="desafio validacao de email (Strings)">
+      <option name="closed" value="true" />
+      <created>1696964683339</created>
+      <option name="number" value="00268" />
+      <option name="presentableId" value="LOCAL-00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1696964683339</updated>
+    </task>
+    <option name="localTasksCounter" value="269" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -702,11 +703,6 @@
           <url>file://$PROJECT_DIR$/Exceptions/src/com/checked/exceptions/Principal.java</url>
           <line>8</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Desafio_Strings/src/desafio/validacaoEmail/Teste.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

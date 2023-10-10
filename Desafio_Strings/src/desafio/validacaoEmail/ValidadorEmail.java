@@ -18,7 +18,18 @@ public class ValidadorEmail {
     }
 
     private static boolean validarNomeUsuario(String nomeUser) {
-        return false;
+        if (nomeUser.isEmpty() || nomeUser.isBlank()) {
+            return false;
+        }
+        char[] nomeUserArray = nomeUser.toCharArray();
+        for (char c : nomeUserArray) {
+            if (!isAlfaNumerico(c)) {
+                return false;
+            }
+        }
+
+
+        return true;
     }
 
     private static boolean validarDominio(String dominio) {
@@ -48,4 +59,7 @@ public class ValidadorEmail {
         return true;
     }
 
+    private static boolean isAlfaNumerico(char ch) {
+        return Character.isLetter(ch) || Character.isDigit(ch);
+    }
 }

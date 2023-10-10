@@ -12,8 +12,8 @@ public class ValidadorEmail {
     public static boolean validar(String email) {
         String nomeUser = email.substring(0, email.indexOf("@"));
         String dominio = email.substring(email.indexOf("@") + 1, email.lastIndexOf("."));
-        String sufixo = email.substring(email.lastIndexOf("."));
-        System.out.println(dominio);
+        String sufixo = email.substring(email.lastIndexOf(".") + 1);
+        System.out.println(sufixo);
         return validarSufixo(sufixo) && validarDominio(dominio) && validarNomeUsuario(nomeUser);
     }
 
@@ -25,7 +25,7 @@ public class ValidadorEmail {
         char[] caracteres = dominio.toCharArray();
 
         for (char caractere : caracteres) {
-            System.out.println(caractere);
+//System.out.println(caractere);
             if (!Character.isLetter(caractere) || Character.isUpperCase(caractere)) {
                 return false;
             }
@@ -34,13 +34,14 @@ public class ValidadorEmail {
     }
 
     private static boolean validarSufixo(String sufixo) {
-        if (!(sufixo.length() == 4)) {
+        if (sufixo.length() != 3) {
             return false;
         }
         char[] arrayCaracteres = sufixo.toCharArray();
 
         for (char caracter : arrayCaracteres) {
-            if (!Character.isLetter(caracter) && Character.isUpperCase(caracter)) {
+            System.out.println(caracter);
+            if (!Character.isLetter(caracter) || Character.isUpperCase(caracter)) {
                 return false;
             }
         }

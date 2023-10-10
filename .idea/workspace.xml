@@ -13,6 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="desafio validacao de email (Strings)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio_Strings/src/desafio/validacaoEmail/ValidadorEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Strings/src/desafio/validacaoEmail/ValidadorEmail.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -377,14 +378,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00241" summary="Enumeracoes (desafio)">
-      <option name="closed" value="true" />
-      <created>1696690296431</created>
-      <option name="number" value="00241" />
-      <option name="presentableId" value="LOCAL-00241" />
-      <option name="project" value="LOCAL" />
-      <updated>1696690296431</updated>
-    </task>
     <task id="LOCAL-00242" summary="Enumeracoes (desafio)">
       <option name="closed" value="true" />
       <created>1696690408817</created>
@@ -569,7 +562,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696895708599</updated>
     </task>
-    <option name="localTasksCounter" value="265" />
+    <task id="LOCAL-00265" summary="desafio validacao de email (Strings)">
+      <option name="closed" value="true" />
+      <created>1696895749858</created>
+      <option name="number" value="00265" />
+      <option name="presentableId" value="LOCAL-00265" />
+      <option name="project" value="LOCAL" />
+      <updated>1696895749858</updated>
+    </task>
+    <option name="localTasksCounter" value="266" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -706,11 +707,6 @@
           <url>file://$PROJECT_DIR$/Desafio_Strings/src/desafio/validacaoEmail/Teste.java</url>
           <line>2</line>
           <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Desafio_Strings/src/desafio/validacaoEmail/ValidadorEmail.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

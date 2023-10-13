@@ -12,9 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Precisão com numeros (BigDecimal)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numeros/src/Precisao/numeros/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Numeros/src/bigDecimal/precisao/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numeros/src/Precisao/numeros/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Numeros/src/bigDecimal/precisao/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numeros/src/Precisao/numeros/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Numeros/src/bigDecimal/precisao/Principal2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +118,7 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.bigDecimal.divisao.Principal">
+  <component name="RunManager" selected="Application.bigDecimal.formatacao.Principal">
     <configuration name="Ceil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="operacoes.Ceil" />
       <module name="Numeros" />
@@ -161,19 +158,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operacoes.Sqrt" />
-      <module name="Numeros" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="operacoes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="bigDecimal.divisao.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bigDecimal.divisao.Principal" />
       <module name="Numeros" />
@@ -187,13 +171,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bigDecimal.formatacao.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bigDecimal.formatacao.Principal" />
+      <module name="Numeros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bigDecimal.formatacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bigDecimal.formatacao.Principal" />
         <item itemvalue="Application.bigDecimal.divisao.Principal" />
         <item itemvalue="Application.Principal2" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Ceil" />
-        <item itemvalue="Application.Sqrt" />
       </list>
     </recent_temporary>
   </component>
@@ -381,22 +378,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00261" summary="Strings(exemplo de código usando os metodos da classe string)">
-      <option name="closed" value="true" />
-      <created>1696885929514</created>
-      <option name="number" value="00261" />
-      <option name="presentableId" value="LOCAL-00261" />
-      <option name="project" value="LOCAL" />
-      <updated>1696885929514</updated>
-    </task>
-    <task id="LOCAL-00262" summary="Strings(exemplo de código usando os metodos da classe string)">
-      <option name="closed" value="true" />
-      <created>1696886958301</created>
-      <option name="number" value="00262" />
-      <option name="presentableId" value="LOCAL-00262" />
-      <option name="project" value="LOCAL" />
-      <updated>1696886958301</updated>
-    </task>
     <task id="LOCAL-00263" summary="desafio validacao de email (Strings)">
       <option name="closed" value="true" />
       <created>1696888300787</created>
@@ -573,7 +554,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697219800203</updated>
     </task>
-    <option name="localTasksCounter" value="285" />
+    <task id="LOCAL-00285" summary="Precisão com numeros (BigDecimal)">
+      <option name="closed" value="true" />
+      <created>1697234961496</created>
+      <option name="number" value="00285" />
+      <option name="presentableId" value="LOCAL-00285" />
+      <option name="project" value="LOCAL" />
+      <updated>1697234961496</updated>
+    </task>
+    <task id="LOCAL-00286" summary="Precisão com numeros (BigDecimal)">
+      <option name="closed" value="true" />
+      <created>1697235154091</created>
+      <option name="number" value="00286" />
+      <option name="presentableId" value="LOCAL-00286" />
+      <option name="project" value="LOCAL" />
+      <updated>1697235154091</updated>
+    </task>
+    <option name="localTasksCounter" value="287" />
     <servers />
   </component>
   <component name="UnknownFeatures">

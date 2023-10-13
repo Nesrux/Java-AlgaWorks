@@ -10,8 +10,10 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Operações (Sqrt)">
-      <change beforePath="$PROJECT_DIR$/Numeros/src/operacoes/Abs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Numeros/src/operacoes/Abs.java" afterDir="false" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Operações (abs)">
+      <change afterPath="$PROJECT_DIR$/Numeros/src/operacoes/Ceil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Numeros/src/operacoes/Cell.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +119,20 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sqrt">
+  <component name="RunManager" selected="Application.Ceil">
+    <configuration name="Ceil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operacoes.Ceil" />
+      <module name="Numeros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="operacoes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Min" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="operacoes.Min" />
       <module name="Numeros" />
@@ -157,19 +172,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boasPraticas.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boasPraticas.Principal" />
-      <module name="Strings" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="boasPraticas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="comparacao.numeros.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="comparacao.numeros.Principal" />
       <module name="Numeros" />
@@ -185,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ceil" />
         <item itemvalue="Application.Sqrt" />
         <item itemvalue="Application.Pow" />
         <item itemvalue="Application.Min" />
         <item itemvalue="Application.comparacao.numeros.Principal" />
-        <item itemvalue="Application.boasPraticas.Principal" />
       </list>
     </recent_temporary>
   </component>
@@ -377,14 +379,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00254" summary="Strings(transformações de string)">
-      <option name="closed" value="true" />
-      <created>1696881429063</created>
-      <option name="number" value="00254" />
-      <option name="presentableId" value="LOCAL-00254" />
-      <option name="project" value="LOCAL" />
-      <updated>1696881429063</updated>
-    </task>
     <task id="LOCAL-00255" summary="Strings(transformações de string)">
       <option name="closed" value="true" />
       <created>1696881469301</created>
@@ -569,7 +563,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697218121947</updated>
     </task>
-    <option name="localTasksCounter" value="278" />
+    <task id="LOCAL-00278" summary="Operações (abs)">
+      <option name="closed" value="true" />
+      <created>1697218288105</created>
+      <option name="number" value="00278" />
+      <option name="presentableId" value="LOCAL-00278" />
+      <option name="project" value="LOCAL" />
+      <updated>1697218288105</updated>
+    </task>
+    <option name="localTasksCounter" value="279" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -637,7 +639,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="generics aula 04" />
     <MESSAGE value="generics aula 04 (classes genéricas)" />
     <MESSAGE value="generics aula 05 (interfaces genéricas)" />
     <MESSAGE value="generics aula 06 (Upper bounded wildcards)" />
@@ -662,7 +663,8 @@
     <MESSAGE value="Operações (Max)" />
     <MESSAGE value="Operações (Pow)" />
     <MESSAGE value="Operações (Sqrt)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Operações (Sqrt)" />
+    <MESSAGE value="Operações (abs)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Operações (abs)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -10,8 +10,8 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="comparador de igualdade para matematica em java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Operações (Min)">
+      <change beforePath="$PROJECT_DIR$/Numeros/src/operacoes/Max.java" beforeDir="false" afterPath="$PROJECT_DIR$/Numeros/src/operacoes/Max.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -377,14 +377,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00250" summary="Strings(indexof e substring)">
-      <option name="closed" value="true" />
-      <created>1696779796515</created>
-      <option name="number" value="00250" />
-      <option name="presentableId" value="LOCAL-00250" />
-      <option name="project" value="LOCAL" />
-      <updated>1696779796515</updated>
-    </task>
     <task id="LOCAL-00251" summary="Strings(indexof e substring)">
       <option name="closed" value="true" />
       <created>1696780522437</created>
@@ -569,7 +561,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697217637584</updated>
     </task>
-    <option name="localTasksCounter" value="274" />
+    <task id="LOCAL-00274" summary="Operações (Min)">
+      <option name="closed" value="true" />
+      <created>1697217818631</created>
+      <option name="number" value="00274" />
+      <option name="presentableId" value="LOCAL-00274" />
+      <option name="project" value="LOCAL" />
+      <updated>1697217818631</updated>
+    </task>
+    <option name="localTasksCounter" value="275" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -637,7 +637,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Desafio exceptions {Completo}" />
     <MESSAGE value="generics aula 01" />
     <MESSAGE value="generics aula 02" />
     <MESSAGE value="generics aula 03" />
@@ -662,7 +661,8 @@
     <MESSAGE value="desafio validacao de email completo com regex (Strings)" />
     <MESSAGE value="String builder (boas praticas)" />
     <MESSAGE value="comparador de igualdade para matematica em java" />
-    <option name="LAST_COMMIT_MESSAGE" value="comparador de igualdade para matematica em java" />
+    <MESSAGE value="Operações (Min)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Operações (Min)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

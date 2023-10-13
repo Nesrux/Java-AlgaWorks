@@ -1,4 +1,4 @@
-package Precisao.numeros;
+package bigDecimal.precisao;
 
 import java.math.BigDecimal;
 

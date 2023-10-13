@@ -10,7 +10,9 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Operações (Round)" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Precisão com numeros (BigDecimal)">
+      <change beforePath="$PROJECT_DIR$/Numeros/src/Precisao/numeros/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Numeros/src/Precisao/numeros/Principal.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +117,7 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ceil">
+  <component name="RunManager" selected="Application.Principal">
     <configuration name="Ceil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="operacoes.Ceil" />
       <module name="Numeros" />
@@ -155,6 +157,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Precisao.numeros.Principal" />
+      <module name="Numeros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Precisao.numeros.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Sqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="operacoes.Sqrt" />
       <module name="Numeros" />
@@ -168,26 +183,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="comparacao.numeros.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comparacao.numeros.Principal" />
-      <module name="Numeros" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="comparacao.numeros.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Ceil" />
         <item itemvalue="Application.Sqrt" />
         <item itemvalue="Application.Pow" />
         <item itemvalue="Application.Min" />
-        <item itemvalue="Application.comparacao.numeros.Principal" />
       </list>
     </recent_temporary>
   </component>
@@ -375,14 +377,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00258" summary="Strings(transformações de string)">
-      <option name="closed" value="true" />
-      <created>1696881912384</created>
-      <option name="number" value="00258" />
-      <option name="presentableId" value="LOCAL-00258" />
-      <option name="project" value="LOCAL" />
-      <updated>1696881912384</updated>
-    </task>
     <task id="LOCAL-00259" summary="Strings(exemplo de código usando os metodos da classe string)">
       <option name="closed" value="true" />
       <created>1696885849057</created>
@@ -567,7 +561,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697218656589</updated>
     </task>
-    <option name="localTasksCounter" value="282" />
+    <task id="LOCAL-00282" summary="Precisão com numeros (BigDecimal)">
+      <option name="closed" value="true" />
+      <created>1697219405166</created>
+      <option name="number" value="00282" />
+      <option name="presentableId" value="LOCAL-00282" />
+      <option name="project" value="LOCAL" />
+      <updated>1697219405166</updated>
+    </task>
+    <option name="localTasksCounter" value="283" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -635,7 +637,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Desafio generics" />
     <MESSAGE value="Desafio generics completo" />
     <MESSAGE value="Collections api (arrayList)" />
     <MESSAGE value="Collections api (List)" />
@@ -660,7 +661,8 @@
     <MESSAGE value="Operações (ceil)" />
     <MESSAGE value="Operações (floor)" />
     <MESSAGE value="Operações (Round)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Operações (Round)" />
+    <MESSAGE value="Precisão com numeros (BigDecimal)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Precisão com numeros (BigDecimal)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

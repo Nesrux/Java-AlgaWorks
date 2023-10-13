@@ -10,9 +10,8 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="String builder (boas praticas)">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="comparador de igualdade para matematica em java">
+      <change beforePath="$PROJECT_DIR$/Numeros/src/comparacao/numeros/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Numeros/src/comparacao/numeros/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -378,14 +377,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00248" summary="Strings(validaçoes e metodos)">
-      <option name="closed" value="true" />
-      <created>1696777066655</created>
-      <option name="number" value="00248" />
-      <option name="presentableId" value="LOCAL-00248" />
-      <option name="project" value="LOCAL" />
-      <updated>1696777066655</updated>
-    </task>
     <task id="LOCAL-00249" summary="Strings(indexof e substring)">
       <option name="closed" value="true" />
       <created>1696779268506</created>
@@ -570,7 +561,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696972683733</updated>
     </task>
-    <option name="localTasksCounter" value="272" />
+    <task id="LOCAL-00272" summary="comparador de igualdade para matematica em java">
+      <option name="closed" value="true" />
+      <created>1697217625974</created>
+      <option name="number" value="00272" />
+      <option name="presentableId" value="LOCAL-00272" />
+      <option name="project" value="LOCAL" />
+      <updated>1697217625974</updated>
+    </task>
+    <option name="localTasksCounter" value="273" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -638,7 +637,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Desafio exceptions" />
     <MESSAGE value="Desafio exceptions {Completo}" />
     <MESSAGE value="generics aula 01" />
     <MESSAGE value="generics aula 02" />
@@ -663,7 +661,8 @@
     <MESSAGE value="desafio validacao de email (Strings)" />
     <MESSAGE value="desafio validacao de email completo com regex (Strings)" />
     <MESSAGE value="String builder (boas praticas)" />
-    <option name="LAST_COMMIT_MESSAGE" value="String builder (boas praticas)" />
+    <MESSAGE value="comparador de igualdade para matematica em java" />
+    <option name="LAST_COMMIT_MESSAGE" value="comparador de igualdade para matematica em java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

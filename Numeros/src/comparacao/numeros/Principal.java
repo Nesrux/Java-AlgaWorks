@@ -9,6 +9,6 @@ public class Principal {
         Integer b = 124;
 
         System.out.println(y == x);
-        System.out.println(a == b);
+        System.out.println(a.equals(b));
     }
 }

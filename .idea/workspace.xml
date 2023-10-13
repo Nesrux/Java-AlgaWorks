@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="comparador de igualdade para matematica em java">
-      <change beforePath="$PROJECT_DIR$/Numeros/src/comparacao/numeros/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Numeros/src/comparacao/numeros/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,13 +117,13 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.comparacao.numeros.Principal">
-    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="desafio.validacaoEmail.Principal" />
-      <module name="Desafio_Strings" />
+  <component name="RunManager" selected="Application.Min">
+    <configuration name="Min" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operacoes.Min" />
+      <module name="Numeros" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="desafio.validacaoEmail.*" />
+          <option name="PATTERN" value="operacoes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,9 +131,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Teste (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="desafio.validacaoEmail.Teste" />
-      <module name="Desafio_String" />
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desafio.validacaoEmail.Principal" />
+      <module name="Desafio_Strings" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="desafio.validacaoEmail.*" />
@@ -185,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Min" />
         <item itemvalue="Application.comparacao.numeros.Principal" />
         <item itemvalue="Application.boasPraticas.Principal" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Teste" />
-        <item itemvalue="Application.Teste (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -377,14 +377,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00249" summary="Strings(indexof e substring)">
-      <option name="closed" value="true" />
-      <created>1696779268506</created>
-      <option name="number" value="00249" />
-      <option name="presentableId" value="LOCAL-00249" />
-      <option name="project" value="LOCAL" />
-      <updated>1696779268506</updated>
-    </task>
     <task id="LOCAL-00250" summary="Strings(indexof e substring)">
       <option name="closed" value="true" />
       <created>1696779796515</created>
@@ -569,7 +561,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697217625974</updated>
     </task>
-    <option name="localTasksCounter" value="273" />
+    <task id="LOCAL-00273" summary="comparador de igualdade para matematica em java">
+      <option name="closed" value="true" />
+      <created>1697217637584</created>
+      <option name="number" value="00273" />
+      <option name="presentableId" value="LOCAL-00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1697217637584</updated>
+    </task>
+    <option name="localTasksCounter" value="274" />
     <servers />
   </component>
   <component name="UnknownFeatures">

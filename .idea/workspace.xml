@@ -10,9 +10,11 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio Completo">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Classes aninhadas (classe aninhada estatica)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes_aninhadas/src/classes_aninhadas_estaticas/Mensagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes_aninhadas/src/classes_aninhadas_estaticas/MensagemExemplo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes_aninhadas/src/classes_aninhadas_estaticas/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes_aninhadas/src/classes_aninhadas_estaticas/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes_aninhadas/src/classes_aninhadas_estaticas/ServicoEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes_aninhadas/src/classes_aninhadas_estaticas/ServicoEmail.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +121,7 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Cambio">
+  <component name="RunManager" selected="Application.Principal">
     <configuration name="Cambio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cambio" />
       <module name="Desafio_numeros" />
@@ -140,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringToNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bigDecimal.formatacao.StringToNumber" />
-      <module name="Numeros" />
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes_aninhadas_estaticas.Principal" />
+      <module name="classes_aninhadas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bigDecimal.formatacao.*" />
+          <option name="PATTERN" value="classes_aninhadas_estaticas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bigDecimal.divisao.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bigDecimal.divisao.Principal" />
+    <configuration name="StringToNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bigDecimal.formatacao.StringToNumber" />
       <module name="Numeros" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bigDecimal.divisao.*" />
+          <option name="PATTERN" value="bigDecimal.formatacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Cambio" />
         <item itemvalue="Application.FormatacaoCompacta" />
         <item itemvalue="Application.StringToNumber" />
         <item itemvalue="Application.bigDecimal.formatacao.Principal" />
-        <item itemvalue="Application.bigDecimal.divisao.Principal" />
       </list>
     </recent_temporary>
   </component>
@@ -373,14 +375,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00268" summary="desafio validacao de email (Strings)">
-      <option name="closed" value="true" />
-      <created>1696964683339</created>
-      <option name="number" value="00268" />
-      <option name="presentableId" value="LOCAL-00268" />
-      <option name="project" value="LOCAL" />
-      <updated>1696964683339</updated>
-    </task>
     <task id="LOCAL-00269" summary="desafio validacao de email completo com regex (Strings)">
       <option name="closed" value="true" />
       <created>1696971384806</created>
@@ -565,7 +559,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697294650362</updated>
     </task>
-    <option name="localTasksCounter" value="292" />
+    <task id="LOCAL-00292" summary="Classes aninhadas (classe aninhada estatica)">
+      <option name="closed" value="true" />
+      <created>1697301847911</created>
+      <option name="number" value="00292" />
+      <option name="presentableId" value="LOCAL-00292" />
+      <option name="project" value="LOCAL" />
+      <updated>1697301847912</updated>
+    </task>
+    <option name="localTasksCounter" value="293" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -635,7 +637,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Collections api (List)" />
     <MESSAGE value="Collections api (iterator, itarable)" />
     <MESSAGE value="Collections api" />
     <MESSAGE value="Enumeracoes" />
@@ -660,7 +661,8 @@
     <MESSAGE value="Precisão com numeros (BigDecimal)" />
     <MESSAGE value="Precisão com numeros (Formatadores de números)" />
     <MESSAGE value="Desafio Completo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio Completo" />
+    <MESSAGE value="Classes aninhadas (classe aninhada estatica)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes aninhadas (classe aninhada estatica)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

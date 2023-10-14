@@ -1,11 +1,11 @@
 package classes_aninhadas_estaticas;
 
-public class Mensagem {
+public class MensagemExemplo {
     private final String remetente;
     private final String destinatario;
     private final String texto;
 
-    public Mensagem(String remetente, String destinatario, String texto) {
+    public MensagemExemplo(String remetente, String destinatario, String texto) {
         this.remetente = remetente;
         this.destinatario = destinatario;
         this.texto = texto;

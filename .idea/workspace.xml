@@ -6,11 +6,13 @@
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
       <module name="Numeros" />
+      <module name="Desafio_numeros" />
       <module name="java_EJA" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Precisão com numeros (Formatadores de números)">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,26 +120,20 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringToNumber">
+  <component name="RunManager" selected="Application.Cambio">
+    <configuration name="Cambio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cambio" />
+      <module name="Desafio_numeros" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FormatacaoCompacta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bigDecimal.formatacao.FormatacaoCompacta" />
       <module name="Numeros" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bigDecimal.formatacao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Principal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Precisao.numeros.Principal2" />
-      <module name="Numeros" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Precisao.numeros.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringToNumber" />
+        <item itemvalue="Application.Cambio" />
         <item itemvalue="Application.FormatacaoCompacta" />
+        <item itemvalue="Application.StringToNumber" />
         <item itemvalue="Application.bigDecimal.formatacao.Principal" />
         <item itemvalue="Application.bigDecimal.divisao.Principal" />
-        <item itemvalue="Application.Principal2" />
       </list>
     </recent_temporary>
   </component>
@@ -378,14 +374,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00266" summary="desafio validacao de email (Strings)">
-      <option name="closed" value="true" />
-      <created>1696896046069</created>
-      <option name="number" value="00266" />
-      <option name="presentableId" value="LOCAL-00266" />
-      <option name="project" value="LOCAL" />
-      <updated>1696896046069</updated>
-    </task>
     <task id="LOCAL-00267" summary="desafio validacao de email (Strings)">
       <option name="closed" value="true" />
       <created>1696962978532</created>
@@ -570,7 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697290229265</updated>
     </task>
-    <option name="localTasksCounter" value="290" />
+    <task id="LOCAL-00290" summary="Precisão com numeros (Formatadores de números)">
+      <option name="closed" value="true" />
+      <created>1697290977547</created>
+      <option name="number" value="00290" />
+      <option name="presentableId" value="LOCAL-00290" />
+      <option name="project" value="LOCAL" />
+      <updated>1697290977547</updated>
+    </task>
+    <option name="localTasksCounter" value="291" />
     <servers />
   </component>
   <component name="UnknownFeatures">

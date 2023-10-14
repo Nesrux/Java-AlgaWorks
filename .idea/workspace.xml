@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Precisão com numeros (Formatadores de números)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numeros/src/bigDecimal/formatacao/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Numeros/src/bigDecimal/formatacao/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,13 +118,13 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.bigDecimal.formatacao.Principal">
-    <configuration name="Ceil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operacoes.Ceil" />
+  <component name="RunManager" selected="Application.FormatacaoCompacta">
+    <configuration name="FormatacaoCompacta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bigDecimal.formatacao.FormatacaoCompacta" />
       <module name="Numeros" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operacoes.*" />
+          <option name="PATTERN" value="bigDecimal.formatacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FormatacaoCompacta" />
         <item itemvalue="Application.bigDecimal.formatacao.Principal" />
         <item itemvalue="Application.bigDecimal.divisao.Principal" />
         <item itemvalue="Application.Principal2" />
         <item itemvalue="Application.Principal" />
-        <item itemvalue="Application.Ceil" />
       </list>
     </recent_temporary>
   </component>
@@ -379,14 +378,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00264" summary="desafio validacao de email (Strings)">
-      <option name="closed" value="true" />
-      <created>1696895708599</created>
-      <option name="number" value="00264" />
-      <option name="presentableId" value="LOCAL-00264" />
-      <option name="project" value="LOCAL" />
-      <updated>1696895708599</updated>
-    </task>
     <task id="LOCAL-00265" summary="desafio validacao de email (Strings)">
       <option name="closed" value="true" />
       <created>1696895749858</created>
@@ -571,7 +562,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697236725573</updated>
     </task>
-    <option name="localTasksCounter" value="288" />
+    <task id="LOCAL-00288" summary="Precisão com numeros (Formatadores de números)">
+      <option name="closed" value="true" />
+      <created>1697289439928</created>
+      <option name="number" value="00288" />
+      <option name="presentableId" value="LOCAL-00288" />
+      <option name="project" value="LOCAL" />
+      <updated>1697289439928</updated>
+    </task>
+    <option name="localTasksCounter" value="289" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -705,6 +704,11 @@
           <url>file://$PROJECT_DIR$/Exceptions/src/com/checked/exceptions/Principal.java</url>
           <line>8</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Numeros/src/bigDecimal/formatacao/FormatacaoCompacta.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

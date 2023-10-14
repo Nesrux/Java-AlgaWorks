@@ -1,4 +1,4 @@
-package classes_aninhadas_estaticas;
+package classes_aninhadas_estaticas.exemplo2;
 
 public class Principal {
     public static void main(String[] args) {

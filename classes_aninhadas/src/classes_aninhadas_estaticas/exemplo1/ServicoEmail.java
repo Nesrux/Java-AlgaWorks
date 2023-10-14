@@ -1,4 +1,4 @@
-package classes_aninhadas_estaticas;
+package classes_aninhadas_estaticas.exemplo1;
 
 public class ServicoEmail {
     public static String gerarAssinatura() {

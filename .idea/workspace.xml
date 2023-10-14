@@ -5,13 +5,12 @@
   </component>
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
-      <module name="Numeros" />
-      <module name="Desafio_numeros" />
+      <module name="classes_aninhadas" />
       <module name="java_EJA" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Precisão com numeros (Formatadores de números)">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio Completo">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -374,14 +373,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00267" summary="desafio validacao de email (Strings)">
-      <option name="closed" value="true" />
-      <created>1696962978532</created>
-      <option name="number" value="00267" />
-      <option name="presentableId" value="LOCAL-00267" />
-      <option name="project" value="LOCAL" />
-      <updated>1696962978532</updated>
-    </task>
     <task id="LOCAL-00268" summary="desafio validacao de email (Strings)">
       <option name="closed" value="true" />
       <created>1696964683339</created>
@@ -566,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697290977547</updated>
     </task>
-    <option name="localTasksCounter" value="291" />
+    <task id="LOCAL-00291" summary="Desafio Completo">
+      <option name="closed" value="true" />
+      <created>1697294650362</created>
+      <option name="number" value="00291" />
+      <option name="presentableId" value="LOCAL-00291" />
+      <option name="project" value="LOCAL" />
+      <updated>1697294650362</updated>
+    </task>
+    <option name="localTasksCounter" value="292" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -582,12 +581,14 @@
     <module name="Desafio_Strings" />
     <module name="Desafio_enumeracoes" />
     <module name="Desafio_exceptions" />
+    <module name="Desafio_numeros" />
     <module name="Desafio_polimorfismo" />
     <module name="Enumeracoes" />
     <module name="Exceptions" />
     <module name="Heranca" />
     <module name="Interfaces" />
     <module name="Interfaces_Financeira" />
+    <module name="Numeros" />
     <module name="Polimorfismo" />
     <module name="Strings" />
     <module name="collections_ArrayList" />
@@ -634,7 +635,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Collections api (arrayList)" />
     <MESSAGE value="Collections api (List)" />
     <MESSAGE value="Collections api (iterator, itarable)" />
     <MESSAGE value="Collections api" />
@@ -659,7 +659,8 @@
     <MESSAGE value="Operações (Round)" />
     <MESSAGE value="Precisão com numeros (BigDecimal)" />
     <MESSAGE value="Precisão com numeros (Formatadores de números)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Precisão com numeros (Formatadores de números)" />
+    <MESSAGE value="Desafio Completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio Completo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

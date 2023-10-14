@@ -10,11 +10,10 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Classes aninhadas (classe aninhada estatica)">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Classes aninhadas (Modificadores de acesso de classes aninhadas)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes_aninhadas/src/classes_aninhadas_estaticas/Mensagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes_aninhadas/src/classes_aninhadas_estaticas/MensagemExemplo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes_aninhadas/src/classes_aninhadas_estaticas/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes_aninhadas/src/classes_aninhadas_estaticas/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes_aninhadas/src/classes_aninhadas_estaticas/ServicoEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes_aninhadas/src/classes_aninhadas_estaticas/ServicoEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes_aninhadas/src/classes_aninhadas_estaticas/exemplo2/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes_aninhadas/src/classes_aninhadas_estaticas/exemplo2/ServicoEmail.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,42 +65,42 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-Vcs Important Messages&quot;: &quot;VCS important messages&quot;,
-    &quot;Notification.DoNotAsk-Vcs Important Messages&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jucaj/OneDrive/Área de Trabalho/Programacao/java_EJA/Desafio_String/src/desafio/validacaoEmail&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
+    "Notification.DoNotAsk-Vcs Important Messages": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "19",
+    "last_opened_file_path": "C:/Users/jucaj/OneDrive/Área de Trabalho/Programacao/java_EJA/classes_aninhadas/src/classes_aninhadas_estaticas/exemplo2",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PLAIN_TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.nesru.arraylist" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\classes_aninhadas\src\classes_aninhadas_estaticas\exemplo2" />
       <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\Desafio_String\src\desafio\validacaoEmail" />
       <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\encapsulamento\src\aula07" />
       <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\Arrays\src\aula09" />
       <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\Arrays\src\aula07" />
-      <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\Arrays\src\aula06" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\collections_api\src" />
@@ -121,7 +120,7 @@
       <recent name="aula07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Principal">
+  <component name="RunManager" selected="Application.classes_aninhadas_estaticas.exemplo2.Principal">
     <configuration name="Cambio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cambio" />
       <module name="Desafio_numeros" />
@@ -168,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bigDecimal.formatacao.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bigDecimal.formatacao.Principal" />
-      <module name="Numeros" />
+    <configuration name="classes_aninhadas_estaticas.exemplo2.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes_aninhadas_estaticas.exemplo2.Principal" />
+      <module name="classes_aninhadas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bigDecimal.formatacao.*" />
+          <option name="PATTERN" value="classes_aninhadas_estaticas.exemplo2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.classes_aninhadas_estaticas.exemplo2.Principal" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Cambio" />
         <item itemvalue="Application.FormatacaoCompacta" />
         <item itemvalue="Application.StringToNumber" />
-        <item itemvalue="Application.bigDecimal.formatacao.Principal" />
       </list>
     </recent_temporary>
   </component>
@@ -375,22 +374,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00269" summary="desafio validacao de email completo com regex (Strings)">
-      <option name="closed" value="true" />
-      <created>1696971384806</created>
-      <option name="number" value="00269" />
-      <option name="presentableId" value="LOCAL-00269" />
-      <option name="project" value="LOCAL" />
-      <updated>1696971384806</updated>
-    </task>
-    <task id="LOCAL-00270" summary="desafio validacao de email completo com regex (Strings)">
-      <option name="closed" value="true" />
-      <created>1696971396335</created>
-      <option name="number" value="00270" />
-      <option name="presentableId" value="LOCAL-00270" />
-      <option name="project" value="LOCAL" />
-      <updated>1696971396335</updated>
-    </task>
     <task id="LOCAL-00271" summary="String builder (boas praticas)">
       <option name="closed" value="true" />
       <created>1696972683733</created>
@@ -567,7 +550,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697301847912</updated>
     </task>
-    <option name="localTasksCounter" value="293" />
+    <task id="LOCAL-00293" summary="Classes aninhadas (classe aninhada estatica)">
+      <option name="closed" value="true" />
+      <created>1697302844114</created>
+      <option name="number" value="00293" />
+      <option name="presentableId" value="LOCAL-00293" />
+      <option name="project" value="LOCAL" />
+      <updated>1697302844114</updated>
+    </task>
+    <task id="LOCAL-00294" summary="Classes aninhadas (Modificadores de acesso de classes aninhadas)">
+      <option name="closed" value="true" />
+      <created>1697302976020</created>
+      <option name="number" value="00294" />
+      <option name="presentableId" value="LOCAL-00294" />
+      <option name="project" value="LOCAL" />
+      <updated>1697302976020</updated>
+    </task>
+    <option name="localTasksCounter" value="295" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -637,7 +636,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Collections api (iterator, itarable)" />
     <MESSAGE value="Collections api" />
     <MESSAGE value="Enumeracoes" />
     <MESSAGE value="Enumeracoes (desafio)" />
@@ -662,7 +660,8 @@
     <MESSAGE value="Precisão com numeros (Formatadores de números)" />
     <MESSAGE value="Desafio Completo" />
     <MESSAGE value="Classes aninhadas (classe aninhada estatica)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classes aninhadas (classe aninhada estatica)" />
+    <MESSAGE value="Classes aninhadas (Modificadores de acesso de classes aninhadas)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes aninhadas (Modificadores de acesso de classes aninhadas)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

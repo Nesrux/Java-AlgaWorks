@@ -1,10 +1,17 @@
 package bigDecimal.formatacao;
 
 import java.math.BigDecimal;
+import java.text.DecimalFormatSymbols;
 import java.text.NumberFormat;
+import java.util.Locale;
 
 public class Principal {
     public static void main(String[] args) {
+        // Locale.setDefault(Locale.US);
+        //iso 1639 iso
+        // Locale.setDefault(new Locale("pt", "BR"));
+        DecimalFormatSymbols symbols = new DecimalFormatSymbols(new Locale("pt", "BR"));
+
         double a = 4_123_298.48595;
         float b = 0.3f;
         int c = -1;

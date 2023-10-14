@@ -11,6 +11,8 @@ public class Principal {
         clientes.add(new Cliente("Cleiton", 12));
         clientes.add(new Cliente("Getulio", 5));
 
+        Cliente.ordenarPorIdade(clientes);
+
         clientes.forEach(System.out::println);
     }
 }

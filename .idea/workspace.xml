@@ -10,7 +10,7 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Classes aninhadas (Modificadores de acesso de classes aninhadas)">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Classes aninhadas (Enum aninhado)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -372,14 +372,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00273" summary="comparador de igualdade para matematica em java">
-      <option name="closed" value="true" />
-      <created>1697217637584</created>
-      <option name="number" value="00273" />
-      <option name="presentableId" value="LOCAL-00273" />
-      <option name="project" value="LOCAL" />
-      <updated>1697217637584</updated>
-    </task>
     <task id="LOCAL-00274" summary="Operações (Min)">
       <option name="closed" value="true" />
       <created>1697217818631</created>
@@ -564,7 +556,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697303554570</updated>
     </task>
-    <option name="localTasksCounter" value="297" />
+    <task id="LOCAL-00297" summary="Classes aninhadas (Enum aninhado)">
+      <option name="closed" value="true" />
+      <created>1697389112153</created>
+      <option name="number" value="00297" />
+      <option name="presentableId" value="LOCAL-00297" />
+      <option name="project" value="LOCAL" />
+      <updated>1697389112153</updated>
+    </task>
+    <option name="localTasksCounter" value="298" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -634,7 +634,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Collections api" />
     <MESSAGE value="Enumeracoes" />
     <MESSAGE value="Enumeracoes (desafio)" />
     <MESSAGE value="Strings" />
@@ -659,7 +658,8 @@
     <MESSAGE value="Desafio Completo" />
     <MESSAGE value="Classes aninhadas (classe aninhada estatica)" />
     <MESSAGE value="Classes aninhadas (Modificadores de acesso de classes aninhadas)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classes aninhadas (Modificadores de acesso de classes aninhadas)" />
+    <MESSAGE value="Classes aninhadas (Enum aninhado)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes aninhadas (Enum aninhado)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

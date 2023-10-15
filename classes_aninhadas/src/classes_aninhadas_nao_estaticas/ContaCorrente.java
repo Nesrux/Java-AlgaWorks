@@ -20,4 +20,23 @@ public class ContaCorrente {
     public List<Transacao> getTransacoes() {
         return Collections.unmodifiableList(this.transacoes);
     }
-}
+
+    public class Transacao {
+        private String descricao;
+        private BigDecimal valor;
+
+        public Transacao(String descricao, BigDecimal valor) {
+            this.descricao = descricao;
+            this.valor = valor;
+            saldo = saldo.subtract(valor);
+            transacoes.add(this);
+        }
+
+        public String getDescricao() {
+            return descricao;
+        }
+
+        public BigDecimal getValor() {
+            return valor;
+        }
+}}

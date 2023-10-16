@@ -10,8 +10,11 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Classes aninhadas (Não estaticas)">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Classes aninhadas (classes locais)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes_aninhadas/src/classes_locais/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes_aninhadas/src/classes_locais/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes_aninhadas/src/classes_locais/Pagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes_aninhadas/src/classes_locais/Pagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes_aninhadas/src/classes_locais/Transacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes_aninhadas/src/classes_locais/Transacao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,14 +375,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00276" summary="Operações (Pow)">
-      <option name="closed" value="true" />
-      <created>1697218035273</created>
-      <option name="number" value="00276" />
-      <option name="presentableId" value="LOCAL-00276" />
-      <option name="project" value="LOCAL" />
-      <updated>1697218035273</updated>
-    </task>
     <task id="LOCAL-00277" summary="Operações (Sqrt)">
       <option name="closed" value="true" />
       <created>1697218121947</created>
@@ -564,7 +559,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697395518978</updated>
     </task>
-    <option name="localTasksCounter" value="300" />
+    <task id="LOCAL-00300" summary="Classes aninhadas (classes locais)">
+      <option name="closed" value="true" />
+      <created>1697489666981</created>
+      <option name="number" value="00300" />
+      <option name="presentableId" value="LOCAL-00300" />
+      <option name="project" value="LOCAL" />
+      <updated>1697489666981</updated>
+    </task>
+    <option name="localTasksCounter" value="301" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -634,7 +637,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Enumeracoes (desafio)" />
     <MESSAGE value="Strings" />
     <MESSAGE value="Strings(validaçoes e metodos)" />
     <MESSAGE value="Strings(indexof e substring)" />
@@ -659,7 +661,8 @@
     <MESSAGE value="Classes aninhadas (Modificadores de acesso de classes aninhadas)" />
     <MESSAGE value="Classes aninhadas (Enum aninhado)" />
     <MESSAGE value="Classes aninhadas (Não estaticas)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classes aninhadas (Não estaticas)" />
+    <MESSAGE value="Classes aninhadas (classes locais)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes aninhadas (classes locais)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

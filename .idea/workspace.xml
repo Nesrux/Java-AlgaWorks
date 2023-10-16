@@ -10,7 +10,9 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Classes aninhadas (classes locais)" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Classes aninhadas (classes anonimas)">
+      <change beforePath="$PROJECT_DIR$/classes_aninhadas/src/classes_anonimas/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes_aninhadas/src/classes_anonimas/Conta.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,43 +63,43 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-Vcs Important Messages&quot;: &quot;VCS important messages&quot;,
-    &quot;Notification.DoNotAsk-Vcs Important Messages&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jucaj/OneDrive/Área de Trabalho/Programacao/java_EJA/classes_aninhadas/src/classes_aninhadas_estaticas/exemplo2&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
+    "Notification.DoNotAsk-Vcs Important Messages": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "19",
+    "last_opened_file_path": "C:/Users/jucaj/OneDrive/Área de Trabalho/Programacao/java_EJA/classes_aninhadas/src/classes_anonimas",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PLAIN_TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="classes_locais" />
       <recent name="com.nesru.arraylist" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\classes_aninhadas\src\classes_anonimas" />
+      <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\classes_aninhadas\src" />
       <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\classes_aninhadas\src\classes_aninhadas_estaticas\exemplo2" />
       <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\Desafio_String\src\desafio\validacaoEmail" />
       <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\encapsulamento\src\aula07" />
-      <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\Arrays\src\aula09" />
-      <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\Arrays\src\aula07" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jucaj\OneDrive\Área de Trabalho\Programacao\java_EJA\collections_api\src" />
@@ -371,14 +373,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00280" summary="Operações (floor)">
-      <option name="closed" value="true" />
-      <created>1697218488871</created>
-      <option name="number" value="00280" />
-      <option name="presentableId" value="LOCAL-00280" />
-      <option name="project" value="LOCAL" />
-      <updated>1697218488871</updated>
-    </task>
     <task id="LOCAL-00281" summary="Operações (Round)">
       <option name="closed" value="true" />
       <created>1697218656589</created>
@@ -563,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697491208181</updated>
     </task>
-    <option name="localTasksCounter" value="304" />
+    <task id="LOCAL-00304" summary="Classes aninhadas (classes anonimas)">
+      <option name="closed" value="true" />
+      <created>1697491860550</created>
+      <option name="number" value="00304" />
+      <option name="presentableId" value="LOCAL-00304" />
+      <option name="project" value="LOCAL" />
+      <updated>1697491860550</updated>
+    </task>
+    <option name="localTasksCounter" value="305" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -633,7 +635,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Strings" />
     <MESSAGE value="Strings(validaçoes e metodos)" />
     <MESSAGE value="Strings(indexof e substring)" />
     <MESSAGE value="Strings(transformações de string)" />
@@ -658,7 +659,8 @@
     <MESSAGE value="Classes aninhadas (Enum aninhado)" />
     <MESSAGE value="Classes aninhadas (Não estaticas)" />
     <MESSAGE value="Classes aninhadas (classes locais)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classes aninhadas (classes locais)" />
+    <MESSAGE value="Classes aninhadas (classes anonimas)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes aninhadas (classes anonimas)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

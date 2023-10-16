@@ -14,4 +14,9 @@ public class Tarifa implements Transacao {
     public BigDecimal getValorTotal() {
         return this.valor;
     }
+
+    @Override
+    public void reembolsar() {
+
+    }
 }

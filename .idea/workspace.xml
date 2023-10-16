@@ -11,9 +11,12 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Classes aninhadas (classes anonimas)">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio classes aninhadas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio-classes-aninhadas/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio-classes-aninhadas/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio-classes-aninhadas/src/com/desafio/ItemPedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio-classes-aninhadas/src/com/desafio/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio-classes-aninhadas/src/com/desafio/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio-classes-aninhadas/src/com/desafio/StatusPedido.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,10 +124,10 @@
       <recent name="aula06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.classes_locais.Principal">
-    <configuration name="Cambio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cambio" />
-      <module name="Desafio_numeros" />
+  <component name="RunManager" selected="Application.Principal (1)">
+    <configuration name="Principal (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Principal" />
+      <module name="Desafio-classes-aninhadas" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal (1)" />
         <item itemvalue="Application.classes_locais.Principal" />
         <item itemvalue="Application.classes_aninhadas_nao_estaticas.Principal" />
         <item itemvalue="Application.classes_aninhadas_estaticas.exemplo2.Principal" />
         <item itemvalue="Application.Principal" />
-        <item itemvalue="Application.Cambio" />
       </list>
     </recent_temporary>
   </component>
@@ -375,14 +378,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00282" summary="Precisão com numeros (BigDecimal)">
-      <option name="closed" value="true" />
-      <created>1697219405166</created>
-      <option name="number" value="00282" />
-      <option name="presentableId" value="LOCAL-00282" />
-      <option name="project" value="LOCAL" />
-      <updated>1697219405166</updated>
-    </task>
     <task id="LOCAL-00283" summary="Precisão com numeros (BigDecimal)">
       <option name="closed" value="true" />
       <created>1697219627113</created>
@@ -567,7 +562,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697492107431</updated>
     </task>
-    <option name="localTasksCounter" value="306" />
+    <task id="LOCAL-00306" summary="Desafio classes aninhadas">
+      <option name="closed" value="true" />
+      <created>1697493747630</created>
+      <option name="number" value="00306" />
+      <option name="presentableId" value="LOCAL-00306" />
+      <option name="project" value="LOCAL" />
+      <updated>1697493747630</updated>
+    </task>
+    <option name="localTasksCounter" value="307" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -637,7 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Strings(validaçoes e metodos)" />
     <MESSAGE value="Strings(indexof e substring)" />
     <MESSAGE value="Strings(transformações de string)" />
     <MESSAGE value="Strings(exemplo de código usando os metodos da classe string)" />
@@ -662,7 +664,8 @@
     <MESSAGE value="Classes aninhadas (Não estaticas)" />
     <MESSAGE value="Classes aninhadas (classes locais)" />
     <MESSAGE value="Classes aninhadas (classes anonimas)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classes aninhadas (classes anonimas)" />
+    <MESSAGE value="Desafio classes aninhadas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio classes aninhadas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

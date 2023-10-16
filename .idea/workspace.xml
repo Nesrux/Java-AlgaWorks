@@ -6,12 +6,14 @@
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
       <module name="classes_aninhadas" />
+      <module name="Desafio-classes-aninhadas" />
       <module name="java_EJA" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Classes aninhadas (classes anonimas)">
-      <change beforePath="$PROJECT_DIR$/classes_aninhadas/src/classes_anonimas/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes_aninhadas/src/classes_anonimas/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -373,14 +375,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00281" summary="Operações (Round)">
-      <option name="closed" value="true" />
-      <created>1697218656589</created>
-      <option name="number" value="00281" />
-      <option name="presentableId" value="LOCAL-00281" />
-      <option name="project" value="LOCAL" />
-      <updated>1697218656589</updated>
-    </task>
     <task id="LOCAL-00282" summary="Precisão com numeros (BigDecimal)">
       <option name="closed" value="true" />
       <created>1697219405166</created>
@@ -565,7 +559,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697491860550</updated>
     </task>
-    <option name="localTasksCounter" value="305" />
+    <task id="LOCAL-00305" summary="Classes aninhadas (classes anonimas)">
+      <option name="closed" value="true" />
+      <created>1697492107431</created>
+      <option name="number" value="00305" />
+      <option name="presentableId" value="LOCAL-00305" />
+      <option name="project" value="LOCAL" />
+      <updated>1697492107431</updated>
+    </task>
+    <option name="localTasksCounter" value="306" />
     <servers />
   </component>
   <component name="UnknownFeatures">

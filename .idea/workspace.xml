@@ -5,18 +5,14 @@
   </component>
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
-      <module name="classes_aninhadas" />
-      <module name="Desafio-classes-aninhadas" />
+      <module name="interfaces-funcionais" />
       <module name="java_EJA" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio classes aninhadas">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio classes aninhadas (completo)">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio-classes-aninhadas/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio-classes-aninhadas/src/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio-classes-aninhadas/src/com/desafio/ItemPedido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio-classes-aninhadas/src/com/desafio/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio-classes-aninhadas/src/com/desafio/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio-classes-aninhadas/src/com/desafio/StatusPedido.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,32 +64,32 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
-    "Notification.DoNotAsk-Vcs Important Messages": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "C:/Users/jucaj/OneDrive/Área de Trabalho/Programacao/java_EJA/classes_aninhadas/src/classes_anonimas",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-Vcs Important Messages&quot;: &quot;VCS important messages&quot;,
+    &quot;Notification.DoNotAsk-Vcs Important Messages&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jucaj/OneDrive/Área de Trabalho/Programacao/java_EJA/classes_aninhadas/src/classes_anonimas&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="classes_locais" />
@@ -378,14 +374,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00283" summary="Precisão com numeros (BigDecimal)">
-      <option name="closed" value="true" />
-      <created>1697219627113</created>
-      <option name="number" value="00283" />
-      <option name="presentableId" value="LOCAL-00283" />
-      <option name="project" value="LOCAL" />
-      <updated>1697219627113</updated>
-    </task>
     <task id="LOCAL-00284" summary="Precisão com numeros (BigDecimal)">
       <option name="closed" value="true" />
       <created>1697219800203</created>
@@ -570,7 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697493747630</updated>
     </task>
-    <option name="localTasksCounter" value="307" />
+    <task id="LOCAL-00307" summary="Desafio classes aninhadas (completo)">
+      <option name="closed" value="true" />
+      <created>1697494528537</created>
+      <option name="number" value="00307" />
+      <option name="presentableId" value="LOCAL-00307" />
+      <option name="project" value="LOCAL" />
+      <updated>1697494528537</updated>
+    </task>
+    <option name="localTasksCounter" value="308" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -580,6 +576,7 @@
   <component name="UnloadedModulesList">
     <module name="Arrays" />
     <module name="BoasPraticas_interfaces" />
+    <module name="Desafio-classes-aninhadas" />
     <module name="Desafio_Generics" />
     <module name="Desafio_Heranca" />
     <module name="Desafio_Interfaces" />
@@ -596,6 +593,7 @@
     <module name="Numeros" />
     <module name="Polimorfismo" />
     <module name="Strings" />
+    <module name="classes_aninhadas" />
     <module name="collections_ArrayList" />
     <module name="collections_Megasena" />
     <module name="encapsulamento" />
@@ -640,7 +638,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Strings(indexof e substring)" />
     <MESSAGE value="Strings(transformações de string)" />
     <MESSAGE value="Strings(exemplo de código usando os metodos da classe string)" />
     <MESSAGE value="desafio validacao de email (Strings)" />
@@ -665,7 +662,8 @@
     <MESSAGE value="Classes aninhadas (classes locais)" />
     <MESSAGE value="Classes aninhadas (classes anonimas)" />
     <MESSAGE value="Desafio classes aninhadas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio classes aninhadas" />
+    <MESSAGE value="Desafio classes aninhadas (completo)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio classes aninhadas (completo)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

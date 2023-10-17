@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/collections_Megasena/collections_Megasena.iml" filepath="$PROJECT_DIR$/collections_Megasena/collections_Megasena.iml" />
       <module fileurl="file://$PROJECT_DIR$/encapsulamento/encapsulamento.iml" filepath="$PROJECT_DIR$/encapsulamento/encapsulamento.iml" />
       <module fileurl="file://$PROJECT_DIR$/generics/generics.iml" filepath="$PROJECT_DIR$/generics/generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interfaces-funcionais/interfaces-funcionais.iml" filepath="$PROJECT_DIR$/interfaces-funcionais/interfaces-funcionais.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_EJA.iml" filepath="$PROJECT_DIR$/java_EJA.iml" />
     </modules>
   </component>

@@ -1,4 +1,5 @@
 package introducao.interfacesFuncionais;
 
-public class Filtro {
+public interface Filtro<T> {
+    boolean avaliar(T obj);
 }

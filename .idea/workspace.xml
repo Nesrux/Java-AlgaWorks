@@ -13,8 +13,6 @@
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="interfaces funcionais (introdução)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interfaces-funcionais/src/introducao/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces-funcionais/src/introducao/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces-funcionais/src/introducao/interfacesFuncionais/CadastroCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces-funcionais/src/introducao/interfacesFuncionais/CadastroCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces-funcionais/src/introducao/interfacesFuncionais/Filtro.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces-funcionais/src/introducao/interfacesFuncionais/Filtro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -376,14 +374,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00286" summary="Precisão com numeros (BigDecimal)">
-      <option name="closed" value="true" />
-      <created>1697235154091</created>
-      <option name="number" value="00286" />
-      <option name="presentableId" value="LOCAL-00286" />
-      <option name="project" value="LOCAL" />
-      <updated>1697235154091</updated>
-    </task>
     <task id="LOCAL-00287" summary="Precisão com numeros (Formatadores de números)">
       <option name="closed" value="true" />
       <created>1697236725573</created>
@@ -568,7 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697550977186</updated>
     </task>
-    <option name="localTasksCounter" value="310" />
+    <task id="LOCAL-00310" summary="interfaces funcionais (introdução)">
+      <option name="closed" value="true" />
+      <created>1697557347218</created>
+      <option name="number" value="00310" />
+      <option name="presentableId" value="LOCAL-00310" />
+      <option name="project" value="LOCAL" />
+      <updated>1697557347218</updated>
+    </task>
+    <option name="localTasksCounter" value="311" />
     <servers />
   </component>
   <component name="UnknownFeatures">

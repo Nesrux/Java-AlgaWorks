@@ -16,9 +16,27 @@ public class Principal {
         cadastroCliente.add(new Cliente("Ruptor divino pereita", 48));
         cadastroCliente.add(new Cliente("Espada do rei destruido augosto motta", 39));
 
-        Filtro<Cliente> filtro = (Cliente cliente) -> cliente.getIdade() > 50;
+        /*Boa paratica, por padrão se a expressão lambda tiver mais de 3 linhas
+        * é melhor utilizar ela com um método, sempre de preferencia à usar lambda
+        * com uma linha só, como no exemplo, para a melhor leitura do código*/
 
-        List<Cliente> clientes = cadastroCliente.consultar(filtro);
+        /*Outra boa pratica é evitar a chamada do tipo da variavel, como
+        * ela ja esta parametrizada com o <> nao precisa definir um tipo
+        * Cliente Cliente, pois obrigatóriamente a variavel cliente é
+        * do tipo Cliente*/
+
+        /*
+        * Antes e depois das boas práticas
+        * Filtro<Cliente> filtro = (Cliente cliente) ->{
+        *  boolean clienteIdade =  cliente.getidade() > 50}
+        * return clienteIdade;
+        * */
+        Filtro<Cliente> filtro = cliente -> cliente.getIdade() > 50;
+
+        List<Cliente> clientes = cadastroCliente.getClientes();
+
+        clientes.sort((cliente1, cliente2) -> Integer.compare(cliente1.getIdade(), cliente2.getIdade()));
+
         for (Cliente cliente : clientes) {
             System.out.printf("%s  - %d%n",
                     cliente.getNome(), cliente.getIdade());

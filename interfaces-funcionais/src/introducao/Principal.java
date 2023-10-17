@@ -16,12 +16,9 @@ public class Principal {
         cadastroCliente.add(new Cliente("Ruptor divino pereita", 48));
         cadastroCliente.add(new Cliente("Espada do rei destruido augosto motta", 39));
 
-        List<Cliente> clientes = cadastroCliente.consultar(new Filtro<Cliente>() {
-            @Override
-            public boolean avaliar(Cliente obj) {
-                return obj.getIdade() > 50;
-            }
-        });
+        Filtro<Cliente> filtro = (Cliente cliente) -> cliente.getIdade() > 50;
+
+        List<Cliente> clientes = cadastroCliente.consultar(filtro);
         for (Cliente cliente : clientes) {
             System.out.printf("%s  - %d%n",
                     cliente.getNome(), cliente.getIdade());

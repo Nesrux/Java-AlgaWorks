@@ -1,8 +1,10 @@
 package principaisLambdas;
 
+import java.time.LocalDateTime;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.function.Supplier;
 
 public class Principal {
     public static void main(String[] args) {
@@ -28,10 +30,15 @@ public class Principal {
         System.out.println(teste);
 
         /*Function é a interface funcional que recebe um argumento e retorna outro argumento
-        * nesse caso ele recebe um obj do tipo Teste e retorna um a String*/
+         * nesse caso ele recebe um obj do tipo Teste e retorna um a String*/
         Function<Teste, String> testeStringFunction = str -> str.getEmail() + "Sua senha é " +
                 str.getIdade() + "ASCS4578";
 
         System.out.println(testeStringFunction.apply(teste));
+
+        /*Supplier é uma interface funcional que nao recebe argumentos e retorna algo, ou seja ela vai apenas executar
+         * um método ja existente*/
+        Supplier<LocalDateTime> dataHoraAgr = () -> LocalDateTime.now();
+        System.out.println(dataHoraAgr.get());
     }
 }

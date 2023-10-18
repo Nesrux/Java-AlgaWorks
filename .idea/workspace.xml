@@ -10,9 +10,8 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="interfaces funcionais (Consumer)">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="interfaces funcionais (Function toIntFunction)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces-funcionais/src/com/elementosDeColecoes/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces-funcionais/src/com/elementosDeColecoes/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,11 +112,11 @@
       <recent name="aula01" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="methodReference" />
       <recent name="classes_aninhadas_estaticas.enumAninhado" />
       <recent name="com.nesrux.locadora" />
       <recent name="com.nesrux.banco" />
       <recent name="" />
-      <recent name="aula06" />
     </key>
   </component>
   <component name="RunManager" selected="Application.com.elementosDeColecoes.Principal">
@@ -374,14 +373,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00294" summary="Classes aninhadas (Modificadores de acesso de classes aninhadas)">
-      <option name="closed" value="true" />
-      <created>1697302976020</created>
-      <option name="number" value="00294" />
-      <option name="presentableId" value="LOCAL-00294" />
-      <option name="project" value="LOCAL" />
-      <updated>1697302976020</updated>
-    </task>
     <task id="LOCAL-00295" summary="Classes aninhadas (Modificadores de acesso de classes aninhadas)">
       <option name="closed" value="true" />
       <created>1697303343165</created>
@@ -566,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697663976677</updated>
     </task>
-    <option name="localTasksCounter" value="318" />
+    <task id="LOCAL-00318" summary="interfaces funcionais (Function toIntFunction)">
+      <option name="closed" value="true" />
+      <created>1697665029188</created>
+      <option name="number" value="00318" />
+      <option name="presentableId" value="LOCAL-00318" />
+      <option name="project" value="LOCAL" />
+      <updated>1697665029188</updated>
+    </task>
+    <option name="localTasksCounter" value="319" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -638,7 +637,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="String builder (boas praticas)" />
     <MESSAGE value="comparador de igualdade para matematica em java" />
     <MESSAGE value="Operações (Min)" />
     <MESSAGE value="Operações (Max)" />
@@ -663,7 +661,8 @@
     <MESSAGE value="interfaces funcionais (Principais interfaces)" />
     <MESSAGE value="interfaces funcionais (Entendendo a importancia de usar as interfaces funcionais do java lang)" />
     <MESSAGE value="interfaces funcionais (Consumer)" />
-    <option name="LAST_COMMIT_MESSAGE" value="interfaces funcionais (Consumer)" />
+    <MESSAGE value="interfaces funcionais (Function toIntFunction)" />
+    <option name="LAST_COMMIT_MESSAGE" value="interfaces funcionais (Function toIntFunction)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

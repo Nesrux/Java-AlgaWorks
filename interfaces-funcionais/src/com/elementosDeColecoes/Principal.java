@@ -2,6 +2,7 @@ package com.elementosDeColecoes;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 public class Principal {
@@ -21,12 +22,10 @@ public class Principal {
         Predicate<Produto> qtdaMenorQueZero = produto -> produto.getQuantidade() < 0;
         Predicate<Produto> isInativo = produto -> Produto.StatusProduto.INATIVO.equals(produto.getStatus());
 
-        produtos.removeIf(qtdaMenorQueZero.or(isInativo));
+        //produtos.removeIf(qtdaMenorQueZero.or(isInativo));
+        Consumer<Produto> colocarQtdaZero = produto -> produto.setQuantidade(0);
+        Consumer<Produto> iterarProduto = produto -> System.out.println(produto.getNome());
 
-
-        for (Produto produto : produtos) {
-            System.out.println(produto);
-        }
-
+        produtos.forEach(colocarQtdaZero.andThen(iterarProduto));
     }
 }

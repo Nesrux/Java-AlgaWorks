@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="interfaces funcionais (introdução)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces-funcionais/src/introducao/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces-funcionais/src/introducao/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +119,7 @@
       <recent name="aula06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.introducao.Principal">
+  <component name="RunManager" selected="Application.Principal">
     <configuration name="Principal (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Principal" />
       <module name="Desafio-classes-aninhadas" />
@@ -128,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="classes_aninhadas_estaticas.exemplo2.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes_aninhadas_estaticas.exemplo2.Principal" />
-      <module name="classes_aninhadas" />
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="principaisLambdas.Principal" />
+      <module name="interfaces-funcionais" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classes_aninhadas_estaticas.exemplo2.*" />
+          <option name="PATTERN" value="principaisLambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal" />
         <item itemvalue="Application.introducao.Principal" />
         <item itemvalue="Application.Principal (1)" />
         <item itemvalue="Application.classes_locais.Principal" />
         <item itemvalue="Application.classes_aninhadas_nao_estaticas.Principal" />
-        <item itemvalue="Application.classes_aninhadas_estaticas.exemplo2.Principal" />
       </list>
     </recent_temporary>
   </component>
@@ -374,14 +373,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00287" summary="Precisão com numeros (Formatadores de números)">
-      <option name="closed" value="true" />
-      <created>1697236725573</created>
-      <option name="number" value="00287" />
-      <option name="presentableId" value="LOCAL-00287" />
-      <option name="project" value="LOCAL" />
-      <updated>1697236725573</updated>
-    </task>
     <task id="LOCAL-00288" summary="Precisão com numeros (Formatadores de números)">
       <option name="closed" value="true" />
       <created>1697289439928</created>
@@ -566,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697557347218</updated>
     </task>
-    <option name="localTasksCounter" value="311" />
+    <task id="LOCAL-00311" summary="interfaces funcionais (introdução)">
+      <option name="closed" value="true" />
+      <created>1697559760962</created>
+      <option name="number" value="00311" />
+      <option name="presentableId" value="LOCAL-00311" />
+      <option name="project" value="LOCAL" />
+      <updated>1697559760962</updated>
+    </task>
+    <option name="localTasksCounter" value="312" />
     <servers />
   </component>
   <component name="UnknownFeatures">

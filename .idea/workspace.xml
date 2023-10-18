@@ -11,9 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="interfaces funcionais (Entendendo a importancia de usar as interfaces funcionais do java lang)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interfaces-funcionais/src/com/elementosDeColecoes/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces-funcionais/src/com/elementosDeColecoes/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces-funcionais/src/com/elementosDeColecoes/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces-funcionais/src/com/elementosDeColecoes/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -375,14 +373,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00291" summary="Desafio Completo">
-      <option name="closed" value="true" />
-      <created>1697294650362</created>
-      <option name="number" value="00291" />
-      <option name="presentableId" value="LOCAL-00291" />
-      <option name="project" value="LOCAL" />
-      <updated>1697294650362</updated>
-    </task>
     <task id="LOCAL-00292" summary="Classes aninhadas (classe aninhada estatica)">
       <option name="closed" value="true" />
       <created>1697301847911</created>
@@ -567,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697655417164</updated>
     </task>
-    <option name="localTasksCounter" value="315" />
+    <task id="LOCAL-00315" summary="interfaces funcionais (Entendendo a importancia de usar as interfaces funcionais do java lang)">
+      <option name="closed" value="true" />
+      <created>1697655732897</created>
+      <option name="number" value="00315" />
+      <option name="presentableId" value="LOCAL-00315" />
+      <option name="project" value="LOCAL" />
+      <updated>1697655732897</updated>
+    </task>
+    <option name="localTasksCounter" value="316" />
     <servers />
   </component>
   <component name="UnknownFeatures">

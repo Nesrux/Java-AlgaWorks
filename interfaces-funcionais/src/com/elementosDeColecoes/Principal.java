@@ -10,9 +10,17 @@ public class Principal {
         produtos.add(new Produto("Arroz", new BigDecimal("19.85"), 2));
         produtos.add(new Produto("Feijão", new BigDecimal("10"), 3));
         produtos.add(new Produto("Frango", new BigDecimal("15"), 2));
-        produtos.add(new Produto("Adocante artificial", new BigDecimal("2.50"), 2));
-        produtos.add(new Produto("Leite condensado", new BigDecimal("3.75"), 1));
+        produtos.add(new Produto("Adocante artificial", new BigDecimal("2.50"), 5,
+                Produto.StatusProduto.INATIVO));
+        produtos.add(new Produto("Leite condensado", new BigDecimal("3.75"), 0));
+        produtos.add(new Produto("Chocolate de amendoas", new BigDecimal("3.75"), 14));
+        produtos.add(new Produto("1l leite integrau", new BigDecimal("3.75"), 0));
+        produtos.add(new Produto("Amaciante", new BigDecimal("8.75"), 10,
+                Produto.StatusProduto.INATIVO));
 
-        produtos.forEach(produto -> {produto.calcularPreco();});
+        for (Produto produto : produtos) {
+            System.out.println(produto);
+        }
+
     }
 }

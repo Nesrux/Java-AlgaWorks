@@ -10,9 +10,7 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="interfaces funcionais (introdução)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="interfaces funcionais (introdução)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -373,14 +371,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00288" summary="Precisão com numeros (Formatadores de números)">
-      <option name="closed" value="true" />
-      <created>1697289439928</created>
-      <option name="number" value="00288" />
-      <option name="presentableId" value="LOCAL-00288" />
-      <option name="project" value="LOCAL" />
-      <updated>1697289439928</updated>
-    </task>
     <task id="LOCAL-00289" summary="Precisão com numeros (Formatadores de números)">
       <option name="closed" value="true" />
       <created>1697290229265</created>
@@ -565,7 +555,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697559760962</updated>
     </task>
-    <option name="localTasksCounter" value="312" />
+    <task id="LOCAL-00312" summary="interfaces funcionais (introdução)">
+      <option name="closed" value="true" />
+      <created>1697652393803</created>
+      <option name="number" value="00312" />
+      <option name="presentableId" value="LOCAL-00312" />
+      <option name="project" value="LOCAL" />
+      <updated>1697652393803</updated>
+    </task>
+    <option name="localTasksCounter" value="313" />
     <servers />
   </component>
   <component name="UnknownFeatures">

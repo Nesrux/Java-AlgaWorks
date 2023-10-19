@@ -10,9 +10,11 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio expressoes lambda e method reference (Completo)">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Classe optional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/optional/src/introducao/Passageiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/optional/src/introducao/Passageiro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/optional/src/introducao/Reserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/optional/src/introducao/Reserva.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/optional/src/introducao/ServicoReserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/optional/src/introducao/ServicoReserva.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,14 +333,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00300" summary="Classes aninhadas (classes locais)">
-      <option name="closed" value="true" />
-      <created>1697489666981</created>
-      <option name="number" value="00300" />
-      <option name="presentableId" value="LOCAL-00300" />
-      <option name="project" value="LOCAL" />
-      <updated>1697489666981</updated>
-    </task>
     <task id="LOCAL-00301" summary="Classes aninhadas (classes locais)">
       <option name="closed" value="true" />
       <created>1697490095472</created>
@@ -523,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697725134847</updated>
     </task>
-    <option name="localTasksCounter" value="324" />
+    <task id="LOCAL-00324" summary="Classe optional">
+      <option name="closed" value="true" />
+      <created>1697738290198</created>
+      <option name="number" value="00324" />
+      <option name="presentableId" value="LOCAL-00324" />
+      <option name="project" value="LOCAL" />
+      <updated>1697738290198</updated>
+    </task>
+    <option name="localTasksCounter" value="325" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -597,7 +599,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Operações (Pow)" />
     <MESSAGE value="Operações (Sqrt)" />
     <MESSAGE value="Operações (abs)" />
     <MESSAGE value="Operações (ceil)" />
@@ -622,7 +623,8 @@
     <MESSAGE value="interfaces funcionais (method reference)" />
     <MESSAGE value="Desafio expressoes lambda e method reference" />
     <MESSAGE value="Desafio expressoes lambda e method reference (Completo)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio expressoes lambda e method reference (Completo)" />
+    <MESSAGE value="Classe optional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classe optional" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

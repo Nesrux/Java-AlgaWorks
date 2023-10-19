@@ -29,6 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/generics/generics.iml" filepath="$PROJECT_DIR$/generics/generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/interfaces-funcionais/interfaces-funcionais.iml" filepath="$PROJECT_DIR$/interfaces-funcionais/interfaces-funcionais.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_EJA.iml" filepath="$PROJECT_DIR$/java_EJA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/optional/optional.iml" filepath="$PROJECT_DIR$/optional/optional.iml" />
     </modules>
   </component>
 </project>

@@ -10,11 +10,9 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Classe optional">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Classe optional (introducao)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/optional/src/introducao/Passageiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/optional/src/introducao/Passageiro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/optional/src/introducao/Reserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/optional/src/introducao/Reserva.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/optional/src/introducao/ServicoReserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/optional/src/introducao/ServicoReserva.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/optional/src/introducao/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/optional/src/introducao/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,10 +120,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.introducao.Principal">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Principal" />
       <module name="Desafio-Expressoes-lambda-Method-reference" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="introducao.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introducao.Principal" />
+      <module name="optional" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="introducao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,6 +156,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.introducao.Principal" />
         <item itemvalue="Application.Principal" />
       </list>
     </recent_temporary>
@@ -333,14 +345,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00301" summary="Classes aninhadas (classes locais)">
-      <option name="closed" value="true" />
-      <created>1697490095472</created>
-      <option name="number" value="00301" />
-      <option name="presentableId" value="LOCAL-00301" />
-      <option name="project" value="LOCAL" />
-      <updated>1697490095472</updated>
-    </task>
     <task id="LOCAL-00302" summary="Classes aninhadas (classes locais)">
       <option name="closed" value="true" />
       <created>1697490197735</created>
@@ -525,7 +529,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697738290198</updated>
     </task>
-    <option name="localTasksCounter" value="325" />
+    <task id="LOCAL-00325" summary="Classe optional (introducao)">
+      <option name="closed" value="true" />
+      <created>1697738686966</created>
+      <option name="number" value="00325" />
+      <option name="presentableId" value="LOCAL-00325" />
+      <option name="project" value="LOCAL" />
+      <updated>1697738686966</updated>
+    </task>
+    <option name="localTasksCounter" value="326" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -599,7 +611,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Operações (Sqrt)" />
     <MESSAGE value="Operações (abs)" />
     <MESSAGE value="Operações (ceil)" />
     <MESSAGE value="Operações (floor)" />
@@ -624,7 +635,8 @@
     <MESSAGE value="Desafio expressoes lambda e method reference" />
     <MESSAGE value="Desafio expressoes lambda e method reference (Completo)" />
     <MESSAGE value="Classe optional" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classe optional" />
+    <MESSAGE value="Classe optional (introducao)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classe optional (introducao)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

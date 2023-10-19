@@ -11,10 +11,9 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="interfaces funcionais (method reference)">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio expressoes lambda e method reference">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces-funcionais/src/methodReference/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces-funcionais/src/methodReference/Principal2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafio-Expressoes-lambda-Method-reference/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio-Expressoes-lambda-Method-reference/src/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,76 +120,6 @@
       <recent name="com.nesrux.banco" />
       <recent name="" />
     </key>
-  </component>
-  <component name="RunManager" selected="Application.com.elementosDeColecoes.Principal">
-    <configuration name="Principal (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Principal" />
-      <module name="Desafio-classes-aninhadas" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="principaisLambdas.Principal" />
-      <module name="interfaces-funcionais" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="principaisLambdas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="classes_locais.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes_locais.Principal" />
-      <module name="classes_aninhadas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classes_locais.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.elementosDeColecoes.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.elementosDeColecoes.Principal" />
-      <module name="interfaces-funcionais" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.elementosDeColecoes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="introducao.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="introducao.Principal" />
-      <module name="interfaces-funcionais" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="introducao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.com.elementosDeColecoes.Principal" />
-        <item itemvalue="Application.Principal" />
-        <item itemvalue="Application.introducao.Principal" />
-        <item itemvalue="Application.Principal (1)" />
-        <item itemvalue="Application.classes_locais.Principal" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="false" transferred="true" />
   <component name="TaskManager">
@@ -376,22 +305,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00297" summary="Classes aninhadas (Enum aninhado)">
-      <option name="closed" value="true" />
-      <created>1697389112153</created>
-      <option name="number" value="00297" />
-      <option name="presentableId" value="LOCAL-00297" />
-      <option name="project" value="LOCAL" />
-      <updated>1697389112153</updated>
-    </task>
-    <task id="LOCAL-00298" summary="Classes aninhadas (Não estaticas)">
-      <option name="closed" value="true" />
-      <created>1697389422530</created>
-      <option name="number" value="00298" />
-      <option name="presentableId" value="LOCAL-00298" />
-      <option name="project" value="LOCAL" />
-      <updated>1697389422530</updated>
-    </task>
     <task id="LOCAL-00299" summary="Classes aninhadas (Não estaticas)">
       <option name="closed" value="true" />
       <created>1697395518978</created>
@@ -568,7 +481,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697666115810</updated>
     </task>
-    <option name="localTasksCounter" value="321" />
+    <task id="LOCAL-00321" summary="interfaces funcionais (method reference)">
+      <option name="closed" value="true" />
+      <created>1697724450102</created>
+      <option name="number" value="00321" />
+      <option name="presentableId" value="LOCAL-00321" />
+      <option name="project" value="LOCAL" />
+      <updated>1697724450102</updated>
+    </task>
+    <task id="LOCAL-00322" summary="Desafio expressoes lambda e method reference">
+      <option name="closed" value="true" />
+      <created>1697724508400</created>
+      <option name="number" value="00322" />
+      <option name="presentableId" value="LOCAL-00322" />
+      <option name="project" value="LOCAL" />
+      <updated>1697724508400</updated>
+    </task>
+    <option name="localTasksCounter" value="323" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -640,7 +569,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Operações (Min)" />
     <MESSAGE value="Operações (Max)" />
     <MESSAGE value="Operações (Pow)" />
     <MESSAGE value="Operações (Sqrt)" />
@@ -665,7 +593,8 @@
     <MESSAGE value="interfaces funcionais (Consumer)" />
     <MESSAGE value="interfaces funcionais (Function toIntFunction)" />
     <MESSAGE value="interfaces funcionais (method reference)" />
-    <option name="LAST_COMMIT_MESSAGE" value="interfaces funcionais (method reference)" />
+    <MESSAGE value="Desafio expressoes lambda e method reference" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio expressoes lambda e method reference" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

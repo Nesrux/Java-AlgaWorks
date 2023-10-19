@@ -6,12 +6,15 @@
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
       <module name="interfaces-funcionais" />
+      <module name="Desafio-Expressoes-lambda-Method-reference" />
       <module name="java_EJA" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="interfaces funcionais (Function toIntFunction)">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="interfaces funcionais (method reference)">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces-funcionais/src/methodReference/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces-funcionais/src/methodReference/Principal2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -373,22 +376,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00295" summary="Classes aninhadas (Modificadores de acesso de classes aninhadas)">
-      <option name="closed" value="true" />
-      <created>1697303343165</created>
-      <option name="number" value="00295" />
-      <option name="presentableId" value="LOCAL-00295" />
-      <option name="project" value="LOCAL" />
-      <updated>1697303343165</updated>
-    </task>
-    <task id="LOCAL-00296" summary="Classes aninhadas (Modificadores de acesso de classes aninhadas)">
-      <option name="closed" value="true" />
-      <created>1697303554570</created>
-      <option name="number" value="00296" />
-      <option name="presentableId" value="LOCAL-00296" />
-      <option name="project" value="LOCAL" />
-      <updated>1697303554570</updated>
-    </task>
     <task id="LOCAL-00297" summary="Classes aninhadas (Enum aninhado)">
       <option name="closed" value="true" />
       <created>1697389112153</created>
@@ -565,7 +552,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697665029188</updated>
     </task>
-    <option name="localTasksCounter" value="319" />
+    <task id="LOCAL-00319" summary="interfaces funcionais (method reference)">
+      <option name="closed" value="true" />
+      <created>1697665825907</created>
+      <option name="number" value="00319" />
+      <option name="presentableId" value="LOCAL-00319" />
+      <option name="project" value="LOCAL" />
+      <updated>1697665825907</updated>
+    </task>
+    <task id="LOCAL-00320" summary="interfaces funcionais (method reference)">
+      <option name="closed" value="true" />
+      <created>1697666115802</created>
+      <option name="number" value="00320" />
+      <option name="presentableId" value="LOCAL-00320" />
+      <option name="project" value="LOCAL" />
+      <updated>1697666115810</updated>
+    </task>
+    <option name="localTasksCounter" value="321" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -637,7 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="comparador de igualdade para matematica em java" />
     <MESSAGE value="Operações (Min)" />
     <MESSAGE value="Operações (Max)" />
     <MESSAGE value="Operações (Pow)" />
@@ -662,7 +664,8 @@
     <MESSAGE value="interfaces funcionais (Entendendo a importancia de usar as interfaces funcionais do java lang)" />
     <MESSAGE value="interfaces funcionais (Consumer)" />
     <MESSAGE value="interfaces funcionais (Function toIntFunction)" />
-    <option name="LAST_COMMIT_MESSAGE" value="interfaces funcionais (Function toIntFunction)" />
+    <MESSAGE value="interfaces funcionais (method reference)" />
+    <option name="LAST_COMMIT_MESSAGE" value="interfaces funcionais (method reference)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

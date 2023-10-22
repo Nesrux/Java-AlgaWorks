@@ -22,10 +22,9 @@ public class ServicoReserva {
 
         for (Reserva reserva : reservas) {
             if (reserva.getCodigo().equals(codigo)) {
-                reservaEncontrada = reserva;
-                break;
+                return Optional.of(reserva);
             }
         }
-        return Optional.ofNullable( reservaEncontrada);
+        return Optional.empty();
     }
 }

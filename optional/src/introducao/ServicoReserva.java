@@ -1,9 +1,6 @@
 package introducao;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class ServicoReserva {
     private final Set<Reserva> reservas = new HashSet<>();
@@ -20,7 +17,7 @@ public class ServicoReserva {
         }
     }
 
-    public Reserva buscar(String codigo) {
+    public Optional<Reserva> buscar(String codigo) {
         Reserva reservaEncontrada = null;
 
         for (Reserva reserva : reservas) {
@@ -29,6 +26,6 @@ public class ServicoReserva {
                 break;
             }
         }
-        return reservaEncontrada;
+        return Optional.ofNullable( reservaEncontrada);
     }
 }

@@ -14,9 +14,17 @@ public class Principal2 {
 //        Reserva reserva = servicoReserva.buscar("asdfds")
 //                .orElse(null);
 //
-        Reserva reserva = servicoReserva.buscar("456").orElseGet(()-> new Reserva("" +
-                "455", voo, "gerundina"));
+//        Reserva reserva = servicoReserva.buscar("456").orElseGet(()-> new Reserva("" +
+//                "455", voo, "gerundina"));
 
-        System.out.println(reserva);
+        servicoReserva.buscar("2ACFTS59")
+                .ifPresent(reserva -> reserva.adicionarBagagens(10));
+
+        servicoReserva.buscar("2AB8859W")
+                .ifPresentOrElse(reserva -> reserva.adicionarBagagens(10),
+                        () -> System.out.println("Não presente :/"));
+
+
+        servicoReserva.getReservas().forEach(System.out::println);
     }
 }

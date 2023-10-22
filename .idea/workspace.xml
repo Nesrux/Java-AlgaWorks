@@ -11,8 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Classe optional (orElse, orElseGet)">
-      <change afterPath="$PROJECT_DIR$/optional/src/introducao/Principal2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/optional/src/introducao/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/optional/src/introducao/Principal2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -359,14 +359,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00306" summary="Desafio classes aninhadas">
-      <option name="closed" value="true" />
-      <created>1697493747630</created>
-      <option name="number" value="00306" />
-      <option name="presentableId" value="LOCAL-00306" />
-      <option name="project" value="LOCAL" />
-      <updated>1697493747630</updated>
-    </task>
     <task id="LOCAL-00307" summary="Desafio classes aninhadas (completo)">
       <option name="closed" value="true" />
       <created>1697494528537</created>
@@ -551,7 +543,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697996793412</updated>
     </task>
-    <option name="localTasksCounter" value="330" />
+    <task id="LOCAL-00330" summary="Classe optional (orElse, orElseGet)">
+      <option name="closed" value="true" />
+      <created>1698004963389</created>
+      <option name="number" value="00330" />
+      <option name="presentableId" value="LOCAL-00330" />
+      <option name="project" value="LOCAL" />
+      <updated>1698004963389</updated>
+    </task>
+    <option name="localTasksCounter" value="331" />
     <servers />
   </component>
   <component name="UnknownFeatures">

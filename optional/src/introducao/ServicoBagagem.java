@@ -18,10 +18,15 @@ public class ServicoBagagem {
         }
         Optional<Reserva> reservaOptional = servicoReserva.buscar(codigoReserva);
 
-        if (reservaOptional.isEmpty()) {
-            throw new ReservaNaoEncontradaException("Reserva não encontrada");
-        }
+        servicoReserva.buscar(codigoReserva)
+                .orElseThrow(ReservaNaoEncontradaException::new)
+                .adicionarBagagens(qtdaBagagens);
 
-        reservaOptional.get().adicionarBagagens(qtdaBagagens);
+
+//        if (reservaOptional.isEmpty()) {
+//            throw new ReservaNaoEncontradaException("Reserva não encontrada");
+//        }
+
+//        reservaOptional.get().adicionarBagagens(qtdaBagagens);
     }
 }

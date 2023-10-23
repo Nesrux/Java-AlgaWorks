@@ -10,7 +10,7 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Classe optional (ifpresent, ifpresentOrElse)">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Classe optional (refatoração)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/optional/src/introducao/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/optional/src/introducao/Principal2.java" afterDir="false" />
     </list>
@@ -359,14 +359,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00308" summary="interfaces funcionais (introdução)">
-      <option name="closed" value="true" />
-      <created>1697550479362</created>
-      <option name="number" value="00308" />
-      <option name="presentableId" value="LOCAL-00308" />
-      <option name="project" value="LOCAL" />
-      <updated>1697550479362</updated>
-    </task>
     <task id="LOCAL-00309" summary="interfaces funcionais (introdução)">
       <option name="closed" value="true" />
       <created>1697550977186</created>
@@ -551,7 +543,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698005450626</updated>
     </task>
-    <option name="localTasksCounter" value="332" />
+    <task id="LOCAL-00332" summary="Classe optional (refatoração)">
+      <option name="closed" value="true" />
+      <created>1698014199499</created>
+      <option name="number" value="00332" />
+      <option name="presentableId" value="LOCAL-00332" />
+      <option name="project" value="LOCAL" />
+      <updated>1698014199499</updated>
+    </task>
+    <option name="localTasksCounter" value="333" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -625,7 +625,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Operações (Round)" />
     <MESSAGE value="Precisão com numeros (BigDecimal)" />
     <MESSAGE value="Precisão com numeros (Formatadores de números)" />
     <MESSAGE value="Desafio Completo" />
@@ -650,7 +649,8 @@
     <MESSAGE value="Classe optional (orElseTrow)" />
     <MESSAGE value="Classe optional (orElse, orElseGet)" />
     <MESSAGE value="Classe optional (ifpresent, ifpresentOrElse)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classe optional (ifpresent, ifpresentOrElse)" />
+    <MESSAGE value="Classe optional (refatoração)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classe optional (refatoração)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

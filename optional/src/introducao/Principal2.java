@@ -40,11 +40,16 @@ public class Principal2 {
 //
 //
         /*O Map, serve para pegar variaveis de intancias ou utilizar métodos dentro da intancia
-         * sem precisar atribuir uma nova variavel para executar esse método */
+         * sem precisar atribuir uma nova variavel para executar esse método, ele retorna
+         * um outro Optional de outro valor*/
+
+        /*flatMap, é utilizado para "achatar o valor" de um optional, ou seja, quanto
+        * existir um Optional<Optional<Passageito>> ele vai retornar direto o proprio
+        * passageiro ao invés de um optional<Passageiro> (Au 26.09)*/
 
         Passageiro passageiro = servicoReserva.buscar("2ABCS59Y")
                 .filter(r -> r.getQuantidadeBagagens() > 10)
-                .map(Reserva::getPassageiro)
+                .flatMap(Reserva::getPassageiro)
                 .orElseThrow(RuntimeException::new);
 
         System.out.println(passageiro);

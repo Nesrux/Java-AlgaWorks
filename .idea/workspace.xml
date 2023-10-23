@@ -10,11 +10,7 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Classe optional (Map)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/optional/src/introducao/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/optional/src/introducao/Principal2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/optional/src/introducao/Reserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/optional/src/introducao/Reserva.java" afterDir="false" />
-    </list>
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Classe optional (FlatMap)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -360,14 +356,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00310" summary="interfaces funcionais (introdução)">
-      <option name="closed" value="true" />
-      <created>1697557347218</created>
-      <option name="number" value="00310" />
-      <option name="presentableId" value="LOCAL-00310" />
-      <option name="project" value="LOCAL" />
-      <updated>1697557347218</updated>
-    </task>
     <task id="LOCAL-00311" summary="interfaces funcionais (introdução)">
       <option name="closed" value="true" />
       <created>1697559760962</created>
@@ -552,7 +540,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698093117866</updated>
     </task>
-    <option name="localTasksCounter" value="334" />
+    <task id="LOCAL-00334" summary="Classe optional (FlatMap)">
+      <option name="closed" value="true" />
+      <created>1698093630692</created>
+      <option name="number" value="00334" />
+      <option name="presentableId" value="LOCAL-00334" />
+      <option name="project" value="LOCAL" />
+      <updated>1698093630692</updated>
+    </task>
+    <option name="localTasksCounter" value="335" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -626,7 +622,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Precisão com numeros (Formatadores de números)" />
     <MESSAGE value="Desafio Completo" />
     <MESSAGE value="Classes aninhadas (classe aninhada estatica)" />
     <MESSAGE value="Classes aninhadas (Modificadores de acesso de classes aninhadas)" />
@@ -651,7 +646,8 @@
     <MESSAGE value="Classe optional (ifpresent, ifpresentOrElse)" />
     <MESSAGE value="Classe optional (refatoração)" />
     <MESSAGE value="Classe optional (Map)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classe optional (Map)" />
+    <MESSAGE value="Classe optional (FlatMap)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classe optional (FlatMap)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

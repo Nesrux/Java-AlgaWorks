@@ -15,11 +15,21 @@ public class Principal {
          * para criar ou modificar algo, nesse caso, filtrando as Streams*/
         Stream<Produto> stream = produtos
                 .stream();
-        /**/
+        /*Esse tipo de operção não esta filtrando de fato alguma coisa
+         * isso se chama método lazy (preguiçoso)*/
         Stream<Produto> produtoStream = stream
                 .filter(Produto::temEstoque);
 
         Stream<Produto> streamcomEstoqueIniativo = produtoStream.
                 filter(Produto::isInativo);
+
+        /*Para executar de fato as operações do pipelane, precisa utilizar
+         * as operações terminais, ele executa todxs a pipeline*/
+
+        streamcomEstoqueIniativo.forEach(produto -> {
+            produto.ativar();
+            System.out.println(produto);
+        });
+
     }
 }

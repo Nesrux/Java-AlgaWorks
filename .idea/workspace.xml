@@ -10,8 +10,9 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Stream api (metodo terminal)">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Stream api (refatorandando o código)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Streams/src/inicio/streams/principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Streams/src/inicio/streams/principal2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,14 +387,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00317" summary="interfaces funcionais (Consumer)">
-      <option name="closed" value="true" />
-      <created>1697663976676</created>
-      <option name="number" value="00317" />
-      <option name="presentableId" value="LOCAL-00317" />
-      <option name="project" value="LOCAL" />
-      <updated>1697663976677</updated>
-    </task>
     <task id="LOCAL-00318" summary="interfaces funcionais (Function toIntFunction)">
       <option name="closed" value="true" />
       <created>1697665029188</created>
@@ -578,7 +571,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698179266264</updated>
     </task>
-    <option name="localTasksCounter" value="341" />
+    <task id="LOCAL-00341" summary="Stream api (refatorandando o código)">
+      <option name="closed" value="true" />
+      <created>1698181017167</created>
+      <option name="number" value="00341" />
+      <option name="presentableId" value="LOCAL-00341" />
+      <option name="project" value="LOCAL" />
+      <updated>1698181017167</updated>
+    </task>
+    <option name="localTasksCounter" value="342" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -654,7 +655,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Classes aninhadas (classes anonimas)" />
     <MESSAGE value="Desafio classes aninhadas" />
     <MESSAGE value="Desafio classes aninhadas (completo)" />
     <MESSAGE value="interfaces funcionais (introdução)" />
@@ -679,7 +679,8 @@
     <MESSAGE value="Stream api (inicio)" />
     <MESSAGE value="Stream api (introdução)" />
     <MESSAGE value="Stream api (metodo terminal)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream api (metodo terminal)" />
+    <MESSAGE value="Stream api (refatorandando o código)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream api (refatorandando o código)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

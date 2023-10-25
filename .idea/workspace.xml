@@ -10,7 +10,7 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Stream api (findfrist &amp; findany)">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Stream api (anyMatch, allMatch, noneMatch)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,20 +119,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Principal4">
-    <configuration name="Principal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="introducao.Principal2" />
-      <module name="optional" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="introducao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Principal5">
     <configuration name="Principal3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inicio.streams.Principal3" />
       <module name="Streams" />
@@ -148,6 +135,19 @@
     </configuration>
     <configuration name="Principal4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inicio.streams.Principal4" />
+      <module name="Streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inicio.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Principal5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inicio.streams.Principal5" />
       <module name="Streams" />
       <extension name="coverage">
         <pattern>
@@ -200,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal5" />
         <item itemvalue="Application.Principal4" />
         <item itemvalue="Application.Principal3" />
         <item itemvalue="Application.principal2" />
         <item itemvalue="Application.inicio.streams.Principal" />
-        <item itemvalue="Application.Principal2" />
       </list>
     </recent_temporary>
   </component>
@@ -392,14 +392,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00320" summary="interfaces funcionais (method reference)">
-      <option name="closed" value="true" />
-      <created>1697666115802</created>
-      <option name="number" value="00320" />
-      <option name="presentableId" value="LOCAL-00320" />
-      <option name="project" value="LOCAL" />
-      <updated>1697666115810</updated>
-    </task>
     <task id="LOCAL-00321" summary="interfaces funcionais (method reference)">
       <option name="closed" value="true" />
       <created>1697724450102</created>
@@ -584,7 +576,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698186395186</updated>
     </task>
-    <option name="localTasksCounter" value="344" />
+    <task id="LOCAL-00344" summary="Stream api (anyMatch, allMatch, noneMatch)">
+      <option name="closed" value="true" />
+      <created>1698187674347</created>
+      <option name="number" value="00344" />
+      <option name="presentableId" value="LOCAL-00344" />
+      <option name="project" value="LOCAL" />
+      <updated>1698187674347</updated>
+    </task>
+    <option name="localTasksCounter" value="345" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -660,7 +660,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="interfaces funcionais (introdução)" />
     <MESSAGE value="interfaces funcionais (Principais interfaces)" />
     <MESSAGE value="interfaces funcionais (Entendendo a importancia de usar as interfaces funcionais do java lang)" />
     <MESSAGE value="interfaces funcionais (Consumer)" />
@@ -685,7 +684,8 @@
     <MESSAGE value="Stream api (refatorandando o código)" />
     <MESSAGE value="Stream api (peek)" />
     <MESSAGE value="Stream api (findfrist &amp; findany)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream api (findfrist &amp; findany)" />
+    <MESSAGE value="Stream api (anyMatch, allMatch, noneMatch)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream api (anyMatch, allMatch, noneMatch)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

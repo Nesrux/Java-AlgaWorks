@@ -5,7 +5,7 @@ import inicio.streams.estoque.Produto;
 
 import java.util.List;
 
-public class Principal7 {
+public class Map_and_Distinct {
     public static void main(String[] args) {
         CadastroProduto cadastroProduto = new CadastroProduto();
         List<Produto> produtos = cadastroProduto.obterTodos();

@@ -6,7 +6,7 @@ import inicio.streams.estoque.Produto;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class Principal {
+public class InicioStream {
     public static void main(String[] args) {
         CadastroProduto cadastroProduto = new CadastroProduto();
         List<Produto> produtos = cadastroProduto.obterTodos();

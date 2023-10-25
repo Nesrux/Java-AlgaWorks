@@ -6,7 +6,7 @@ import inicio.streams.estoque.Produto;
 import java.util.Comparator;
 import java.util.List;
 
-public class Principal5 {
+public class Sorted {
     public static void main(String[] args) {
         CadastroProduto cadastroProduto = new CadastroProduto();
         List<Produto> produtos = cadastroProduto.obterTodos();

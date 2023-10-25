@@ -10,9 +10,9 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Stream api (mapToInt e intStream)">
-      <change afterPath="$PROJECT_DIR$/Streams/src/Principal9.java" afterDir="false" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Stream api (Refatoracao)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Streams/src/Principal9.java" beforeDir="false" afterPath="$PROJECT_DIR$/Streams/src/inicio/streams/MapToInt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,9 +120,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Principal9">
-    <configuration name="Principal5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inicio.streams.Principal5" />
+  <component name="RunManager" selected="Application.Reduce">
+    <configuration name="FlatMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inicio.streams.FlatMap" />
       <module name="Streams" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +134,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Principal6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inicio.streams.Principal6" />
+    <configuration name="MapToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inicio.streams.MapToInt" />
+      <module name="Streams" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Map_and_Distinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inicio.streams.Map_and_Distinct" />
       <module name="Streams" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +154,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Principal7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inicio.streams.Principal7" />
+    <configuration name="Operacoes_Statefull" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inicio.streams.Operacoes_Statefull" />
       <module name="Streams" />
       <extension name="coverage">
         <pattern>
@@ -160,8 +167,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Principal8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inicio.streams.Principal8" />
+    <configuration name="Reduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inicio.streams.Reduce" />
       <module name="Streams" />
       <extension name="coverage">
         <pattern>
@@ -169,13 +176,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Principal9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Principal9" />
-      <module name="Streams" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Principal9" />
-        <item itemvalue="Application.Principal8" />
-        <item itemvalue="Application.Principal7" />
-        <item itemvalue="Application.Principal6" />
-        <item itemvalue="Application.Principal5" />
+        <item itemvalue="Application.Reduce" />
+        <item itemvalue="Application.MapToInt" />
+        <item itemvalue="Application.FlatMap" />
+        <item itemvalue="Application.Map_and_Distinct" />
+        <item itemvalue="Application.Operacoes_Statefull" />
       </list>
     </recent_temporary>
   </component>
@@ -387,22 +387,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00326" summary="Classe optional (introducao)">
-      <option name="closed" value="true" />
-      <created>1697739666905</created>
-      <option name="number" value="00326" />
-      <option name="presentableId" value="LOCAL-00326" />
-      <option name="project" value="LOCAL" />
-      <updated>1697739666905</updated>
-    </task>
-    <task id="LOCAL-00327" summary="Classe optional (introducao)">
-      <option name="closed" value="true" />
-      <created>1697995673834</created>
-      <option name="number" value="00327" />
-      <option name="presentableId" value="LOCAL-00327" />
-      <option name="project" value="LOCAL" />
-      <updated>1697995673834</updated>
-    </task>
     <task id="LOCAL-00328" summary="Classe optional (introducao)">
       <option name="closed" value="true" />
       <created>1697995799715</created>
@@ -579,7 +563,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698273559258</updated>
     </task>
-    <option name="localTasksCounter" value="350" />
+    <task id="LOCAL-00350" summary="Stream api (mapToInt e intStream)">
+      <option name="closed" value="true" />
+      <created>1698274179051</created>
+      <option name="number" value="00350" />
+      <option name="presentableId" value="LOCAL-00350" />
+      <option name="project" value="LOCAL" />
+      <updated>1698274179051</updated>
+    </task>
+    <task id="LOCAL-00351" summary="Stream api (Refatoracao)">
+      <option name="closed" value="true" />
+      <created>1698274648370</created>
+      <option name="number" value="00351" />
+      <option name="presentableId" value="LOCAL-00351" />
+      <option name="project" value="LOCAL" />
+      <updated>1698274648370</updated>
+    </task>
+    <option name="localTasksCounter" value="352" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -655,7 +655,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Desafio expressoes lambda e method reference (Completo)" />
     <MESSAGE value="Classe optional" />
     <MESSAGE value="Classe optional (introducao)" />
     <MESSAGE value="Classe optional (orElseTrow)" />
@@ -680,7 +679,8 @@
     <MESSAGE value="Stream api (distinct)" />
     <MESSAGE value="Stream api (flatMap stream)" />
     <MESSAGE value="Stream api (mapToInt e intStream)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream api (mapToInt e intStream)" />
+    <MESSAGE value="Stream api (Refatoracao)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream api (Refatoracao)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -726,11 +726,6 @@
           <url>file://$PROJECT_DIR$/Numeros/src/bigDecimal/formatacao/FormatacaoCompacta.java</url>
           <line>11</line>
           <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Streams/src/inicio/streams/Principal.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

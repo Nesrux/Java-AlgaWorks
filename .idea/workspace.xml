@@ -10,7 +10,8 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Stream api (distinct)">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Stream api (mapToInt e intStream)">
+      <change afterPath="$PROJECT_DIR$/Streams/src/Principal9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,20 +120,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Principal8">
-    <configuration name="Principal4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inicio.streams.Principal4" />
-      <module name="Streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inicio.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Principal9">
     <configuration name="Principal5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inicio.streams.Principal5" />
       <module name="Streams" />
@@ -185,6 +173,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Principal9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Principal9" />
+      <module name="Streams" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="java_EJA" />
       <method v="2">
@@ -200,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal9" />
         <item itemvalue="Application.Principal8" />
         <item itemvalue="Application.Principal7" />
         <item itemvalue="Application.Principal6" />
         <item itemvalue="Application.Principal5" />
-        <item itemvalue="Application.Principal4" />
       </list>
     </recent_temporary>
   </component>
@@ -392,14 +387,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00325" summary="Classe optional (introducao)">
-      <option name="closed" value="true" />
-      <created>1697738686966</created>
-      <option name="number" value="00325" />
-      <option name="presentableId" value="LOCAL-00325" />
-      <option name="project" value="LOCAL" />
-      <updated>1697738686966</updated>
-    </task>
     <task id="LOCAL-00326" summary="Classe optional (introducao)">
       <option name="closed" value="true" />
       <created>1697739666905</created>
@@ -584,7 +571,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698272854128</updated>
     </task>
-    <option name="localTasksCounter" value="349" />
+    <task id="LOCAL-00349" summary="Stream api (flatMap stream)">
+      <option name="closed" value="true" />
+      <created>1698273559194</created>
+      <option name="number" value="00349" />
+      <option name="presentableId" value="LOCAL-00349" />
+      <option name="project" value="LOCAL" />
+      <updated>1698273559258</updated>
+    </task>
+    <option name="localTasksCounter" value="350" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -660,8 +655,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="interfaces funcionais (method reference)" />
-    <MESSAGE value="Desafio expressoes lambda e method reference" />
     <MESSAGE value="Desafio expressoes lambda e method reference (Completo)" />
     <MESSAGE value="Classe optional" />
     <MESSAGE value="Classe optional (introducao)" />
@@ -685,7 +678,9 @@
     <MESSAGE value="Stream api (operaçoes intermediarias statefull)" />
     <MESSAGE value="Stream api (Map)" />
     <MESSAGE value="Stream api (distinct)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream api (distinct)" />
+    <MESSAGE value="Stream api (flatMap stream)" />
+    <MESSAGE value="Stream api (mapToInt e intStream)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream api (mapToInt e intStream)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

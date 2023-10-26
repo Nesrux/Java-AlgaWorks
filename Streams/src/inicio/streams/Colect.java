@@ -4,7 +4,6 @@ import inicio.streams.estoque.CadastroProduto;
 import inicio.streams.estoque.Categoria;
 import inicio.streams.estoque.Produto;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Colect {
@@ -19,13 +18,22 @@ public class Colect {
          * 3) esse serve para utilizar o paralelStream, ele (pode) cria 2 listas
          * separadas, e depois e cumulam na outra, isso funciona pq esta utilizando
          * o paradigma programação paralelo */
+
         List<Categoria> categorias = produtos.stream()
                 .filter(Produto::temEstoque)
                 .flatMap(produto -> produto.getCategorias().stream())
                 .distinct()
-                .collect(() -> new ArrayList<>(),
-                        (lista, item) -> lista.add(item),
-                        (lista1, lista2) -> lista1.addAll(lista2));
+                .toList();
+
+
+//       .collect(Collectors.toList());
+//        .collect(ArrayList::new, ArrayList::add, ArrayList::addAll);
+
+        /*O collectors.toList é o método tolist fazem exatemente a mesmaa coisa
+         * A classe Collectots, possuem alguns métodos estaticos que fazem a mesma coisa
+         * que o que o ultimo método comentendo, só que para todas as coleçoes do java
+         * ela é uma classe utilitaria, de extrema importancia*/
+
     }
 
 }

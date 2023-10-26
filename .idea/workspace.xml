@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Stream api (reduce)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Streams/src/inicio/streams/Reduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/Streams/src/inicio/streams/Reduce.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +119,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Reduce">
+  <component name="RunManager" selected="Application.RetornaOptional">
     <configuration name="FlatMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inicio.streams.FlatMap" />
       <module name="Streams" />
@@ -154,8 +153,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Operacoes_Statefull" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inicio.streams.Operacoes_Statefull" />
+    <configuration name="Reduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inicio.streams.Reduce" />
       <module name="Streams" />
       <extension name="coverage">
         <pattern>
@@ -167,8 +166,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inicio.streams.Reduce" />
+    <configuration name="RetornaOptional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inicio.streams.RetornaOptional" />
       <module name="Streams" />
       <extension name="coverage">
         <pattern>
@@ -195,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RetornaOptional" />
         <item itemvalue="Application.Reduce" />
         <item itemvalue="Application.MapToInt" />
         <item itemvalue="Application.FlatMap" />
         <item itemvalue="Application.Map_and_Distinct" />
-        <item itemvalue="Application.Operacoes_Statefull" />
       </list>
     </recent_temporary>
   </component>
@@ -387,14 +386,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00329" summary="Classe optional (orElseTrow)">
-      <option name="closed" value="true" />
-      <created>1697996793412</created>
-      <option name="number" value="00329" />
-      <option name="presentableId" value="LOCAL-00329" />
-      <option name="project" value="LOCAL" />
-      <updated>1697996793412</updated>
-    </task>
     <task id="LOCAL-00330" summary="Classe optional (orElse, orElseGet)">
       <option name="closed" value="true" />
       <created>1698004963389</created>
@@ -579,7 +570,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698275666710</updated>
     </task>
-    <option name="localTasksCounter" value="353" />
+    <task id="LOCAL-00353" summary="Stream api (reduce)">
+      <option name="closed" value="true" />
+      <created>1698349062377</created>
+      <option name="number" value="00353" />
+      <option name="presentableId" value="LOCAL-00353" />
+      <option name="project" value="LOCAL" />
+      <updated>1698349062377</updated>
+    </task>
+    <option name="localTasksCounter" value="354" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -726,6 +725,11 @@
           <url>file://$PROJECT_DIR$/Numeros/src/bigDecimal/formatacao/FormatacaoCompacta.java</url>
           <line>11</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Streams/src/inicio/streams/RetornaOptional.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

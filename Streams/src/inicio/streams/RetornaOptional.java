@@ -24,8 +24,23 @@ public class RetornaOptional {
                 .average()
                 .orElseThrow(RuntimeException::new);
 
+        int c = produtos.stream()
+                .filter(Produto::temEstoque)
+                .mapToInt(Produto::getQuantidade)
+                .max()
+                .orElseThrow(RuntimeException::new);
+
+
+        int d = produtos.stream()
+                .filter(Produto::temEstoque)
+                .mapToInt(Produto::getQuantidade)
+                .min()
+                .orElseThrow(RuntimeException::new);
+
         System.out.println(a);
         System.out.printf("%.2f", b);
+        System.out.println(c);
+        System.out.println(d);
     }
 
 

@@ -24,16 +24,16 @@ public class Colect {
                 .flatMap(produto -> produto.getCategorias().stream())
                 .distinct()
                 .toList();
-
-
 //       .collect(Collectors.toList());
 //        .collect(ArrayList::new, ArrayList::add, ArrayList::addAll);
 
-        /*O collectors.toList é o método tolist fazem exatemente a mesmaa coisa
+        /*O collectors.toList
          * A classe Collectots, possuem alguns métodos estaticos que fazem a mesma coisa
          * que o que o ultimo método comentendo, só que para todas as coleçoes do java
          * ela é uma classe utilitaria, de extrema importancia*/
 
+        /*o método toList do stream, também gera um arrayList, porém ela gera
+         * uma lista que nao pode ser modificada*/
     }
 
 }

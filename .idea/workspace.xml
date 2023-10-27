@@ -10,9 +10,7 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Stream api (Classe objects)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Stream api (mapas com valores de agregação)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +117,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapaComValoresAgregados">
+  <component name="RunManager" selected="Application.MapasParticionados">
     <configuration name="Colect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inicio.streams.Colect" />
       <module name="Streams" />
@@ -159,8 +157,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inicio.streams.Reduce" />
+    <configuration name="MapasParticionados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inicio.streams.MapasParticionados" />
       <module name="Streams" />
       <extension name="coverage">
         <pattern>
@@ -200,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapasParticionados" />
         <item itemvalue="Application.MapaComValoresAgregados" />
         <item itemvalue="Application.ColectMap" />
         <item itemvalue="Application.Colect" />
         <item itemvalue="Application.RetornaOptional" />
-        <item itemvalue="Application.Reduce" />
       </list>
     </recent_temporary>
   </component>
@@ -392,14 +390,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00338" summary="Stream api (inicio)">
-      <option name="closed" value="true" />
-      <created>1698169125538</created>
-      <option name="number" value="00338" />
-      <option name="presentableId" value="LOCAL-00338" />
-      <option name="project" value="LOCAL" />
-      <updated>1698169125538</updated>
-    </task>
     <task id="LOCAL-00339" summary="Stream api (introdução)">
       <option name="closed" value="true" />
       <created>1698178960254</created>
@@ -584,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698446448644</updated>
     </task>
-    <option name="localTasksCounter" value="362" />
+    <task id="LOCAL-00362" summary="Stream api (mapas com valores de agregação)">
+      <option name="closed" value="true" />
+      <created>1698448002802</created>
+      <option name="number" value="00362" />
+      <option name="presentableId" value="LOCAL-00362" />
+      <option name="project" value="LOCAL" />
+      <updated>1698448002872</updated>
+    </task>
+    <option name="localTasksCounter" value="363" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -660,7 +658,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Classe optional (FlatMap)" />
     <MESSAGE value="Classe optional (Refatoração)" />
     <MESSAGE value="Desafio Optional (inicio)" />
     <MESSAGE value="Desafio Optional (completo)" />
@@ -685,7 +682,8 @@
     <MESSAGE value="Stream api (Collectors.toMap)" />
     <MESSAGE value="Stream api (mapas agrupados com o groupby)" />
     <MESSAGE value="Stream api (Classe objects)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream api (Classe objects)" />
+    <MESSAGE value="Stream api (mapas com valores de agregação)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream api (mapas com valores de agregação)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

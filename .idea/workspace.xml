@@ -10,9 +10,8 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Stream api (Collectors.toMap)">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Stream api (mapas agrupados com o groupby)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Streams/src/inicio/streams/ColectMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Streams/src/inicio/streams/ColectMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -387,14 +386,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00336" summary="Desafio Optional (inicio)">
-      <option name="closed" value="true" />
-      <created>1698094311037</created>
-      <option name="number" value="00336" />
-      <option name="presentableId" value="LOCAL-00336" />
-      <option name="project" value="LOCAL" />
-      <updated>1698094311037</updated>
-    </task>
     <task id="LOCAL-00337" summary="Desafio Optional (completo)">
       <option name="closed" value="true" />
       <created>1698096356368</created>
@@ -579,7 +570,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698440973886</updated>
     </task>
-    <option name="localTasksCounter" value="360" />
+    <task id="LOCAL-00360" summary="Stream api (mapas agrupados com o groupby)">
+      <option name="closed" value="true" />
+      <created>1698442715260</created>
+      <option name="number" value="00360" />
+      <option name="presentableId" value="LOCAL-00360" />
+      <option name="project" value="LOCAL" />
+      <updated>1698442715260</updated>
+    </task>
+    <option name="localTasksCounter" value="361" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -655,7 +654,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Classe optional (refatoração)" />
     <MESSAGE value="Classe optional (Map)" />
     <MESSAGE value="Classe optional (FlatMap)" />
     <MESSAGE value="Classe optional (Refatoração)" />
@@ -680,7 +678,8 @@
     <MESSAGE value="Stream api (collect)" />
     <MESSAGE value="Stream api (toList)" />
     <MESSAGE value="Stream api (Collectors.toMap)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream api (Collectors.toMap)" />
+    <MESSAGE value="Stream api (mapas agrupados com o groupby)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream api (mapas agrupados com o groupby)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

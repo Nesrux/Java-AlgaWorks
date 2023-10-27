@@ -5,6 +5,7 @@ import inicio.streams.estoque.Categoria;
 import inicio.streams.estoque.Produto;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Colect {
     public static void main(String[] args) {
@@ -23,8 +24,8 @@ public class Colect {
                 .filter(Produto::temEstoque)
                 .flatMap(produto -> produto.getCategorias().stream())
                 .distinct()
-                .toList();
-//       .collect(Collectors.toList());
+                // toList();
+                .collect(Collectors.toList());
 //        .collect(ArrayList::new, ArrayList::add, ArrayList::addAll);
 
         /*O collectors.toList

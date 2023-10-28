@@ -5,14 +5,12 @@
   </component>
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
-      <module name="Streams" />
+      <module name="Desafio_Streams" />
       <module name="java_EJA" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Stream api (Mapas particionados (importante ?)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio Stream api (inicio)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +117,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapasParticionados">
+  <component name="RunManager" selected="Application.Principal1">
     <configuration name="Colect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inicio.streams.Colect" />
       <module name="Streams" />
@@ -172,15 +170,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RetornaOptional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inicio.streams.RetornaOptional" />
-      <module name="Streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inicio.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Principal1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Principal1" />
+      <module name="Desafio_Streams" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -200,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal1" />
         <item itemvalue="Application.MapasParticionados" />
         <item itemvalue="Application.MapaComValoresAgregados" />
         <item itemvalue="Application.ColectMap" />
         <item itemvalue="Application.Colect" />
-        <item itemvalue="Application.RetornaOptional" />
       </list>
     </recent_temporary>
   </component>
@@ -392,14 +384,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00340" summary="Stream api (metodo terminal)">
-      <option name="closed" value="true" />
-      <created>1698179266264</created>
-      <option name="number" value="00340" />
-      <option name="presentableId" value="LOCAL-00340" />
-      <option name="project" value="LOCAL" />
-      <updated>1698179266264</updated>
-    </task>
     <task id="LOCAL-00341" summary="Stream api (refatorandando o código)">
       <option name="closed" value="true" />
       <created>1698181017167</created>
@@ -584,7 +568,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698448496185</updated>
     </task>
-    <option name="localTasksCounter" value="364" />
+    <task id="LOCAL-00364" summary="Desafio Stream api (inicio)">
+      <option name="closed" value="true" />
+      <created>1698499399684</created>
+      <option name="number" value="00364" />
+      <option name="presentableId" value="LOCAL-00364" />
+      <option name="project" value="LOCAL" />
+      <updated>1698499399684</updated>
+    </task>
+    <option name="localTasksCounter" value="365" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -661,7 +653,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Desafio Optional (inicio)" />
     <MESSAGE value="Desafio Optional (completo)" />
     <MESSAGE value="Stream api (inicio)" />
     <MESSAGE value="Stream api (introdução)" />
@@ -686,7 +677,8 @@
     <MESSAGE value="Stream api (Classe objects)" />
     <MESSAGE value="Stream api (mapas com valores de agregação)" />
     <MESSAGE value="Stream api (Mapas particionados (importante ?)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream api (Mapas particionados (importante ?)" />
+    <MESSAGE value="Desafio Stream api (inicio)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio Stream api (inicio)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

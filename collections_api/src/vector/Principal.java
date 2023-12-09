@@ -14,7 +14,15 @@ public class Principal {
 
         Vector<Hotel> hoteis = cadastro.obterTodos();
         imprimirHoteis(cadastro.obterTodos());
-
+        /*Anotações do Jaum !!*/
+        /*A Implementação de List, Vector tem as Mesmas funcionalidades
+         * de ArrayList, tanto em métodos quanto em processos, com a unica diferença
+         * que Em vecto é uma classe que é feita para funcionar em paralelismo, ou seja
+         * uma classe feita para funcionar em threads, ela da um Lock na classe durante
+         * a execução de cada método, nao podendo ser executado um método até outro acabar
+         *  em suma, ela nao deixa por exemplo vc iterar a classe adicionando e removendo
+         * métodos ao mesmo tempo, ela é bem util para processos de negocio onde pode ocorrer
+         * algum erro de eu tentar adicionar algo enquanto a lista esta sendo removida (Por exemplo)*/
 
     }
 

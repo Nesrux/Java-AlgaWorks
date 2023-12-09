@@ -2,6 +2,7 @@ package arrayList;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class CadastroHotel {
@@ -70,7 +71,8 @@ public class CadastroHotel {
     }
 
     public void ordenarPorPreco() {
-        hoteis.sort(new Hotel.PrecoHotelComparator());
+        hoteis.sort(new Hotel.PrecoHotelComparator()
+                .thenComparing(Comparator.naturalOrder()));
     }
 
 }

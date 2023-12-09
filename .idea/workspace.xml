@@ -10,10 +10,7 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="implementando comparable">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections_api/src/arrayList/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections_api/src/arrayList/Hotel.java" afterDir="false" />
-    </list>
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="implementando compatator" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -367,14 +364,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00365" summary="Desafio Stream api (1) completo">
-      <option name="closed" value="true" />
-      <created>1698499501563</created>
-      <option name="number" value="00365" />
-      <option name="presentableId" value="LOCAL-00365" />
-      <option name="project" value="LOCAL" />
-      <updated>1698499501563</updated>
-    </task>
     <task id="LOCAL-00366" summary="Desafio Stream api (2) completo">
       <option name="closed" value="true" />
       <created>1698499971008</created>
@@ -559,7 +548,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702162084468</updated>
     </task>
-    <option name="localTasksCounter" value="389" />
+    <task id="LOCAL-00389" summary="implementando compatator">
+      <option name="closed" value="true" />
+      <created>1702163163569</created>
+      <option name="number" value="00389" />
+      <option name="presentableId" value="LOCAL-00389" />
+      <option name="project" value="LOCAL" />
+      <updated>1702163163569</updated>
+    </task>
+    <option name="localTasksCounter" value="390" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -647,7 +644,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Stream api (collect)" />
     <MESSAGE value="Stream api (toList)" />
     <MESSAGE value="Stream api (Collectors.toMap)" />
     <MESSAGE value="Stream api (mapas agrupados com o groupby)" />
@@ -672,7 +668,8 @@
     <MESSAGE value="Refactor: convertendo lista para arrays" />
     <MESSAGE value="adicionando métodos de ordenação" />
     <MESSAGE value="implementando comparable" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementando comparable" />
+    <MESSAGE value="implementando compatator" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementando compatator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

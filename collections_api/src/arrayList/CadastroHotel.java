@@ -44,7 +44,14 @@ public class CadastroHotel {
     }
 
     public Hotel[] obterTodosComoArray() {
-    return hoteis.toArray(new Hotel[0]);
+        return hoteis.toArray(new Hotel[0]);
+
+        /*Notas do Jaum
+         * O parametreo (A) do toArray, faz referencia ao tipo de array
+         * que o método vai retornar, pois se o tamanho do array for menor que
+         * o tamanho da lista, ele vai criar um array exatamente do tamanho da lista,
+         * porém se o tamnho do arrray dor maior que a lista, ele faz preencher esse array
+         * com intencias nulas da mesma classe!*/
 
         //       Hotel[] hoteis2 = new Hotel[hoteis.size()];
 //        for (int i = 0; i < hoteis.size(); i++) {

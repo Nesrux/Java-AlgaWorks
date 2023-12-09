@@ -10,7 +10,10 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Refactor: boas praticas com uso de interface com as collections" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Refactor: convertendo lista para arrays">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collections_api/src/arrayList/CadastroHotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections_api/src/arrayList/CadastroHotel.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -611,7 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Stream api (Refatoracao)" />
     <MESSAGE value="Stream api (reduce)" />
     <MESSAGE value="Stream api (operações especiais de tipos primitivos)" />
     <MESSAGE value="Stream api (collect)" />
@@ -636,7 +638,8 @@
     <MESSAGE value="Refactor: refatorando as classes, para implementar Vector" />
     <MESSAGE value="Vetor AE" />
     <MESSAGE value="Refactor: boas praticas com uso de interface com as collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor: boas praticas com uso de interface com as collections" />
+    <MESSAGE value="Refactor: convertendo lista para arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor: convertendo lista para arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

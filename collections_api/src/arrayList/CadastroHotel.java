@@ -65,8 +65,12 @@ public class CadastroHotel {
         this.hoteis.clear();
     }
 
-    public void ordenar(){
+    public void ordenar() {
         Collections.sort(hoteis);
+    }
+
+    public void ordenarPorPreco() {
+        hoteis.sort(new Hotel.PrecoHotelComparator());
     }
 
 }

@@ -1,5 +1,6 @@
 package arrayList;
 
+import java.util.Comparator;
 import java.util.Objects;
 
 public class Hotel implements Comparable<Hotel> {
@@ -73,13 +74,22 @@ public class Hotel implements Comparable<Hotel> {
         // que nesse caso é o nome!
         return this.nome.compareTo(o.getNome());
 
+/*
+        return Double.compare(this.precoDiaria, o.getPrecoDiaria());
+        if (this.getPrecoDiaria() > o.getPrecoDiaria()) {
+            return 1;
+        } else if (this.getPrecoDiaria() < o.getPrecoDiaria()) {
+            return -1;
+        }
+        return 0;
+        */
 
-        //        return Double.compare(this.precoDiaria, o.getPrecoDiaria());
-        //        if (this.getPrecoDiaria() > o.getPrecoDiaria()) {
-//            return 1;
-//        } else if (this.getPrecoDiaria() < o.getPrecoDiaria()) {
-//            return -1;
-//        }
-//        return 0;
+    }
+
+    public static class PrecoHotelComparator implements Comparator<Hotel> {
+        @Override
+        public int compare(Hotel o1, Hotel o2) {
+            return Double.compare(o1.precoDiaria, o2.getPrecoDiaria());
+        }
     }
 }

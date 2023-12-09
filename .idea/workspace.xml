@@ -10,8 +10,7 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio streams completo">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Refactor: refatorando os pacotes do modulo de Collections">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +29,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Nesrux"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="020f12e6-f6b3-4b22-a494-6788f96c5672" />
+        <option name="url" value="git@github.com:Nesrux/Java-algaworks.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Desafio_Streams/src/Principal2.java" root0="SKIP_INSPECTION" />
@@ -364,14 +377,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00349" summary="Stream api (flatMap stream)">
-      <option name="closed" value="true" />
-      <created>1698273559194</created>
-      <option name="number" value="00349" />
-      <option name="presentableId" value="LOCAL-00349" />
-      <option name="project" value="LOCAL" />
-      <updated>1698273559258</updated>
-    </task>
     <task id="LOCAL-00350" summary="Stream api (mapToInt e intStream)">
       <option name="closed" value="true" />
       <created>1698274179051</created>
@@ -556,7 +561,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698518295057</updated>
     </task>
-    <option name="localTasksCounter" value="373" />
+    <task id="LOCAL-00373" summary="Refactor: refatorando os pacotes do modulo de Collections">
+      <option name="closed" value="true" />
+      <created>1702139325866</created>
+      <option name="number" value="00373" />
+      <option name="presentableId" value="LOCAL-00373" />
+      <option name="project" value="LOCAL" />
+      <updated>1702139325866</updated>
+    </task>
+    <option name="localTasksCounter" value="374" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -604,7 +617,13 @@
       <map>
         <entry key="654f361f-8408-4005-8e25-252bd92428d8">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
         <entry key="MAIN">
@@ -613,6 +632,11 @@
               <option name="COLUMN_ID_WIDTH">
                 <map>
                   <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="37" />
+                </map>
+              </option>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
               <option name="FILTERS">
@@ -633,7 +657,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Stream api (anyMatch, allMatch, noneMatch)" />
     <MESSAGE value="Stream api (sorted)" />
     <MESSAGE value="Stream api (operaçoes intermediarias statefull)" />
     <MESSAGE value="Stream api (Map)" />
@@ -658,7 +681,8 @@
     <MESSAGE value="Desafio Stream api (5) completo" />
     <MESSAGE value="Desafio Stream api (6) completo" />
     <MESSAGE value="Desafio streams completo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio streams completo" />
+    <MESSAGE value="Refactor: refatorando os pacotes do modulo de Collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor: refatorando os pacotes do modulo de Collections" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

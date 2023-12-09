@@ -1,9 +1,10 @@
 package linkedList;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class CadastroHotel {
-    private final ArrayList<Hotel> hoteis = new ArrayList<>();
+    private final LinkedList<Hotel> hoteis = new LinkedList<>();
 
     public void adicionar(String nome, String cidade, double precoDiaria) {
         Hotel hotel = new Hotel(nome, cidade, precoDiaria);
@@ -15,18 +16,15 @@ public class CadastroHotel {
         hoteis.add(hotel);
     }
 
-    public ArrayList<Hotel> obterTodos() {
+    public LinkedList<Hotel> obterTodos() {
         return hoteis;
     }
 
     public void removerPorCidade(String nomeCidade) {
         ArrayList<Hotel> HoteisParaRemocao = new ArrayList<>();
-        for (int i = 0; i < hoteis.size(); i++) {
-            Hotel hotel = hoteis.get(i);
+        for (Hotel hotel : hoteis) {
             if (hotel.getCidade().equals(nomeCidade)) {
                 HoteisParaRemocao.add(hotel);
-                //    hoteis.remove(i);
-                //    i--;
             }
 
         }

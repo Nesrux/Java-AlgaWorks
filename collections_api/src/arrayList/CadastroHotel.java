@@ -44,7 +44,13 @@ public class CadastroHotel {
     }
 
     public Hotel[] obterTodosComoArray() {
-        return null;
+    return hoteis.toArray(new Hotel[0]);
+
+        //       Hotel[] hoteis2 = new Hotel[hoteis.size()];
+//        for (int i = 0; i < hoteis.size(); i++) {
+//            hoteis2[i] = hoteis.get(i);
+//        }
+//        return hoteis2;
     }
 
     public void removerTodos() {

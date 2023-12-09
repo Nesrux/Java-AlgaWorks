@@ -1,26 +1,31 @@
 package desafio;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class CadastroPacoteViagem {
-    // TODO declarar lista de pacotes de viagem aqui
+    List<PacoteViagem> pacotes = new ArrayList<>();
 
     public void adicionar(String descricao, double precoDiaria) {
-        // TODO adicionar pacote na lista, validando antes se
-        //  já existe usando contains (lançar exceção)
+        if (pacotes.contains(new PacoteViagem(descricao, precoDiaria))) {
+            throw new IllegalArgumentException("Ja existe esse pacote cadastrado");
+        }
+        pacotes.add(new PacoteViagem(descricao, precoDiaria));
+
     }
 
     public List<PacoteViagem> obterTodos() {
-        // TODO retornar lista de pacotes
-        return null;
+        return pacotes;
     }
 
     public void ordenar() {
-        // TODO ordenar pacotes pela ordem natural
+        Collections.sort(pacotes);
     }
 
     public void ordenarPorPrecoDecrescente() {
-        // TODO ordenar pacotes pelo preço (decrescente)
+        pacotes.sort(new PacoteViagem.PrecoComparator().reversed());
     }
 
     public void removerPorDescricao(String descricao) {

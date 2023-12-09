@@ -10,7 +10,7 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="implementando compatator e ordem natural" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio Implementação de List" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -364,14 +364,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00367" summary="Desafio Stream api (3) completo">
-      <option name="closed" value="true" />
-      <created>1698500953155</created>
-      <option name="number" value="00367" />
-      <option name="presentableId" value="LOCAL-00367" />
-      <option name="project" value="LOCAL" />
-      <updated>1698500953155</updated>
-    </task>
     <task id="LOCAL-00368" summary="Desafio Stream api (4) completo">
       <option name="closed" value="true" />
       <created>1698501172546</created>
@@ -556,7 +548,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702163411835</updated>
     </task>
-    <option name="localTasksCounter" value="391" />
+    <task id="LOCAL-00391" summary="Desafio Implementação de List">
+      <option name="closed" value="true" />
+      <created>1702163684725</created>
+      <option name="number" value="00391" />
+      <option name="presentableId" value="LOCAL-00391" />
+      <option name="project" value="LOCAL" />
+      <updated>1702163684725</updated>
+    </task>
+    <option name="localTasksCounter" value="392" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -644,7 +644,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Stream api (Collectors.toMap)" />
     <MESSAGE value="Stream api (mapas agrupados com o groupby)" />
     <MESSAGE value="Stream api (Classe objects)" />
     <MESSAGE value="Stream api (mapas com valores de agregação)" />
@@ -669,7 +668,8 @@
     <MESSAGE value="implementando comparable" />
     <MESSAGE value="implementando compatator" />
     <MESSAGE value="implementando compatator e ordem natural" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementando compatator e ordem natural" />
+    <MESSAGE value="Desafio Implementação de List" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio Implementação de List" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -68,6 +68,9 @@ public class Hotel implements Comparable<Hotel> {
 
     @Override
     public int compareTo(Hotel o) {
+        //A boa pratica é implementar o comparable utilizando
+        //as propriedades que são feitos para definir o equals e hashcode
+        // que nesse caso é o nome!
         return this.nome.compareTo(o.getNome());
 
 

@@ -58,20 +58,20 @@ public class Hotel implements Comparable<Hotel> {
 
         Hotel hotel = (Hotel) o;
 
-        if (!nome.equals(hotel.nome)) return false;
-        return cidade.equals(hotel.cidade);
+        return nome.equals(hotel.nome);
     }
 
     @Override
     public int hashCode() {
-        int result = nome.hashCode();
-        result = 31 * result + cidade.hashCode();
-        return result;
+        return nome.hashCode();
     }
 
     @Override
     public int compareTo(Hotel o) {
-        return Double.compare(this.precoDiaria, o.getPrecoDiaria());
+        return this.nome.compareTo(o.getNome());
+
+
+        //        return Double.compare(this.precoDiaria, o.getPrecoDiaria());
         //        if (this.getPrecoDiaria() > o.getPrecoDiaria()) {
 //            return 1;
 //        } else if (this.getPrecoDiaria() < o.getPrecoDiaria()) {

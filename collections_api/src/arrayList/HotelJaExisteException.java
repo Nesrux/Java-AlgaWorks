@@ -1,4 +1,4 @@
-package com.nesru.arraylist;
+package arrayList;
 
 public class HotelJaExisteException extends RuntimeException {
     public HotelJaExisteException(String message) {

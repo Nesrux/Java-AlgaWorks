@@ -5,15 +5,14 @@
   </component>
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
-      <module name="Desafio_Streams" />
+      <module name="collections_api" />
       <module name="java_EJA" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio streams completo">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio_Streams/src/Principal6.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Streams/src/Principal6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio_Streams/src/Principal7.java" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio_Streams/src/Principal7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -365,14 +364,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00348" summary="Stream api (distinct)">
-      <option name="closed" value="true" />
-      <created>1698272854128</created>
-      <option name="number" value="00348" />
-      <option name="presentableId" value="LOCAL-00348" />
-      <option name="project" value="LOCAL" />
-      <updated>1698272854128</updated>
-    </task>
     <task id="LOCAL-00349" summary="Stream api (flatMap stream)">
       <option name="closed" value="true" />
       <created>1698273559194</created>
@@ -557,7 +548,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698503616224</updated>
     </task>
-    <option name="localTasksCounter" value="372" />
+    <task id="LOCAL-00372" summary="Desafio streams completo">
+      <option name="closed" value="true" />
+      <created>1698518295057</created>
+      <option name="number" value="00372" />
+      <option name="presentableId" value="LOCAL-00372" />
+      <option name="project" value="LOCAL" />
+      <updated>1698518295057</updated>
+    </task>
+    <option name="localTasksCounter" value="373" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -573,6 +572,7 @@
     <module name="Desafio_Heranca" />
     <module name="Desafio_Interfaces" />
     <module name="Desafio_Optional" />
+    <module name="Desafio_Streams" />
     <module name="Desafio_Strings" />
     <module name="Desafio_enumeracoes" />
     <module name="Desafio_exceptions" />
@@ -588,7 +588,6 @@
     <module name="Streams" />
     <module name="Strings" />
     <module name="classes_aninhadas" />
-    <module name="collections_ArrayList" />
     <module name="collections_Megasena" />
     <module name="encapsulamento" />
     <module name="generics" />

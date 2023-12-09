@@ -1,4 +1,4 @@
-package com.nesru.arraylist;
+package arrayList;
 
 public class HotelNaoEncontradoException extends RuntimeException {
 

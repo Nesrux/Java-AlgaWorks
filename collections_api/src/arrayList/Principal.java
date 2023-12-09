@@ -1,6 +1,7 @@
 package arrayList;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Principal {
     public static void main(String[] args) {
@@ -19,7 +20,7 @@ public class Principal {
         //imprimirHoteis(hoteis);
 
 
-        ArrayList<Hotel> hoteis = cadastro.obterTodos();
+        List<Hotel> hoteis = cadastro.obterTodos();
 
         //Caso não exista um hotel com esse indice, ele vai retornar -1
         int indice = hoteis.indexOf(new Hotel("Lambimia hoteis", "Rio de fevereiro", 80));
@@ -42,7 +43,7 @@ public class Principal {
         imprimirHoteis(cadastro.obterTodos());
     }
 
-    private static void imprimirHoteis(ArrayList<Hotel> hoteis) {
+    private static void imprimirHoteis(List<Hotel> hoteis) {
         //Iterator é uma classe de util para fazer iterações
         //em collections
         //anotar explicação depois

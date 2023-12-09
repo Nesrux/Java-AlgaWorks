@@ -1,9 +1,10 @@
 package arrayList;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class CadastroHotel {
-    private final ArrayList<Hotel> hoteis = new ArrayList<>();
+    private final List<Hotel> hoteis = new ArrayList<>();
 
     public void adicionar(String nome, String cidade, double precoDiaria) {
         Hotel hotel = new Hotel(nome, cidade, precoDiaria);
@@ -15,7 +16,7 @@ public class CadastroHotel {
         hoteis.add(hotel);
     }
 
-    public ArrayList<Hotel> obterTodos() {
+    public List<Hotel> obterTodos() {
         return hoteis;
     }
 
@@ -40,6 +41,10 @@ public class CadastroHotel {
                     " não esta nesta lista, e por isso nao foi removido", hotel.getNome()));
         }
 
+    }
+
+    public Hotel[] obterTodosComoArray() {
+        return null;
     }
 
     public void removerTodos() {

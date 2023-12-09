@@ -2,7 +2,7 @@ package arrayList;
 
 import java.util.Objects;
 
-public class Hotel {
+public class Hotel implements Comparable<Hotel> {
     private String nome;
     private String cidade;
     private double precoDiaria;
@@ -67,5 +67,15 @@ public class Hotel {
         int result = nome.hashCode();
         result = 31 * result + cidade.hashCode();
         return result;
+    }
+
+    @Override
+    public int compareTo(Hotel o) {
+        if (this.getPrecoDiaria() > o.getPrecoDiaria()) {
+            return 1;
+        } else if (this.getPrecoDiaria() < o.getPrecoDiaria()) {
+            return -1;
+        }
+        return 0;
     }
 }

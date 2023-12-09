@@ -1,6 +1,7 @@
 package arrayList;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class CadastroHotel {
@@ -62,6 +63,10 @@ public class CadastroHotel {
 
     public void removerTodos() {
         this.hoteis.clear();
+    }
+
+    public void ordenar(){
+        Collections.sort(hoteis);
     }
 
 }

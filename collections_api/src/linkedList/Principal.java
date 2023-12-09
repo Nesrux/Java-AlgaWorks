@@ -13,6 +13,9 @@ public class Principal {
         cadastro.adicionar("bango hoteis", "Araçapuca ta terra", 20);
 
         LinkedList<Hotel> hoteis = cadastro.obterTodos();
+        hoteis.addLast(new Hotel("elma maria hotel", "chabrinquei", 24));
+        hoteis.addLast(new Hotel("elma maria hostel", "chabrinquei", 24));
+
         imprimirHoteis(cadastro.obterTodos());
     }
 

@@ -13,5 +13,12 @@ public class Principal {
         contatos.add(new Contato("anastasia", "anastasia@gmail.com", 33));
 
         contatos.forEach(c -> System.out.println(c.hashCode()));
+
+        /*Java utiliza das implementações de HashCode para criar as HashTable, com o código hashGerado ele intancia
+         * LinkedList para cada numero, dentro de um Array, aumentendo e muito a performance! (Estudar isso dps)*/
+
+        /*Por boas praticas, as mesmas propriedades que se utiliza para gerar o Equals, também precisam ser
+         * utilizada para gerar o código Hash, pois se nao poderia acontecer perca de dados dentro de Listas e
+         * a diminuição da performance do código!*/
     }
 }

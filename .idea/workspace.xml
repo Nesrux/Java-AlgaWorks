@@ -10,7 +10,10 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio Implementação de List" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio Implementação de List">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collections_api/src/desafio/CadastroPacoteViagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections_api/src/desafio/CadastroPacoteViagem.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,13 +136,26 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Principal2">
+  <component name="RunManager" selected="Application.Principal">
     <configuration name="OrdenacaoDeListas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrayList.OrdenacaoDeListas" />
       <module name="collections_api" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="arrayList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desafio.Principal" />
+      <module name="collections_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desafio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,6 +191,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Principal2" />
         <item itemvalue="Application.OrdenacaoDeListas" />
       </list>
@@ -364,14 +381,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00368" summary="Desafio Stream api (4) completo">
-      <option name="closed" value="true" />
-      <created>1698501172546</created>
-      <option name="number" value="00368" />
-      <option name="presentableId" value="LOCAL-00368" />
-      <option name="project" value="LOCAL" />
-      <updated>1698501172546</updated>
-    </task>
     <task id="LOCAL-00369" summary="Desafio Stream api (5) completo">
       <option name="closed" value="true" />
       <created>1698501536293</created>
@@ -556,7 +565,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702163684725</updated>
     </task>
-    <option name="localTasksCounter" value="392" />
+    <task id="LOCAL-00392" summary="Desafio Implementação de List">
+      <option name="closed" value="true" />
+      <created>1702165177099</created>
+      <option name="number" value="00392" />
+      <option name="presentableId" value="LOCAL-00392" />
+      <option name="project" value="LOCAL" />
+      <updated>1702165177099</updated>
+    </task>
+    <option name="localTasksCounter" value="393" />
     <servers />
   </component>
   <component name="UnknownFeatures">

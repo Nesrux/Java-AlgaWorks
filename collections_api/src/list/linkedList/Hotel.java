@@ -1,4 +1,4 @@
-package vector;
+package list.linkedList;
 
 import java.util.Objects;
 
@@ -68,5 +68,4 @@ public class Hotel {
         result = 31 * result + cidade.hashCode();
         return result;
     }
-
 }

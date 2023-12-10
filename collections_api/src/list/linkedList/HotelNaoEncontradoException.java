@@ -1,4 +1,4 @@
-package arrayList;
+package list.linkedList;
 
 public class HotelNaoEncontradoException extends RuntimeException {
 

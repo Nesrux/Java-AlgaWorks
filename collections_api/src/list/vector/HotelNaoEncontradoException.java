@@ -1,4 +1,4 @@
-package linkedList;
+package list.vector;
 
 public class HotelNaoEncontradoException extends RuntimeException {
 

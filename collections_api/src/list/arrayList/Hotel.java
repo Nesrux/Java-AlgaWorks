@@ -1,4 +1,4 @@
-package arrayList;
+package list.arrayList;
 
 import java.util.Comparator;
 import java.util.Objects;

@@ -1,4 +1,4 @@
-package desafio;
+package list.desafio;
 
 import java.util.Comparator;
 import java.util.Objects;

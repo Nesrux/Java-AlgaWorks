@@ -18,6 +18,12 @@ public class Principal {
         Carro bill = new Carro("alga06", "ferrari bora bill");
 
         Map<Carro, Proprietario> proprietarios = new HashMap<>();
+
+        /*HashTable funciona exatamente igual a HashMap, porém são
+         * tread safe, ou seja feitos para trabalhar com treads e nao
+         * permitem conteudo nulo, seja chave ou valores*/
+//      Map<Carro, Proprietario> proprietarios = new Hashtable<>();
+
         proprietarios.put(bmw, maria);
         proprietarios.put(honda, jose);
         proprietarios.put(ford, claudio);

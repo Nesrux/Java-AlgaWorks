@@ -1,11 +1,12 @@
 package set.hashSet;
 
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class Principal {
     public static void main(String[] args) {
-        Set<Contato> contatos = new HashSet<>();
+        Set<Contato> contatos = new LinkedHashSet<>();
 
         contatos.add(new Contato("joao", "joao@gmail.com", 21));
         contatos.add(new Contato("maria", "maria@gmail.com", 45));
@@ -15,11 +16,11 @@ public class Principal {
         contatos.add(new Contato("astrid", "asdrid@gmail.com", 33));
         contatos.add(new Contato("sergio", "sergio@gmail.com", 33));
         contatos.add(new Contato("Marcela", "marcela@gmail.com", 33));
-        contatos.add(null);
-        contatos.add(null);
 
-        contatos.forEach(c -> System.out.println(c.hashCode()));
-
+        System.out.println(contatos.size());
+        for(Contato contato: contatos){
+            System.out.println(contato);
+        }
 
         /*Java utiliza das implementações de HashCode para criar as HashTable, com o código hashGerado ele intancia
          * LinkedList para cada numero, dentro de um Array, aumentendo e muito a performance! (Estudar isso dps)*/

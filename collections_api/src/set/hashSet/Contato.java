@@ -1,8 +1,9 @@
 package set.hashSet;
 
+import java.util.Comparator;
 import java.util.Objects;
 
-public class Contato {
+public class Contato implements Comparable<Contato> {
     private String nome;
     private String email;
     private int idade;
@@ -10,7 +11,6 @@ public class Contato {
     public Contato(String nome, String email, int idade) {
         Objects.requireNonNull(nome);
         Objects.requireNonNull(email);
-
         this.nome = nome;
         this.email = email;
         this.idade = idade;
@@ -51,14 +51,29 @@ public class Contato {
 
     @Override
     public boolean equals(Object o) {
+        System.out.printf("equals %s = %s%n", getEmail(), ((Contato) o).getEmail());
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Contato contato = (Contato) o;
-        return Objects.equals(email, contato.email);
+        return email.equals(contato.email);
     }
 
     @Override
     public int hashCode() {
         return email.charAt(0);
+    }
+
+    @Override
+    public int compareTo(Contato o) {
+        System.out.printf("compareTo %s = %s%n", getEmail(), o.getEmail());
+        return getEmail().compareTo(o.getEmail());
+    }
+
+    public static class IdadeContatoComparator implements Comparator<Contato> {
+
+        @Override
+        public int compare(Contato o1, Contato o2) {
+            return Integer.compare(o1.getIdade(), o2.getIdade());
+        }
     }
 }

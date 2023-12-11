@@ -59,6 +59,6 @@ public class Contato {
 
     @Override
     public int hashCode() {
-        return Objects.hash(email);
+        return email.charAt(0);
     }
 }

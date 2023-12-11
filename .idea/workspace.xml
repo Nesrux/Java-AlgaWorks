@@ -10,8 +10,10 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Set e implementação HashSet">
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Equals and HashCode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collections_api/src/set/hashSet/Contato.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections_api/src/set/hashSet/Contato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collections_api/src/set/hashSet/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections_api/src/set/hashSet/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -408,22 +410,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00372" summary="Desafio streams completo">
-      <option name="closed" value="true" />
-      <created>1698518295057</created>
-      <option name="number" value="00372" />
-      <option name="presentableId" value="LOCAL-00372" />
-      <option name="project" value="LOCAL" />
-      <updated>1698518295057</updated>
-    </task>
-    <task id="LOCAL-00373" summary="Refactor: refatorando os pacotes do modulo de Collections">
-      <option name="closed" value="true" />
-      <created>1702139325866</created>
-      <option name="number" value="00373" />
-      <option name="presentableId" value="LOCAL-00373" />
-      <option name="project" value="LOCAL" />
-      <updated>1702139325866</updated>
-    </task>
     <task id="LOCAL-00374" summary="Feat: adicionando os arquivos para linkedList">
       <option name="closed" value="true" />
       <created>1702139966393</created>
@@ -600,7 +586,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702230078912</updated>
     </task>
-    <option name="localTasksCounter" value="396" />
+    <task id="LOCAL-00396" summary="Equals and HashCode">
+      <option name="closed" value="true" />
+      <created>1702232076501</created>
+      <option name="number" value="00396" />
+      <option name="presentableId" value="LOCAL-00396" />
+      <option name="project" value="LOCAL" />
+      <updated>1702232076501</updated>
+    </task>
+    <task id="LOCAL-00397" summary="Equals and HashCode">
+      <option name="closed" value="true" />
+      <created>1702232306307</created>
+      <option name="number" value="00397" />
+      <option name="presentableId" value="LOCAL-00397" />
+      <option name="project" value="LOCAL" />
+      <updated>1702232306307</updated>
+    </task>
+    <option name="localTasksCounter" value="398" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -688,7 +690,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Stream api (Mapas particionados (importante ?)" />
     <MESSAGE value="Desafio Stream api (inicio)" />
     <MESSAGE value="Desafio Stream api (1) completo" />
     <MESSAGE value="Desafio Stream api (2) completo" />
@@ -713,7 +714,8 @@
     <MESSAGE value="Desafio Implementação de List completo" />
     <MESSAGE value="refatorando pactoes que extendem de List" />
     <MESSAGE value="Set e implementação HashSet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set e implementação HashSet" />
+    <MESSAGE value="Equals and HashCode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Equals and HashCode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

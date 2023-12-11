@@ -10,11 +10,7 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="HashSet">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections_api/src/set/hashSet/Contato.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections_api/src/set/hashSet/Contato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections_api/src/set/hashSet/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections_api/src/set/hashSet/Principal.java" afterDir="false" />
-    </list>
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="linkedHashSet" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -410,14 +406,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00375" summary="Feat: refatorando para utilizar Linkedlist">
-      <option name="closed" value="true" />
-      <created>1702140197262</created>
-      <option name="number" value="00375" />
-      <option name="presentableId" value="LOCAL-00375" />
-      <option name="project" value="LOCAL" />
-      <updated>1702140197265</updated>
-    </task>
     <task id="LOCAL-00376" summary="Feat: refatorando para utilizar Linkedlist">
       <option name="closed" value="true" />
       <created>1702140310948</created>
@@ -602,7 +590,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702315147816</updated>
     </task>
-    <option name="localTasksCounter" value="399" />
+    <task id="LOCAL-00399" summary="linkedHashSet">
+      <option name="closed" value="true" />
+      <created>1702319595988</created>
+      <option name="number" value="00399" />
+      <option name="presentableId" value="LOCAL-00399" />
+      <option name="project" value="LOCAL" />
+      <updated>1702319595988</updated>
+    </task>
+    <option name="localTasksCounter" value="400" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -690,7 +686,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Desafio Stream api (1) completo" />
     <MESSAGE value="Desafio Stream api (2) completo" />
     <MESSAGE value="Desafio Stream api (3) completo" />
     <MESSAGE value="Desafio Stream api (4) completo" />
@@ -715,7 +710,8 @@
     <MESSAGE value="Set e implementação HashSet" />
     <MESSAGE value="Equals and HashCode" />
     <MESSAGE value="HashSet" />
-    <option name="LAST_COMMIT_MESSAGE" value="HashSet" />
+    <MESSAGE value="linkedHashSet" />
+    <option name="LAST_COMMIT_MESSAGE" value="linkedHashSet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

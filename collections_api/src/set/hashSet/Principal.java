@@ -1,11 +1,14 @@
 package set.hashSet;
 
+import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
 public class Principal {
     public static void main(String[] args) {
+        Set<?> set = new HashSet<>();
+        Set<?> sets = new TreeSet<>();
         Set<Contato> contatos = new LinkedHashSet<>();
 
         contatos.add(new Contato("joao", "joao@gmail.com", 21));

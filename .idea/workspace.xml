@@ -10,8 +10,8 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Desafio Collections &lt;Set&gt;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Inicio com Maps &lt;HashMap&gt;">
+      <change beforePath="$PROJECT_DIR$/collections_api/src/map/hashMap/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections_api/src/map/hashMap/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -408,14 +408,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00377" summary="Feat: refatorando para utilizar Linkedlist">
-      <option name="closed" value="true" />
-      <created>1702140568239</created>
-      <option name="number" value="00377" />
-      <option name="presentableId" value="LOCAL-00377" />
-      <option name="project" value="LOCAL" />
-      <updated>1702140568239</updated>
-    </task>
     <task id="LOCAL-00378" summary="Feat: adicionando classes para a implementação de List (Vector)">
       <option name="closed" value="true" />
       <created>1702140680682</created>
@@ -600,7 +592,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702319839858</updated>
     </task>
-    <option name="localTasksCounter" value="401" />
+    <task id="LOCAL-00401" summary="Inicio com Maps &lt;HashMap&gt;">
+      <option name="closed" value="true" />
+      <created>1702332389258</created>
+      <option name="number" value="00401" />
+      <option name="presentableId" value="LOCAL-00401" />
+      <option name="project" value="LOCAL" />
+      <updated>1702332389258</updated>
+    </task>
+    <option name="localTasksCounter" value="402" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -688,7 +688,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Desafio Stream api (3) completo" />
     <MESSAGE value="Desafio Stream api (4) completo" />
     <MESSAGE value="Desafio Stream api (5) completo" />
     <MESSAGE value="Desafio Stream api (6) completo" />
@@ -713,7 +712,8 @@
     <MESSAGE value="HashSet" />
     <MESSAGE value="linkedHashSet" />
     <MESSAGE value="Desafio Collections &lt;Set&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio Collections &lt;Set&gt;" />
+    <MESSAGE value="Inicio com Maps &lt;HashMap&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicio com Maps &lt;HashMap&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

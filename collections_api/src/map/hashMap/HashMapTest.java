@@ -3,7 +3,7 @@ package map.hashMap;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Principal {
+public class HashMapTest {
     public static void main(String[] args) {
         Proprietario maria = new Proprietario("maria", "08485120");
         Proprietario jose = new Proprietario("jose", "08485121");

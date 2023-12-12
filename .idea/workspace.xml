@@ -11,7 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4c9c58-7310-4963-a5f8-6fcc4f493c12" name="Changes" comment="Inicio com Maps &lt;HashMap&gt;">
-      <change beforePath="$PROJECT_DIR$/collections_api/src/map/hashMap/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections_api/src/map/hashMap/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collections_api/src/map/hashMap/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections_api/src/map/hashMap/HashMapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,14 +129,27 @@
       <recent name="aula01" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="map.hashMap" />
       <recent name="methodReference" />
       <recent name="classes_aninhadas_estaticas.enumAninhado" />
       <recent name="com.nesrux.locadora" />
       <recent name="com.nesrux.banco" />
-      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.map.hashMap.Principal">
+  <component name="RunManager" selected="Application.HashMapTest">
+    <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="map.hashMap.HashMapTest" />
+      <module name="collections_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="map.hashMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InicandoSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="set.InicandoSet" />
       <module name="collections_api" />
@@ -155,19 +169,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="desafio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="map.hashMap.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.hashMap.Principal" />
-      <module name="collections_api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="map.hashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,7 +217,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.map.hashMap.Principal" />
+        <item itemvalue="Application.HashMapTest" />
         <item itemvalue="Application.set.desafio.Principal" />
         <item itemvalue="Application.set.hashSet.Principal" />
         <item itemvalue="Application.InicandoSet" />
@@ -408,22 +409,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692914277765</updated>
     </task>
-    <task id="LOCAL-00378" summary="Feat: adicionando classes para a implementação de List (Vector)">
-      <option name="closed" value="true" />
-      <created>1702140680682</created>
-      <option name="number" value="00378" />
-      <option name="presentableId" value="LOCAL-00378" />
-      <option name="project" value="LOCAL" />
-      <updated>1702140680682</updated>
-    </task>
-    <task id="LOCAL-00379" summary="Refactor: refatorando as classes, para implementar Vector">
-      <option name="closed" value="true" />
-      <created>1702140798384</created>
-      <option name="number" value="00379" />
-      <option name="presentableId" value="LOCAL-00379" />
-      <option name="project" value="LOCAL" />
-      <updated>1702140798384</updated>
-    </task>
     <task id="LOCAL-00380" summary="Vetor AE">
       <option name="closed" value="true" />
       <created>1702141185807</created>
@@ -600,7 +585,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702332389258</updated>
     </task>
-    <option name="localTasksCounter" value="402" />
+    <task id="LOCAL-00402" summary="Inicio com Maps &lt;HashMap&gt;">
+      <option name="closed" value="true" />
+      <created>1702332711896</created>
+      <option name="number" value="00402" />
+      <option name="presentableId" value="LOCAL-00402" />
+      <option name="project" value="LOCAL" />
+      <updated>1702332711896</updated>
+    </task>
+    <task id="LOCAL-00403" summary="Inicio com Maps &lt;HashMap&gt;">
+      <option name="closed" value="true" />
+      <created>1702333110890</created>
+      <option name="number" value="00403" />
+      <option name="presentableId" value="LOCAL-00403" />
+      <option name="project" value="LOCAL" />
+      <updated>1702333110890</updated>
+    </task>
+    <option name="localTasksCounter" value="404" />
     <servers />
   </component>
   <component name="UnknownFeatures">
